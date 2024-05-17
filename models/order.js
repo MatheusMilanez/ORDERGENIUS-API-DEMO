@@ -13,14 +13,6 @@ module.exports = (sequelize, DataTypes) => {
         notEmpty: true
       }
     },
-    price: {
-      type: DataTypes.REAL,
-      allowNull: false,
-      validate: {
-        notEmpty: true
-      }
-    },
-    
     done: {
       type: DataTypes.BOOLEAN,
       allowNull: false,
@@ -29,9 +21,14 @@ module.exports = (sequelize, DataTypes) => {
 
   });
 
+   
   Order.associate = (models) => {
-    Order.belongsTo(models.TablesDB);
-  }
+    // Associação inversa: uma mesa pode ter vários pedidos
+    Order.hasMany(models.Order, {
+      foreignKey: "tableId", 
+    });
+  };
+
 
   return Order;
 }

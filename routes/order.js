@@ -1,6 +1,11 @@
 
 module.exports = app => {
   const Order = app.db.models.Order;
+  const Products = app.db.models.Products;
+
+  
+  
+
 
   app.route("/orders")
     .get((req, res) => {
@@ -14,11 +19,22 @@ module.exports = app => {
     .post((req, res) => {
       //"/Order" cadastrar um novo pedido
       Order.create(req.body)
-        .then(result => res.json(result))
+        .then(result => {
+            res.json(result) 
+        })
         .catch(error => {
           res.status(412).json({msg: error.message});
         });
     });
+    
+    app.get("/orders/table/:id", (req, res) => {
+      Order.findAll({ where: { tableId: req.params.id } })
+        .then(result => res.json(result))
+        .catch(error => {
+          res.status(412).json({ msg: error.message });
+        });
+    });
+    
 
     app.route("/orders/:id")
       .get((req, res) => {

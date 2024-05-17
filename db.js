@@ -25,10 +25,12 @@ module.exports = app => {
             const modelsDir = path.join(dir, file);
             const models = require(modelsDir)(sequelize, Sequelize.DataTypes);
             db.models[models.name] = models;
+            console.log(`Modelo carregado: ${models.name}`);
         });
 
         Object.keys(db.models).forEach(key => {
             db.models[key].associate(db.models);
+            console.log(`Associações criadas para o modelo: ${key}`);
         });
     }
     return db;
