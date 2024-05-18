@@ -1,34 +1,44 @@
-
+// models/Order.js
 module.exports = (sequelize, DataTypes) => {
-  const Order = sequelize.define("Order", {
-    id: {
+  const Order = sequelize.define('Order', {
+    idOrder: {
       type: DataTypes.INTEGER,
       primaryKey: true,
-      autoIncrement: true
+      autoIncrement: true,
+      field: 'id_order' 
     },
-    title_products: {
+    titleProduct: {
       type: DataTypes.STRING,
       allowNull: false,
       validate: {
         notEmpty: true
-      }
+      },
+      field: 'title_product' 
+    },
+    idTable: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'tables_d_bs', // Nome exato da tabela de referência
+        key: 'id_table' // Nome exato da coluna de referência
+      },
+      allowNull: false,
+      field: 'id_table' // Define explicitamente o nome da coluna
     },
     done: {
       type: DataTypes.BOOLEAN,
       allowNull: false,
       defaultValue: false
     },
-
+  }, {
+    tableName: 'orders', 
+    freezeTableName: true 
   });
 
-   
   Order.associate = (models) => {
-    // Associação inversa: uma mesa pode ter vários pedidos
-    Order.hasMany(models.Order, {
-      foreignKey: "tableId", 
+    Order.belongsTo(models.TablesDB, {
+      foreignKey: 'idTable'
     });
   };
 
-
   return Order;
-}
+};

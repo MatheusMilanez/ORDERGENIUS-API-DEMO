@@ -1,5 +1,6 @@
 module.exports = app => {
     const TablesDB = app.db.models.TablesDB;
+    const { Order } = app.db.models; // Importe o modelo Order
 
     app.get("/tables", (req, res) => {
         TablesDB.findAll({})
@@ -35,4 +36,36 @@ module.exports = app => {
                 res.status(412).json({msg: error.message});
             });
     });
+
+
+    app.get("/tables/:id/orders", (req, res) => {
+        TablesDB.findByPk(req.params.id, {
+            include: [{
+                model: Order,
+                as: 'orders'
+            }]
+        })
+        .then(result => {
+            if (result) {
+                res.json(result);
+            } else {
+                res.status(404).json({msg: "Mesa não encontrada"});
+            }
+        })
+        .catch(error => {
+            res.status(412).json({msg: error.message});
+        });
+    });
+
+    app.get("/tables/:id/orders", (req, res) => {
+        Order.findAll({
+            where: {id_table: req.params.id}
+        })
+        .then(result => res.json(result))
+        .catch(error => {
+            res.status(412).json({msg: error.message});
+        });
+    });
+
+    
 }
