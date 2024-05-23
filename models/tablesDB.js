@@ -1,5 +1,6 @@
 // models/TablesDB.js
 module.exports = (sequelize, DataTypes) => {
+  
   const TablesDB = sequelize.define('TablesDB', {
     idTable: {
       type: DataTypes.INTEGER,
