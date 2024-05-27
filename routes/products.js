@@ -12,7 +12,7 @@ module.exports = app => {
 
     app.get("/products/:id", (req, res) => {
         Products.findByPk(req.params.id, {
-            atributes: ["id", "title_products","price", "food_status"]
+            atributes: ["id", "title_products","price","quantity","food_status"]
         })
         .then(result => res.json(result))
         .catch(error => {
