@@ -1,12 +1,10 @@
-// models/TablesDB.js
 module.exports = (sequelize, DataTypes) => {
-  
   const TablesDB = sequelize.define('TablesDB', {
     idTable: {
       type: DataTypes.INTEGER,
       primaryKey: true,
       autoIncrement: true,
-      field: 'id_table' 
+      field: 'id_table'
     },
     title: {
       type: DataTypes.STRING,
@@ -17,14 +15,18 @@ module.exports = (sequelize, DataTypes) => {
       }
     }
   }, {
-    tableName: 'tables_d_bs', 
-    freezeTableName: true 
+    tableName: 'tables_d_bs',
+    freezeTableName: true
   });
 
-  TablesDB.associate = (models) => {
+  TablesDB.associate = models => {
     TablesDB.hasMany(models.Order, {
       foreignKey: 'idTable',
       as: 'orders'
+    });
+    TablesDB.hasMany(models.Cart, {
+      foreignKey: 'idTable',
+      as: 'cartItems'
     });
   };
 
