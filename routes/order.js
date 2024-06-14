@@ -30,6 +30,7 @@ module.exports = app => {
         const orders = await Promise.all(cartItems.map(async item => {
           return await app.db.models.Order.create({
             titleProduct: item.products.titleProducts,
+            price: item.products.price,
             idTable: item.idTable,
             done: false
           });

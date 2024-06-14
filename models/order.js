@@ -15,6 +15,13 @@ module.exports = (sequelize, DataTypes) => {
       },
       field: 'title_product' 
     },
+    price: {
+      type: DataTypes.REAL,
+      allowNull: false,
+      validate: {
+        notEmpty: true
+      }
+    },
     idTable: {
       type: DataTypes.INTEGER,
       references: {
