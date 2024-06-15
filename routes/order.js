@@ -26,14 +26,33 @@ module.exports = app => {
           include: [{ model: app.db.models.Products, as: 'products' }]
         });
     
-        // Cria pedidos com base nos itens do carrinho
+        // Cria pedidos ou atualiza a quantidade com base nos itens do carrinho
         const orders = await Promise.all(cartItems.map(async item => {
-          return await app.db.models.Order.create({
-            titleProduct: item.products.titleProducts,
-            price: item.products.price,
-            idTable: item.idTable,
-            done: false
+          // Verifica se o pedido já existe
+          const existingOrder = await Order.findOne({
+            where: {
+              idTable: item.idTable,
+              titleProduct: item.products.titleProducts,
+              done: false
+            }
           });
+
+          if (existingOrder) {
+            // Atualiza a quantidade se o pedido já existir
+            existingOrder.quantity += item.quantity;
+            await existingOrder.save();
+            return existingOrder;
+          } else {
+            // Cria um novo pedido se não existir
+            return await Order.create({
+              titleProduct: item.products.titleProducts,
+              price: item.products.price,
+              idTable: item.idTable,
+              quantity: item.quantity,
+              foodStatus: item.products.foodStatus,
+              done: false
+            });
+          }
         }));
     
         // Limpa o carrinho após criar os pedidos

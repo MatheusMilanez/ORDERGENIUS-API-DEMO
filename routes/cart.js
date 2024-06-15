@@ -1,5 +1,16 @@
 module.exports = app => {
     const Cart = app.db.models.Cart;
+
+    app.route("/cart")
+    .get((req, res) => {
+      // "/cart": Lista todos os carrinhos 
+      Cart.findAll({})
+        .then(result => res.json(result))
+        .catch(error => {
+          res.status(412).json({msg: error.message});
+        })
+    });
+
   
     // Adicionar item ao carrinho
     app.post('/cart', (req, res) => {
