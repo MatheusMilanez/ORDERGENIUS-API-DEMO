@@ -11,7 +11,7 @@ module.exports = app => {
 
     app.get("/user/:idUser", (req, res) => {
         User.findByPk(req.params.idUser, {
-            atributes: ["idUser", "userName", "cpf", "password"]
+            attributes: ["idUser", "userName", "cpf", "password"]
         })
         .then(result => res.json(result))
         .catch(error => {
@@ -19,7 +19,7 @@ module.exports = app => {
         });
     });
 
-    app.delete("/user/:idUser", () => {
+    app.delete("/user/:idUser", (req, res) => {
         User.destroy({where: {id: req.params.idUser}})
         .then(result => res.sendStatus(204))
         .catch(error => {
@@ -27,12 +27,13 @@ module.exports = app => {
         });
     });
 
-
-    app.post("/user",(req, res) => {
+    app.post("/user", (req, res) => {
         User.create(req.body)
             .then(result => res.json(result))
             .catch(error => {
                 res.status(412).json({msg: error.message});
             });
     });
-}
+
+
+};
