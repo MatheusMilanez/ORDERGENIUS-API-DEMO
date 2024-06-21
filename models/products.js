@@ -1,4 +1,3 @@
-// models/Products.js
 module.exports = (sequelize, DataTypes) => {
   const Products = sequelize.define('Products', {
     id: {
@@ -41,6 +40,10 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false,
       defaultValue: false
     },
+    imageUrl: {
+      type: DataTypes.STRING, // Tipo para armazenar a URL da imagem
+      allowNull: true // Pode ser nulo se ainda não houver imagem
+    }
   }, {
     tableName: 'products', 
     freezeTableName: true 

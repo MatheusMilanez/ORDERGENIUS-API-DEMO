@@ -29,6 +29,7 @@ module.exports = app => {
         next();
     })
     app.use(express.static("public"));
+    app.use('/images', express.static(('uploads')));
 
 }
 

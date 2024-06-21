@@ -80,14 +80,35 @@ module.exports = app => {
                 console.error(`Erro ao deletar mesa com id ${req.params.idTable}: ${error.message}`);  // Log de depuração
             });
     });
-    
+
     // Adicionar nova mesa
-    app.post("/tables", (req, res) => {
-        TablesDB.create(req.body)
-            .then(result => res.json(result))
-            .catch(error => {
-                res.status(412).json({ msg: error.message });
+    app.post("/tables", async (req, res) => {
+        try {
+            // Buscar todas as mesas
+            const tables = await TablesDB.findAll({
+                attributes: ['idTable'],
+                order: [['idTable', 'ASC']]
             });
+
+            // Encontrar o menor ID disponível
+            let newId = 1;
+            for (let table of tables) {
+                if (table.idTable != newId) {
+                    break;
+                }
+                newId++;
+            }
+
+            // Criar a nova mesa com o ID disponível
+            const newTable = await TablesDB.create({
+                idTable: newId,
+                title: req.body.title
+            });
+
+            res.json(newTable);
+        } catch (error) {
+            res.status(412).json({ msg: error.message });
+        }
     });
 
     // Buscar pedidos por mesa

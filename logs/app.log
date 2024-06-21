@@ -2932,3 +2932,1495 @@ Error: EPIPE: broken pipe, write
 
 2024-06-20T20:52:49.076Z info: ::1 - - [20/Jun/2024:20:52:49 +0000] "GET /tables HTTP/1.1" 304 -
 
+2024-06-21T11:39:21.103Z info: ::1 - - [21/Jun/2024:11:39:21 +0000] "GET /tables HTTP/1.1" 200 -
+
+2024-06-21T11:39:26.118Z info: ::1 - - [21/Jun/2024:11:39:26 +0000] "GET / HTTP/1.1" 304 -
+
+2024-06-21T11:39:41.939Z info: ::1 - - [21/Jun/2024:11:39:41 +0000] "GET /tables/qrcodes HTTP/1.1" 304 -
+
+2024-06-21T11:40:41.061Z info: ::1 - - [21/Jun/2024:11:40:41 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-21T11:40:44.371Z info: ::1 - - [21/Jun/2024:11:40:44 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T11:40:46.819Z info: ::1 - - [21/Jun/2024:11:40:46 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-21T11:40:46.842Z info: ::1 - - [21/Jun/2024:11:40:46 +0000] "GET /orders/table/12 HTTP/1.1" 304 -
+
+2024-06-21T11:40:46.869Z info: ::1 - - [21/Jun/2024:11:40:46 +0000] "GET /orders/table/13 HTTP/1.1" 304 -
+
+2024-06-21T11:40:46.888Z info: ::1 - - [21/Jun/2024:11:40:46 +0000] "GET /orders/table/14 HTTP/1.1" 304 -
+
+2024-06-21T11:40:46.900Z info: ::1 - - [21/Jun/2024:11:40:46 +0000] "GET /orders/table/15 HTTP/1.1" 304 -
+
+2024-06-21T11:40:46.912Z info: ::1 - - [21/Jun/2024:11:40:46 +0000] "GET /orders/table/16 HTTP/1.1" 304 -
+
+2024-06-21T11:40:46.924Z info: ::1 - - [21/Jun/2024:11:40:46 +0000] "GET /orders/table/17 HTTP/1.1" 304 -
+
+2024-06-21T11:40:46.936Z info: ::1 - - [21/Jun/2024:11:40:46 +0000] "GET /orders/table/18 HTTP/1.1" 304 -
+
+2024-06-21T11:40:46.951Z info: ::1 - - [21/Jun/2024:11:40:46 +0000] "GET /orders/table/19 HTTP/1.1" 304 -
+
+2024-06-21T11:40:46.963Z info: ::1 - - [21/Jun/2024:11:40:46 +0000] "GET /orders/table/20 HTTP/1.1" 304 -
+
+2024-06-21T11:41:02.171Z info: ::1 - - [21/Jun/2024:11:41:02 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-21T11:41:02.185Z info: ::1 - - [21/Jun/2024:11:41:02 +0000] "GET /orders/table/12 HTTP/1.1" 304 -
+
+2024-06-21T11:41:02.200Z info: ::1 - - [21/Jun/2024:11:41:02 +0000] "GET /orders/table/13 HTTP/1.1" 304 -
+
+2024-06-21T11:41:02.229Z info: ::1 - - [21/Jun/2024:11:41:02 +0000] "GET /orders/table/14 HTTP/1.1" 304 -
+
+2024-06-21T11:41:02.238Z info: ::1 - - [21/Jun/2024:11:41:02 +0000] "GET /orders/table/15 HTTP/1.1" 304 -
+
+2024-06-21T11:41:02.251Z info: ::1 - - [21/Jun/2024:11:41:02 +0000] "GET /orders/table/16 HTTP/1.1" 304 -
+
+2024-06-21T11:41:02.264Z info: ::1 - - [21/Jun/2024:11:41:02 +0000] "GET /orders/table/17 HTTP/1.1" 304 -
+
+2024-06-21T11:41:02.273Z info: ::1 - - [21/Jun/2024:11:41:02 +0000] "GET /orders/table/18 HTTP/1.1" 304 -
+
+2024-06-21T11:41:02.284Z info: ::1 - - [21/Jun/2024:11:41:02 +0000] "GET /orders/table/19 HTTP/1.1" 304 -
+
+2024-06-21T11:41:02.297Z info: ::1 - - [21/Jun/2024:11:41:02 +0000] "GET /orders/table/20 HTTP/1.1" 304 -
+
+2024-06-21T11:41:07.760Z info: ::1 - - [21/Jun/2024:11:41:07 +0000] "GET /tables/qrcodes HTTP/1.1" 304 -
+
+2024-06-21T11:41:57.599Z info: ::1 - - [21/Jun/2024:11:41:57 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-21T11:42:08.366Z info: ::1 - - [21/Jun/2024:11:42:08 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-21T11:42:08.380Z info: ::1 - - [21/Jun/2024:11:42:08 +0000] "GET /orders/table/12 HTTP/1.1" 304 -
+
+2024-06-21T11:42:08.406Z info: ::1 - - [21/Jun/2024:11:42:08 +0000] "GET /orders/table/13 HTTP/1.1" 304 -
+
+2024-06-21T11:42:08.417Z info: ::1 - - [21/Jun/2024:11:42:08 +0000] "GET /orders/table/14 HTTP/1.1" 304 -
+
+2024-06-21T11:42:08.433Z info: ::1 - - [21/Jun/2024:11:42:08 +0000] "GET /orders/table/15 HTTP/1.1" 304 -
+
+2024-06-21T11:42:08.445Z info: ::1 - - [21/Jun/2024:11:42:08 +0000] "GET /orders/table/16 HTTP/1.1" 304 -
+
+2024-06-21T11:42:08.451Z info: ::1 - - [21/Jun/2024:11:42:08 +0000] "GET /orders/table/17 HTTP/1.1" 304 -
+
+2024-06-21T11:42:08.462Z info: ::1 - - [21/Jun/2024:11:42:08 +0000] "GET /orders/table/18 HTTP/1.1" 304 -
+
+2024-06-21T11:42:08.469Z info: ::1 - - [21/Jun/2024:11:42:08 +0000] "GET /orders/table/19 HTTP/1.1" 304 -
+
+2024-06-21T11:42:08.480Z info: ::1 - - [21/Jun/2024:11:42:08 +0000] "GET /orders/table/20 HTTP/1.1" 304 -
+
+2024-06-21T11:42:17.612Z info: ::1 - - [21/Jun/2024:11:42:17 +0000] "GET /tables/qrcodes HTTP/1.1" 304 -
+
+2024-06-21T12:32:00.280Z info: ::1 - - [21/Jun/2024:12:32:00 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-21T12:32:00.295Z info: ::1 - - [21/Jun/2024:12:32:00 +0000] "GET /orders/table/12 HTTP/1.1" 304 -
+
+2024-06-21T12:32:00.305Z info: ::1 - - [21/Jun/2024:12:32:00 +0000] "GET /orders/table/13 HTTP/1.1" 304 -
+
+2024-06-21T12:32:00.314Z info: ::1 - - [21/Jun/2024:12:32:00 +0000] "GET /orders/table/14 HTTP/1.1" 304 -
+
+2024-06-21T12:32:00.324Z info: ::1 - - [21/Jun/2024:12:32:00 +0000] "GET /orders/table/15 HTTP/1.1" 304 -
+
+2024-06-21T12:32:00.333Z info: ::1 - - [21/Jun/2024:12:32:00 +0000] "GET /orders/table/16 HTTP/1.1" 304 -
+
+2024-06-21T12:32:00.343Z info: ::1 - - [21/Jun/2024:12:32:00 +0000] "GET /orders/table/17 HTTP/1.1" 304 -
+
+2024-06-21T12:32:00.354Z info: ::1 - - [21/Jun/2024:12:32:00 +0000] "GET /orders/table/18 HTTP/1.1" 304 -
+
+2024-06-21T12:32:00.361Z info: ::1 - - [21/Jun/2024:12:32:00 +0000] "GET /orders/table/19 HTTP/1.1" 304 -
+
+2024-06-21T12:32:00.372Z info: ::1 - - [21/Jun/2024:12:32:00 +0000] "GET /orders/table/20 HTTP/1.1" 304 -
+
+2024-06-21T12:32:04.350Z info: ::1 - - [21/Jun/2024:12:32:04 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-21T12:43:54.995Z info: ::1 - - [21/Jun/2024:12:43:54 +0000] "GET /tables HTTP/1.1" 200 -
+
+2024-06-21T12:44:00.667Z info: ::1 - - [21/Jun/2024:12:44:00 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-21T12:44:02.810Z info: ::1 - - [21/Jun/2024:12:44:02 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-21T12:44:03.835Z info: ::1 - - [21/Jun/2024:12:44:03 +0000] "OPTIONS /tables/12 HTTP/1.1" 204 0
+
+2024-06-21T12:44:03.999Z info: ::1 - - [21/Jun/2024:12:44:03 +0000] "DELETE /tables/12 HTTP/1.1" 204 -
+
+2024-06-21T12:44:04.109Z info: ::1 - - [21/Jun/2024:12:44:04 +0000] "GET /tables HTTP/1.1" 200 -
+
+2024-06-21T12:44:04.191Z info: ::1 - - [21/Jun/2024:12:44:04 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-21T12:44:04.732Z info: ::1 - - [21/Jun/2024:12:44:04 +0000] "OPTIONS /tables/13 HTTP/1.1" 204 0
+
+2024-06-21T12:44:04.756Z info: ::1 - - [21/Jun/2024:12:44:04 +0000] "DELETE /tables/13 HTTP/1.1" 204 -
+
+2024-06-21T12:44:04.783Z info: ::1 - - [21/Jun/2024:12:44:04 +0000] "GET /tables HTTP/1.1" - -
+
+2024-06-21T12:44:06.172Z info: ::1 - - [21/Jun/2024:12:44:06 +0000] "GET /tables HTTP/1.1" 200 -
+
+2024-06-21T12:44:07.731Z info: ::1 - - [21/Jun/2024:12:44:07 +0000] "OPTIONS /tables/14 HTTP/1.1" 204 0
+
+2024-06-21T12:44:07.752Z info: ::1 - - [21/Jun/2024:12:44:07 +0000] "DELETE /tables/14 HTTP/1.1" 204 -
+
+2024-06-21T12:44:07.766Z info: ::1 - - [21/Jun/2024:12:44:07 +0000] "GET /tables HTTP/1.1" 200 968
+
+2024-06-21T12:44:08.640Z info: ::1 - - [21/Jun/2024:12:44:08 +0000] "GET /tables HTTP/1.1" 200 968
+
+2024-06-21T12:44:09.266Z info: ::1 - - [21/Jun/2024:12:44:09 +0000] "OPTIONS /tables/15 HTTP/1.1" 204 0
+
+2024-06-21T12:44:09.285Z info: ::1 - - [21/Jun/2024:12:44:09 +0000] "DELETE /tables/15 HTTP/1.1" 204 -
+
+2024-06-21T12:44:09.304Z info: ::1 - - [21/Jun/2024:12:44:09 +0000] "GET /tables HTTP/1.1" 200 807
+
+2024-06-21T12:44:09.399Z info: ::1 - - [21/Jun/2024:12:44:09 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-21T12:44:10.507Z info: ::1 - - [21/Jun/2024:12:44:10 +0000] "OPTIONS /tables/16 HTTP/1.1" 204 0
+
+2024-06-21T12:44:10.537Z info: ::1 - - [21/Jun/2024:12:44:10 +0000] "DELETE /tables/16 HTTP/1.1" 204 -
+
+2024-06-21T12:44:10.556Z info: ::1 - - [21/Jun/2024:12:44:10 +0000] "GET /tables HTTP/1.1" - -
+
+2024-06-21T12:44:11.644Z info: ::1 - - [21/Jun/2024:12:44:11 +0000] "GET /tables HTTP/1.1" 200 646
+
+2024-06-21T12:44:12.476Z info: ::1 - - [21/Jun/2024:12:44:12 +0000] "OPTIONS /tables/17 HTTP/1.1" 204 0
+
+2024-06-21T12:44:12.496Z info: ::1 - - [21/Jun/2024:12:44:12 +0000] "DELETE /tables/17 HTTP/1.1" 204 -
+
+2024-06-21T12:44:12.506Z info: ::1 - - [21/Jun/2024:12:44:12 +0000] "GET /tables HTTP/1.1" 200 485
+
+2024-06-21T12:44:12.560Z info: ::1 - - [21/Jun/2024:12:44:12 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-21T12:44:13.618Z info: ::1 - - [21/Jun/2024:12:44:13 +0000] "OPTIONS /tables/18 HTTP/1.1" 204 0
+
+2024-06-21T12:44:13.650Z info: ::1 - - [21/Jun/2024:12:44:13 +0000] "DELETE /tables/18 HTTP/1.1" 204 -
+
+2024-06-21T12:44:13.677Z info: ::1 - - [21/Jun/2024:12:44:13 +0000] "GET /tables HTTP/1.1" - -
+
+2024-06-21T12:44:14.914Z info: ::1 - - [21/Jun/2024:12:44:14 +0000] "GET /tables HTTP/1.1" 200 324
+
+2024-06-21T12:44:15.819Z info: ::1 - - [21/Jun/2024:12:44:15 +0000] "OPTIONS /tables/19 HTTP/1.1" 204 0
+
+2024-06-21T12:44:15.838Z info: ::1 - - [21/Jun/2024:12:44:15 +0000] "DELETE /tables/19 HTTP/1.1" 204 -
+
+2024-06-21T12:44:15.853Z info: ::1 - - [21/Jun/2024:12:44:15 +0000] "GET /tables HTTP/1.1" 200 163
+
+2024-06-21T12:44:15.913Z info: ::1 - - [21/Jun/2024:12:44:15 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-21T12:44:17.233Z info: ::1 - - [21/Jun/2024:12:44:17 +0000] "OPTIONS /tables/20 HTTP/1.1" 204 0
+
+2024-06-21T12:44:17.250Z info: ::1 - - [21/Jun/2024:12:44:17 +0000] "DELETE /tables/20 HTTP/1.1" 204 -
+
+2024-06-21T12:44:17.289Z info: ::1 - - [21/Jun/2024:12:44:17 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T12:44:17.342Z info: ::1 - - [21/Jun/2024:12:44:17 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-21T12:44:32.798Z info: ::1 - - [21/Jun/2024:12:44:32 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T12:44:38.961Z info: ::1 - - [21/Jun/2024:12:44:38 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-21T12:44:38.988Z info: ::1 - - [21/Jun/2024:12:44:38 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-21T12:44:38.995Z info: ::1 - - [21/Jun/2024:12:44:38 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-21T12:44:42.446Z info: ::1 - - [21/Jun/2024:12:44:42 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-21T12:44:49.137Z info: ::1 - - [21/Jun/2024:12:44:49 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-21T12:44:49.153Z info: ::1 - - [21/Jun/2024:12:44:49 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-21T12:44:49.161Z info: ::1 - - [21/Jun/2024:12:44:49 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-21T12:44:50.201Z info: ::1 - - [21/Jun/2024:12:44:50 +0000] "OPTIONS /tables/1 HTTP/1.1" 204 0
+
+2024-06-21T12:44:50.234Z info: ::1 - - [21/Jun/2024:12:44:50 +0000] "DELETE /tables/1 HTTP/1.1" 204 -
+
+2024-06-21T12:44:50.243Z info: ::1 - - [21/Jun/2024:12:44:50 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-21T12:44:50.276Z info: ::1 - - [21/Jun/2024:12:44:50 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-21T12:44:53.488Z info: ::1 - - [21/Jun/2024:12:44:53 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-21T12:44:59.929Z info: ::1 - - [21/Jun/2024:12:44:59 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-21T12:44:59.949Z info: ::1 - - [21/Jun/2024:12:44:59 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-21T12:44:59.961Z info: ::1 - - [21/Jun/2024:12:44:59 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-21T12:45:04.201Z info: ::1 - - [21/Jun/2024:12:45:04 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-21T12:45:08.249Z info: ::1 - - [21/Jun/2024:12:45:08 +0000] "GET /tables/qrcodes HTTP/1.1" 200 -
+
+2024-06-21T12:45:18.891Z info: ::1 - - [21/Jun/2024:12:45:18 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T12:45:29.297Z info: ::1 - - [21/Jun/2024:12:45:29 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-21T12:45:29.311Z info: ::1 - - [21/Jun/2024:12:45:29 +0000] "GET /orders/table/1 HTTP/1.1" 304 -
+
+2024-06-21T12:45:29.346Z info: ::1 - - [21/Jun/2024:12:45:29 +0000] "GET /orders/table/2 HTTP/1.1" 304 -
+
+2024-06-21T12:45:31.976Z info: ::1 - - [21/Jun/2024:12:45:31 +0000] "GET /tables/qrcodes HTTP/1.1" 304 -
+
+2024-06-21T12:45:34.410Z info: ::1 - - [21/Jun/2024:12:45:34 +0000] "GET /tables/qrcodes HTTP/1.1" 304 -
+
+2024-06-21T12:46:19.272Z info: ::1 - - [21/Jun/2024:12:46:19 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-21T12:46:20.680Z info: ::1 - - [21/Jun/2024:12:46:20 +0000] "OPTIONS /tables/1 HTTP/1.1" 204 0
+
+2024-06-21T12:46:20.708Z info: ::1 - - [21/Jun/2024:12:46:20 +0000] "DELETE /tables/1 HTTP/1.1" 204 -
+
+2024-06-21T12:46:20.720Z info: ::1 - - [21/Jun/2024:12:46:20 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-21T12:46:20.763Z info: ::1 - - [21/Jun/2024:12:46:20 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-21T12:46:28.448Z info: ::1 - - [21/Jun/2024:12:46:28 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-21T12:46:28.463Z info: ::1 - - [21/Jun/2024:12:46:28 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-21T12:46:28.472Z info: ::1 - - [21/Jun/2024:12:46:28 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-21T12:59:07.780Z info: ::1 - - [21/Jun/2024:12:59:07 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-21T12:59:07.794Z info: ::1 - - [21/Jun/2024:12:59:07 +0000] "GET /orders/table/1 HTTP/1.1" 304 -
+
+2024-06-21T12:59:07.810Z info: ::1 - - [21/Jun/2024:12:59:07 +0000] "GET /orders/table/2 HTTP/1.1" 304 -
+
+2024-06-21T13:00:00.696Z info: ::1 - - [21/Jun/2024:13:00:00 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T13:00:02.229Z info: ::1 - - [21/Jun/2024:13:00:02 +0000] "OPTIONS /products/6 HTTP/1.1" 204 0
+
+2024-06-21T13:00:02.241Z info: ::1 - - [21/Jun/2024:13:00:02 +0000] "DELETE /products/6 HTTP/1.1" 204 -
+
+2024-06-21T13:00:03.496Z info: ::1 - - [21/Jun/2024:13:00:03 +0000] "GET /products HTTP/1.1" 200 303
+
+2024-06-21T13:00:03.656Z info: ::1 - - [21/Jun/2024:13:00:03 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T13:13:21.287Z info: ::1 - - [21/Jun/2024:13:13:21 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T13:14:56.236Z info: ::1 - - [21/Jun/2024:13:14:56 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T13:18:01.730Z info: ::1 - - [21/Jun/2024:13:18:01 +0000] "GET / HTTP/1.1" 304 -
+
+2024-06-21T13:20:26.644Z info: ::1 - - [21/Jun/2024:13:20:26 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T13:28:22.734Z info: ::1 - - [21/Jun/2024:13:28:22 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T13:28:59.290Z info: ::1 - - [21/Jun/2024:13:28:59 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T13:29:12.689Z info: ::1 - - [21/Jun/2024:13:29:12 +0000] "GET /products HTTP/1.1" 200 2
+
+2024-06-21T13:29:58.562Z info: ::1 - - [21/Jun/2024:13:29:58 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T13:30:03.236Z info: ::1 - - [21/Jun/2024:13:30:03 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T13:31:02.207Z info: ::1 - - [21/Jun/2024:13:31:02 +0000] "POST /products HTTP/1.1" 500 285
+
+2024-06-21T13:55:27.517Z info: ::1 - - [21/Jun/2024:13:55:27 +0000] "POST /products HTTP/1.1" 500 290
+
+2024-06-21T14:02:39.160Z info: ::1 - - [21/Jun/2024:14:02:39 +0000] "POST /products HTTP/1.1" 500 272
+
+2024-06-21T14:04:37.255Z info: ::1 - - [21/Jun/2024:14:04:37 +0000] "POST /products HTTP/1.1" 500 290
+
+2024-06-21T14:07:02.200Z info: ::1 - - [21/Jun/2024:14:07:02 +0000] "POST /products HTTP/1.1" 200 283
+
+2024-06-21T14:07:05.326Z info: ::1 - - [21/Jun/2024:14:07:05 +0000] "GET /products HTTP/1.1" 200 351
+
+2024-06-21T14:16:54.887Z info: ::1 - - [21/Jun/2024:14:16:54 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T14:17:11.908Z info: ::1 - - [21/Jun/2024:14:17:11 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T14:17:26.242Z info: ::1 - - [21/Jun/2024:14:17:26 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T14:17:27.539Z info: ::1 - - [21/Jun/2024:14:17:27 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T14:17:27.737Z info: ::1 - - [21/Jun/2024:14:17:27 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T14:17:27.915Z info: ::1 - - [21/Jun/2024:14:17:27 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T14:17:28.056Z info: ::1 - - [21/Jun/2024:14:17:28 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T14:18:11.431Z info: ::1 - - [21/Jun/2024:14:18:11 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T14:18:14.605Z info: ::1 - - [21/Jun/2024:14:18:14 +0000] "OPTIONS /products/1 HTTP/1.1" 204 0
+
+2024-06-21T14:18:14.622Z info: ::1 - - [21/Jun/2024:14:18:14 +0000] "DELETE /products/1 HTTP/1.1" 204 -
+
+2024-06-21T14:18:16.134Z info: ::1 - - [21/Jun/2024:14:18:16 +0000] "GET /products HTTP/1.1" 200 2
+
+2024-06-21T14:18:27.760Z info: ::1 - - [21/Jun/2024:14:18:27 +0000] "POST /products HTTP/1.1" 200 276
+
+2024-06-21T14:18:29.074Z info: ::1 - - [21/Jun/2024:14:18:29 +0000] "GET /products HTTP/1.1" 200 344
+
+2024-06-21T14:18:37.724Z info: ::1 - - [21/Jun/2024:14:18:37 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T14:18:39.732Z info: ::1 - - [21/Jun/2024:14:18:39 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T14:31:22.106Z info: ::1 - - [21/Jun/2024:14:31:22 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T14:31:33.163Z info: ::1 - - [21/Jun/2024:14:31:33 +0000] "GET /products HTTP/1.1" 200 2
+
+2024-06-21T14:32:04.954Z info: ::1 - - [21/Jun/2024:14:32:04 +0000] "POST /products HTTP/1.1" 412 65
+
+2024-06-21T14:32:34.258Z info: ::1 - - [21/Jun/2024:14:32:34 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T14:32:35.672Z info: ::1 - - [21/Jun/2024:14:32:35 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T14:33:04.596Z info: ::1 - - [21/Jun/2024:14:33:04 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T14:33:22.088Z info: ::1 - - [21/Jun/2024:14:33:22 +0000] "POST /products HTTP/1.1" 200 277
+
+2024-06-21T14:33:24.076Z info: ::1 - - [21/Jun/2024:14:33:24 +0000] "GET /products HTTP/1.1" 200 -
+
+2024-06-21T14:39:28.351Z error: uncaughtException: path is not defined
+ReferenceError: path is not defined
+    at Function.module.exports (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\libs/middlewares.js:13:39)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:240:17)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+2024-06-21T14:39:28.376Z error: uncaughtException: path is not defined
+ReferenceError: path is not defined
+    at Function.module.exports (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\libs/middlewares.js:13:39)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:240:17)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+2024-06-21T14:39:28.436Z error: uncaughtException: path is not defined
+ReferenceError: path is not defined
+    at Function.module.exports (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\libs/middlewares.js:13:39)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:240:17)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+2024-06-21T14:39:28.442Z error: uncaughtException: path is not defined
+ReferenceError: path is not defined
+    at Function.module.exports (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\libs/middlewares.js:13:39)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:240:17)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+2024-06-21T14:40:56.010Z error: uncaughtException: path is not defined
+ReferenceError: path is not defined
+    at Function.module.exports (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\libs/middlewares.js:13:39)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:240:17)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+2024-06-21T14:40:56.064Z error: uncaughtException: path is not defined
+ReferenceError: path is not defined
+    at Function.module.exports (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\libs/middlewares.js:13:39)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:240:17)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+2024-06-21T14:40:56.121Z error: uncaughtException: path is not defined
+ReferenceError: path is not defined
+    at Function.module.exports (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\libs/middlewares.js:13:39)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:240:17)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+2024-06-21T14:40:56.177Z error: uncaughtException: path is not defined
+ReferenceError: path is not defined
+    at Function.module.exports (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\libs/middlewares.js:13:39)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:240:17)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+2024-06-21T16:09:40.119Z error: uncaughtException: path is not defined
+ReferenceError: path is not defined
+    at Function.module.exports (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\libs/middlewares.js:13:39)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:240:17)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+2024-06-21T16:09:40.125Z error: uncaughtException: path is not defined
+ReferenceError: path is not defined
+    at Function.module.exports (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\libs/middlewares.js:13:39)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:240:17)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+2024-06-21T16:09:40.130Z error: uncaughtException: path is not defined
+ReferenceError: path is not defined
+    at Function.module.exports (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\libs/middlewares.js:13:39)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:240:17)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+2024-06-21T16:09:40.150Z error: uncaughtException: path is not defined
+ReferenceError: path is not defined
+    at Function.module.exports (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\libs/middlewares.js:13:39)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:240:17)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+2024-06-21T16:11:35.801Z error: uncaughtException: path is not defined
+ReferenceError: path is not defined
+    at Function.module.exports (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\libs/middlewares.js:13:39)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:240:17)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+2024-06-21T16:11:35.835Z error: uncaughtException: path is not defined
+ReferenceError: path is not defined
+    at Function.module.exports (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\libs/middlewares.js:13:39)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:240:17)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+2024-06-21T16:11:35.849Z error: uncaughtException: path is not defined
+ReferenceError: path is not defined
+    at Function.module.exports (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\libs/middlewares.js:13:39)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:240:17)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+2024-06-21T16:11:35.900Z error: uncaughtException: path is not defined
+ReferenceError: path is not defined
+    at Function.module.exports (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\libs/middlewares.js:13:39)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:240:17)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+2024-06-21T16:13:03.803Z error: uncaughtException: path is not defined
+ReferenceError: path is not defined
+    at Function.module.exports (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\libs/middlewares.js:32:39)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:240:17)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+2024-06-21T16:13:03.823Z error: uncaughtException: path is not defined
+ReferenceError: path is not defined
+    at Function.module.exports (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\libs/middlewares.js:32:39)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:240:17)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+2024-06-21T16:13:03.848Z error: uncaughtException: path is not defined
+ReferenceError: path is not defined
+    at Function.module.exports (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\libs/middlewares.js:32:39)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:240:17)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+2024-06-21T16:13:03.856Z error: uncaughtException: path is not defined
+ReferenceError: path is not defined
+    at Function.module.exports (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\libs/middlewares.js:32:39)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:240:17)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+2024-06-21T16:14:31.674Z info: ::1 - - [21/Jun/2024:16:14:31 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T16:14:35.945Z info: ::1 - - [21/Jun/2024:16:14:35 +0000] "GET / HTTP/1.1" 304 -
+
+2024-06-21T16:14:38.350Z info: ::1 - - [21/Jun/2024:16:14:38 +0000] "GET /products HTTP/1.1" 200 2
+
+2024-06-21T16:14:43.151Z info: ::1 - - [21/Jun/2024:16:14:43 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:15:25.236Z info: ::1 - - [21/Jun/2024:16:15:25 +0000] "POST /products HTTP/1.1" 200 287
+
+2024-06-21T16:15:26.853Z info: ::1 - - [21/Jun/2024:16:15:26 +0000] "GET /products HTTP/1.1" 200 -
+
+2024-06-21T16:18:40.169Z info: ::1 - - [21/Jun/2024:16:18:40 +0000] "GET /tables/qrcodes HTTP/1.1" 200 2
+
+2024-06-21T16:18:43.560Z info: ::1 - - [21/Jun/2024:16:18:43 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:23:01.557Z error: uncaughtException: path is not defined
+ReferenceError: path is not defined
+    at Function.module.exports (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\libs/middlewares.js:32:39)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:240:17)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+2024-06-21T16:23:01.579Z error: uncaughtException: path is not defined
+ReferenceError: path is not defined
+    at Function.module.exports (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\libs/middlewares.js:32:39)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:240:17)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+2024-06-21T16:23:01.593Z error: uncaughtException: path is not defined
+ReferenceError: path is not defined
+    at Function.module.exports (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\libs/middlewares.js:32:39)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:240:17)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+2024-06-21T16:23:01.692Z error: uncaughtException: path is not defined
+ReferenceError: path is not defined
+    at Function.module.exports (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\libs/middlewares.js:32:39)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:240:17)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+2024-06-21T16:25:16.839Z info: ::1 - - [21/Jun/2024:16:25:16 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:25:17.621Z info: ::1 - - [21/Jun/2024:16:25:17 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:25:17.796Z info: ::1 - - [21/Jun/2024:16:25:17 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:25:17.966Z info: ::1 - - [21/Jun/2024:16:25:17 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:25:18.119Z info: ::1 - - [21/Jun/2024:16:25:18 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:25:18.282Z info: ::1 - - [21/Jun/2024:16:25:18 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:27:22.763Z error: uncaughtException: express is not defined
+ReferenceError: express is not defined
+    at Function.module.exports (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/products.js:6:24)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:240:17)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+2024-06-21T16:27:22.792Z error: uncaughtException: express is not defined
+ReferenceError: express is not defined
+    at Function.module.exports (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/products.js:6:24)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:240:17)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+2024-06-21T16:27:22.892Z error: uncaughtException: express is not defined
+ReferenceError: express is not defined
+    at Function.module.exports (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/products.js:6:24)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:240:17)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+2024-06-21T16:27:22.906Z error: uncaughtException: express is not defined
+ReferenceError: express is not defined
+    at Function.module.exports (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/products.js:6:24)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:240:17)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+2024-06-21T16:32:03.659Z info: ::1 - - [21/Jun/2024:16:32:03 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T16:32:08.922Z info: ::1 - - [21/Jun/2024:16:32:08 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:32:10.582Z info: ::1 - - [21/Jun/2024:16:32:10 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:32:10.775Z info: ::1 - - [21/Jun/2024:16:32:10 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:33:13.347Z info: ::1 - - [21/Jun/2024:16:33:13 +0000] "POST /products HTTP/1.1" 200 287
+
+2024-06-21T16:33:14.718Z info: ::1 - - [21/Jun/2024:16:33:14 +0000] "GET /products HTTP/1.1" 200 -
+
+2024-06-21T16:33:16.566Z info: ::1 - - [21/Jun/2024:16:33:16 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:33:37.582Z info: ::1 - - [21/Jun/2024:16:33:37 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T16:33:43.744Z info: ::1 - - [21/Jun/2024:16:33:43 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:34:23.429Z info: ::1 - - [21/Jun/2024:16:34:23 +0000] "GET /products HTTP/1.1" 200 -
+
+2024-06-21T16:37:48.019Z info: ::1 - - [21/Jun/2024:16:37:48 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T16:37:52.649Z info: ::1 - - [21/Jun/2024:16:37:52 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:37:53.529Z info: ::1 - - [21/Jun/2024:16:37:53 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:37:53.710Z info: ::1 - - [21/Jun/2024:16:37:53 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:37:53.908Z info: ::1 - - [21/Jun/2024:16:37:53 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:39:47.068Z info: ::1 - - [21/Jun/2024:16:39:47 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T16:39:52.974Z info: ::1 - - [21/Jun/2024:16:39:52 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:39:53.623Z info: ::1 - - [21/Jun/2024:16:39:53 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:39:53.779Z info: ::1 - - [21/Jun/2024:16:39:53 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:39:53.948Z info: ::1 - - [21/Jun/2024:16:39:53 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:39:54.115Z info: ::1 - - [21/Jun/2024:16:39:54 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:39:54.264Z info: ::1 - - [21/Jun/2024:16:39:54 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:39:54.449Z info: ::1 - - [21/Jun/2024:16:39:54 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:39:54.609Z info: ::1 - - [21/Jun/2024:16:39:54 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:39:54.763Z info: ::1 - - [21/Jun/2024:16:39:54 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:39:54.919Z info: ::1 - - [21/Jun/2024:16:39:54 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:39:55.066Z info: ::1 - - [21/Jun/2024:16:39:55 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:39:55.405Z info: ::1 - - [21/Jun/2024:16:39:55 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:39:55.654Z info: ::1 - - [21/Jun/2024:16:39:55 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:39:55.865Z info: ::1 - - [21/Jun/2024:16:39:55 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:40:05.390Z info: ::1 - - [21/Jun/2024:16:40:05 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:40:05.590Z info: ::1 - - [21/Jun/2024:16:40:05 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:40:05.763Z info: ::1 - - [21/Jun/2024:16:40:05 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:40:05.924Z info: ::1 - - [21/Jun/2024:16:40:05 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:41:08.515Z info: ::1 - - [21/Jun/2024:16:41:08 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T16:41:12.243Z info: ::1 - - [21/Jun/2024:16:41:12 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:41:13.815Z info: ::1 - - [21/Jun/2024:16:41:13 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:41:14.016Z info: ::1 - - [21/Jun/2024:16:41:14 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:41:14.159Z info: ::1 - - [21/Jun/2024:16:41:14 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:41:14.327Z info: ::1 - - [21/Jun/2024:16:41:14 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:42:24.217Z info: ::1 - - [21/Jun/2024:16:42:24 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T16:42:28.853Z info: ::1 - - [21/Jun/2024:16:42:28 +0000] "GET / HTTP/1.1" 304 -
+
+2024-06-21T16:42:34.483Z info: ::1 - - [21/Jun/2024:16:42:34 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:42:35.599Z info: ::1 - - [21/Jun/2024:16:42:35 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:42:36.039Z info: ::1 - - [21/Jun/2024:16:42:36 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:42:36.196Z info: ::1 - - [21/Jun/2024:16:42:36 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:43:01.229Z info: ::1 - - [21/Jun/2024:16:43:01 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T16:43:03.212Z info: ::1 - - [21/Jun/2024:16:43:03 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:45:58.443Z info: ::1 - - [21/Jun/2024:16:45:58 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T16:46:01.269Z info: ::1 - - [21/Jun/2024:16:46:01 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:46:02.050Z info: ::1 - - [21/Jun/2024:16:46:02 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:46:02.259Z info: ::1 - - [21/Jun/2024:16:46:02 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:47:02.783Z info: ::1 - - [21/Jun/2024:16:47:02 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T16:47:08.038Z info: ::1 - - [21/Jun/2024:16:47:08 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:47:08.595Z info: ::1 - - [21/Jun/2024:16:47:08 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:47:08.784Z info: ::1 - - [21/Jun/2024:16:47:08 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:47:08.955Z info: ::1 - - [21/Jun/2024:16:47:08 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:48:00.292Z info: ::1 - - [21/Jun/2024:16:48:00 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T16:48:02.564Z info: ::1 - - [21/Jun/2024:16:48:02 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:48:30.804Z info: ::1 - - [21/Jun/2024:16:48:30 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T16:48:34.795Z info: ::1 - - [21/Jun/2024:16:48:34 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:48:35.894Z info: ::1 - - [21/Jun/2024:16:48:35 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:48:36.087Z info: ::1 - - [21/Jun/2024:16:48:36 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:48:36.269Z info: ::1 - - [21/Jun/2024:16:48:36 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:48:36.425Z info: ::1 - - [21/Jun/2024:16:48:36 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:48:36.605Z info: ::1 - - [21/Jun/2024:16:48:36 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:48:36.778Z info: ::1 - - [21/Jun/2024:16:48:36 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:48:37.161Z info: ::1 - - [21/Jun/2024:16:48:37 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:48:37.306Z info: ::1 - - [21/Jun/2024:16:48:37 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:48:37.443Z info: ::1 - - [21/Jun/2024:16:48:37 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:49:11.334Z info: ::1 - - [21/Jun/2024:16:49:11 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T16:49:14.059Z info: ::1 - - [21/Jun/2024:16:49:14 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:49:14.709Z info: ::1 - - [21/Jun/2024:16:49:14 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:49:14.865Z info: ::1 - - [21/Jun/2024:16:49:14 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:49:37.981Z info: ::1 - - [21/Jun/2024:16:49:37 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T16:49:40.316Z info: ::1 - - [21/Jun/2024:16:49:40 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:49:41.048Z info: ::1 - - [21/Jun/2024:16:49:41 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:49:41.242Z info: ::1 - - [21/Jun/2024:16:49:41 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:49:55.841Z info: ::1 - - [21/Jun/2024:16:49:55 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T16:49:58.412Z info: ::1 - - [21/Jun/2024:16:49:58 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:58:06.304Z info: ::1 - - [21/Jun/2024:16:58:06 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T16:58:10.799Z info: ::1 - - [21/Jun/2024:16:58:10 +0000] "GET /products HTTP/1.1" 200 708
+
+2024-06-21T16:58:11.861Z info: ::1 - - [21/Jun/2024:16:58:11 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:58:12.021Z info: ::1 - - [21/Jun/2024:16:58:12 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:58:12.255Z info: ::1 - - [21/Jun/2024:16:58:12 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:58:12.468Z info: ::1 - - [21/Jun/2024:16:58:12 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:58:12.645Z info: ::1 - - [21/Jun/2024:16:58:12 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T16:58:17.571Z info: ::1 - - [21/Jun/2024:16:58:17 +0000] "GET /products HTTP/1.1" 200 708
+
+2024-06-21T17:04:58.826Z info: ::1 - - [21/Jun/2024:17:04:58 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T17:05:03.340Z info: ::1 - - [21/Jun/2024:17:05:03 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T17:05:04.231Z info: ::1 - - [21/Jun/2024:17:05:04 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T17:05:04.416Z info: ::1 - - [21/Jun/2024:17:05:04 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T17:05:04.578Z info: ::1 - - [21/Jun/2024:17:05:04 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T17:05:04.779Z info: ::1 - - [21/Jun/2024:17:05:04 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T17:05:04.932Z info: ::1 - - [21/Jun/2024:17:05:04 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T17:05:08.074Z info: ::1 - - [21/Jun/2024:17:05:08 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T17:08:43.130Z info: ::1 - - [21/Jun/2024:17:08:43 +0000] "GET /products HTTP/1.1" 200 708
+
+2024-06-21T17:10:21.024Z info: ::1 - - [21/Jun/2024:17:10:21 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T17:11:05.739Z info: ::1 - - [21/Jun/2024:17:11:05 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T17:11:08.344Z info: ::1 - - [21/Jun/2024:17:11:08 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T17:17:44.020Z info: ::1 - - [21/Jun/2024:17:17:44 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T17:17:52.828Z info: ::1 - - [21/Jun/2024:17:17:52 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T17:18:21.240Z info: ::1 - - [21/Jun/2024:17:18:21 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T17:18:25.439Z info: ::1 - - [21/Jun/2024:17:18:25 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T17:29:48.294Z info: ::1 - - [21/Jun/2024:17:29:48 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T17:29:57.739Z info: ::1 - - [21/Jun/2024:17:29:57 +0000] "GET /products HTTP/1.1" 200 -
+
+2024-06-21T17:30:01.184Z info: ::1 - - [21/Jun/2024:17:30:01 +0000] "OPTIONS /products/2 HTTP/1.1" 204 0
+
+2024-06-21T17:30:01.214Z info: ::1 - - [21/Jun/2024:17:30:01 +0000] "DELETE /products/2 HTTP/1.1" - -
+
+2024-06-21T17:30:01.250Z info: ::1 - - [21/Jun/2024:17:30:01 +0000] "GET /products HTTP/1.1" 200 -
+
+2024-06-21T17:30:02.558Z info: ::1 - - [21/Jun/2024:17:30:02 +0000] "OPTIONS /products/1 HTTP/1.1" 204 0
+
+2024-06-21T17:30:02.571Z info: ::1 - - [21/Jun/2024:17:30:02 +0000] "DELETE /products/1 HTTP/1.1" 204 -
+
+2024-06-21T17:30:05.201Z info: ::1 - - [21/Jun/2024:17:30:05 +0000] "GET /products HTTP/1.1" 200 2
+
+2024-06-21T17:30:30.951Z info: ::1 - - [21/Jun/2024:17:30:30 +0000] "POST /products HTTP/1.1" 200 269
+
+2024-06-21T17:30:32.753Z info: ::1 - - [21/Jun/2024:17:30:32 +0000] "GET /products HTTP/1.1" 200 974
+
+2024-06-21T17:31:25.262Z info: ::1 - - [21/Jun/2024:17:31:25 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T17:31:25.818Z info: ::1 - - [21/Jun/2024:17:31:25 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T17:31:25.989Z info: ::1 - - [21/Jun/2024:17:31:25 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T17:38:06.198Z error: uncaughtException: Cannot find module './models/Products'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\products.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+Error: Cannot find module './models/Products'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\products.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/products.js:2:18)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+2024-06-21T17:38:06.312Z error: uncaughtException: Cannot find module './models/Products'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\products.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+Error: Cannot find module './models/Products'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\products.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/products.js:2:18)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+2024-06-21T17:38:06.313Z error: uncaughtException: Cannot find module './models/Products'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\products.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+Error: Cannot find module './models/Products'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\products.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/products.js:2:18)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+2024-06-21T17:38:06.346Z error: uncaughtException: Cannot find module './models/Products'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\products.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+Error: Cannot find module './models/Products'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\products.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/products.js:2:18)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+2024-06-21T17:39:20.039Z error: uncaughtException: Cannot find module './models/Products'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\products.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+Error: Cannot find module './models/Products'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\products.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/products.js:2:18)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+2024-06-21T17:39:20.077Z error: uncaughtException: Cannot find module './models/Products'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\products.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+Error: Cannot find module './models/Products'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\products.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/products.js:2:18)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+2024-06-21T17:39:20.114Z error: uncaughtException: Cannot find module './models/Products'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\products.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+Error: Cannot find module './models/Products'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\products.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/products.js:2:18)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+2024-06-21T17:39:20.142Z error: uncaughtException: Cannot find module './models/Products'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\products.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+Error: Cannot find module './models/Products'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\products.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/products.js:2:18)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+2024-06-21T17:40:05.242Z error: uncaughtException: Cannot find module './models/Products'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\products.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+Error: Cannot find module './models/Products'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\products.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/products.js:2:18)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+2024-06-21T17:40:05.251Z error: uncaughtException: Cannot find module './models/Products'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\products.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+Error: Cannot find module './models/Products'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\products.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/products.js:2:18)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+2024-06-21T17:40:05.264Z error: uncaughtException: Cannot find module './models/Products'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\products.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+Error: Cannot find module './models/Products'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\products.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/products.js:2:18)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+2024-06-21T17:40:05.301Z error: uncaughtException: Cannot find module './models/Products'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\products.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+Error: Cannot find module './models/Products'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\products.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/products.js:2:18)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+2024-06-21T17:40:37.529Z error: uncaughtException: Cannot find module './models/Products'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\products.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+Error: Cannot find module './models/Products'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\products.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/products.js:2:18)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+2024-06-21T17:40:37.547Z error: uncaughtException: Cannot find module './models/Products'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\products.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+Error: Cannot find module './models/Products'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\products.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/products.js:2:18)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+2024-06-21T17:40:37.587Z error: uncaughtException: Cannot find module './models/Products'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\products.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+Error: Cannot find module './models/Products'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\products.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/products.js:2:18)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+2024-06-21T17:40:37.598Z error: uncaughtException: Cannot find module './models/Products'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\products.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+Error: Cannot find module './models/Products'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\products.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/products.js:2:18)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+2024-06-21T17:45:14.656Z info: ::1 - - [21/Jun/2024:17:45:14 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T17:45:23.570Z info: ::1 - - [21/Jun/2024:17:45:23 +0000] "GET /products HTTP/1.1" 200 2
+
+2024-06-21T17:48:22.452Z info: ::1 - - [21/Jun/2024:17:48:22 +0000] "POST /products HTTP/1.1" 200 -
+
+2024-06-21T17:48:24.026Z info: ::1 - - [21/Jun/2024:17:48:24 +0000] "GET /products HTTP/1.1" 200 -
+
+2024-06-21T17:54:28.504Z error: uncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at Function.module.exports (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/products.js:6:32)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:240:17)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+2024-06-21T17:54:28.594Z error: uncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at Function.module.exports (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/products.js:6:32)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:240:17)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+2024-06-21T17:54:28.650Z error: uncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at Function.module.exports (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/products.js:6:32)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:240:17)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+2024-06-21T17:54:28.676Z error: uncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at Function.module.exports (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/products.js:6:32)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:240:17)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+2024-06-21T17:55:55.921Z info: ::1 - - [21/Jun/2024:17:55:55 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T17:57:52.947Z info: ::1 - - [21/Jun/2024:17:57:52 +0000] "GET / HTTP/1.1" 304 -
+
+2024-06-21T18:11:00.206Z info: ::1 - - [21/Jun/2024:18:11:00 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T18:11:03.718Z info: ::1 - - [21/Jun/2024:18:11:03 +0000] "GET / HTTP/1.1" 304 -
+
+2024-06-21T18:15:20.689Z info: ::1 - - [21/Jun/2024:18:15:20 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T18:19:04.756Z info: ::1 - - [21/Jun/2024:18:19:04 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T18:20:06.171Z info: ::1 - - [21/Jun/2024:18:20:06 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T18:23:09.092Z info: ::1 - - [21/Jun/2024:18:23:09 +0000] "GET /1 HTTP/1.1" 404 140
+
+2024-06-21T18:23:12.481Z info: ::1 - - [21/Jun/2024:18:23:12 +0000] "GET / HTTP/1.1" 304 -
+
+2024-06-21T18:28:33.453Z info: ::1 - - [21/Jun/2024:18:28:33 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T18:29:19.273Z info: ::1 - - [21/Jun/2024:18:29:19 +0000] "GET /products HTTP/1.1" 200 2
+
+2024-06-21T18:34:57.810Z info: ::1 - - [21/Jun/2024:18:34:57 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T18:35:18.876Z info: ::1 - - [21/Jun/2024:18:35:18 +0000] "GET / HTTP/1.1" 304 -
+
+2024-06-21T18:38:48.297Z info: ::1 - - [21/Jun/2024:18:38:48 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T18:39:45.505Z info: ::1 - - [21/Jun/2024:18:39:45 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T18:52:21.833Z info: ::1 - - [21/Jun/2024:18:52:21 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T19:19:05.476Z info: ::1 - - [21/Jun/2024:19:19:05 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T19:19:11.328Z info: ::1 - - [21/Jun/2024:19:19:11 +0000] "GET /products HTTP/1.1" 200 2
+
+2024-06-21T19:28:15.777Z info: ::1 - - [21/Jun/2024:19:28:15 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T19:28:23.926Z info: ::1 - - [21/Jun/2024:19:28:23 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T19:34:19.808Z info: ::1 - - [21/Jun/2024:19:34:19 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T19:34:42.430Z info: ::1 - - [21/Jun/2024:19:34:42 +0000] "POST /products HTTP/1.1" 500 285
+
+2024-06-21T19:34:47.532Z info: ::1 - - [21/Jun/2024:19:34:47 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T19:36:25.198Z info: ::1 - - [21/Jun/2024:19:36:25 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T19:36:29.616Z info: ::1 - - [21/Jun/2024:19:36:29 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T19:36:39.736Z info: ::1 - - [21/Jun/2024:19:36:39 +0000] "POST /products HTTP/1.1" 500 292
+
+2024-06-21T20:04:10.846Z info: ::1 - - [21/Jun/2024:20:04:10 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T20:04:25.654Z info: ::1 - - [21/Jun/2024:20:04:25 +0000] "POST /products HTTP/1.1" 200 277
+
+2024-06-21T20:04:27.629Z info: ::1 - - [21/Jun/2024:20:04:27 +0000] "GET /products HTTP/1.1" 200 200
+
+2024-06-21T20:04:29.301Z info: ::1 - - [21/Jun/2024:20:04:29 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T20:04:39.463Z info: ::1 - - [21/Jun/2024:20:04:39 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T20:04:40.627Z info: ::1 - - [21/Jun/2024:20:04:40 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T20:10:00.300Z info: ::1 - - [21/Jun/2024:20:10:00 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T20:10:05.532Z info: ::1 - - [21/Jun/2024:20:10:05 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T20:10:36.673Z info: ::1 - - [21/Jun/2024:20:10:36 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T20:14:57.680Z info: ::1 - - [21/Jun/2024:20:14:57 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T20:14:58.863Z info: ::1 - - [21/Jun/2024:20:14:58 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T20:14:59.890Z info: ::1 - - [21/Jun/2024:20:14:59 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T20:15:04.839Z info: ::1 - - [21/Jun/2024:20:15:04 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T20:15:12.990Z info: ::1 - - [21/Jun/2024:20:15:12 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T20:15:14.236Z info: ::1 - - [21/Jun/2024:20:15:14 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T20:15:15.186Z info: ::1 - - [21/Jun/2024:20:15:15 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T20:15:15.593Z info: ::1 - - [21/Jun/2024:20:15:15 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T20:15:15.776Z info: ::1 - - [21/Jun/2024:20:15:15 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T20:15:15.992Z info: ::1 - - [21/Jun/2024:20:15:15 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T20:15:16.204Z info: ::1 - - [21/Jun/2024:20:15:16 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T20:15:16.393Z info: ::1 - - [21/Jun/2024:20:15:16 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T20:23:58.970Z info: ::1 - - [21/Jun/2024:20:23:58 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T20:24:00.657Z info: ::1 - - [21/Jun/2024:20:24:00 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T20:24:01.506Z info: ::1 - - [21/Jun/2024:20:24:01 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T20:24:01.694Z info: ::1 - - [21/Jun/2024:20:24:01 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T20:24:01.862Z info: ::1 - - [21/Jun/2024:20:24:01 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T20:24:02.034Z info: ::1 - - [21/Jun/2024:20:24:02 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T20:24:02.203Z info: ::1 - - [21/Jun/2024:20:24:02 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T20:24:02.395Z info: ::1 - - [21/Jun/2024:20:24:02 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T20:29:25.475Z info: ::1 - - [21/Jun/2024:20:29:25 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-21T20:29:34.475Z info: ::1 - - [21/Jun/2024:20:29:34 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T20:29:35.989Z info: ::1 - - [21/Jun/2024:20:29:35 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T20:29:51.822Z info: ::1 - - [21/Jun/2024:20:29:51 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-21T20:29:58.717Z info: ::1 - - [21/Jun/2024:20:29:58 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-21T20:30:01.569Z info: ::1 - - [21/Jun/2024:20:30:01 +0000] "GET /products HTTP/1.1" 304 -
+

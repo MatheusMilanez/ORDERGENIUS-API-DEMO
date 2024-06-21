@@ -3,7 +3,7 @@ module.exports = (sequelize, DataTypes) => {
     idTable: {
       type: DataTypes.INTEGER,
       primaryKey: true,
-      autoIncrement: true,
+      autoIncrement: false,
       field: 'id_table'
     },
     title: {
