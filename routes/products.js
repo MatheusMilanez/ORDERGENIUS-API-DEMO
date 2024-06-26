@@ -1,6 +1,5 @@
 const multer = require('multer');
 const path = require('path');
-const fs = require('fs');
 
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
@@ -11,7 +10,6 @@ const storage = multer.diskStorage({
     cb(null, uniqueSuffix + path.extname(file.originalname));
   }
 });
-
 
 const upload = multer({ storage });
 
@@ -35,45 +33,95 @@ module.exports = app => {
             });
     });
 
-    app.post("/products", upload.single('image'), (req, res) => {
+    // Rota para buscar um produto por ID
+    app.get("/products/:id", (req, res) => {
+        const productId = req.params.id;
+
+        Products.findByPk(productId)
+            .then(product => {
+                if (!product) {
+                    return res.status(404).json({ error: 'Produto não encontrado' });
+                }
+                res.json(product);
+            })
+            .catch(error => {
+                console.error('Erro ao buscar produto:', error);
+                res.status(500).json({ error: 'Erro interno ao buscar o produto' });
+            });
+    });
+
+    app.post("/products", upload.single('image'), async (req, res) => {
         const { titleProducts, price, quantity, foodStatus } = req.body;
         const imageUrl = req.file ? `/uploads/${req.file.filename}` : null;
 
-        Products.create({ titleProducts, price, quantity, foodStatus, imageUrl })
-            .then(result => res.json(result))
-            .catch(error => {
-                res.status(412).json({ msg: error.message });
+        try {
+            const products = await Products.findAll({
+                attributes: ['id'],
+                order: [['id', 'ASC']]
             });
+
+            let newId = 1;
+            for (let i = 0; i < products.length; i++) {
+                if (products[i].id !== newId) {
+                    break;
+                }
+                newId++;
+            }
+
+            const newProduct = await Products.create({ id: newId, titleProducts, price, quantity, foodStatus, imageUrl });
+            res.json(newProduct);
+        } catch (error) {
+            res.status(412).json({ msg: error.message });
+        }
     });
 
+    // Rota para atualizar um produto por ID
     app.put("/products/:id", (req, res) => {
-        Products.update(req.body, { where: { id: req.params.id } })
-            .then(result => res.json(result))
-            .catch(error => {
-                res.status(412).json({ msg: error.message });
-            });
-    });
+        const productId = req.params.id;
+        const { titleProducts, foodStatus, price, quantity } = req.body;
 
-    app.delete("/products/:id", (req, res) => {
-        Products.findByPk(req.params.id)
+        Products.findByPk(productId)
             .then(product => {
                 if (!product) {
-                    return res.status(404).json({ msg: 'Produto não encontrado.' });
+                    return res.status(404).json({ error: 'Produto não encontrado' });
                 }
 
-                if (product.imageUrl) {
-                    const imagePath = path.join(__dirname, '../', product.imageUrl);
-                    fs.unlinkSync(imagePath);
-                }
+                // Atualiza os campos do produto
+                product.titleProducts = titleProducts;
+                product.foodStatus = foodStatus;
+                product.price = price;
+                product.quantity = quantity;
 
-                return product.destroy()
-                    .then(() => res.sendStatus(204))
+                // Salva as mudanças no banco de dados
+                return product.save()
+                    .then(updatedProduct => {
+                        res.json(updatedProduct);
+                    })
                     .catch(error => {
-                        res.status(412).json({ msg: error.message });
+                        res.status(500).json({ error: 'Erro interno ao atualizar o produto' });
                     });
             })
             .catch(error => {
-                res.status(412).json({ msg: error.message });
+                res.status(500).json({ error: 'Erro interno ao buscar o produto' });
+            });
+    });
+
+    // Rota para deletar um produto por ID
+    app.delete("/products/:id", (req, res) => {
+        const productId = req.params.id;
+
+        // Deleta o produto do banco de dados
+        Products.destroy({ where: { id: productId } })
+            .then(result => {
+                if (result === 1) {
+                    res.sendStatus(204); // Produto deletado com sucesso
+                } else {
+                    res.sendStatus(404); // Produto não encontrado
+                }
+            })
+            .catch(error => {
+                console.error('Erro ao deletar produto:', error);
+                res.status(500).json({ error: 'Erro interno ao deletar produto' });
             });
     });
 };
