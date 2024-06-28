@@ -124,4 +124,44 @@ module.exports = app => {
                 res.status(500).json({ error: 'Erro interno ao deletar produto' });
             });
     });
+
+        // Nova rota para buscar categorias únicas
+        app.get("/categories", (req, res) => {
+            Products.findAll({
+                attributes: ['foodStatus'],
+                group: ['foodStatus']
+            })
+            .then(categories => {
+                console.log(res.json(categories.map(category => category.foodStatus)))
+                res.json(categories.map(category => category.foodStatus));
+            })
+            .catch(error => {
+                res.status(500).json({ error: 'Erro ao buscar categorias' });
+            });
+        });
+
+       // Adicione essa rota para obter produtos por categoria
+        app.get("/products/category/:category", (req, res) => {
+            const category = req.params.category;
+
+            Products.findAll({
+                where: { foodStatus: category }
+            })
+            .then(products => {
+                res.json(products.map(product => ({
+                    id: product.id,
+                    titleProducts: product.titleProducts,
+                    foodStatus: product.foodStatus,
+                    price: product.price,
+                    quantity: product.quantity,
+                    imageUrl: product.imageUrl
+                })));
+            })
+            .catch(error => {
+                res.status(500).json({ error: 'Erro ao buscar produtos' });
+            });
+        });
+
+
+
 };
