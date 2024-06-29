@@ -4424,6 +4424,7 @@ TypeError: Cannot read properties of undefined (reading 'models')
 
 2024-06-21T20:30:01.569Z info: ::1 - - [21/Jun/2024:20:30:01 +0000] "GET /products HTTP/1.1" 304 -
 
+<<<<<<< HEAD
 2024-06-21T22:19:58.132Z info: ::1 - - [21/Jun/2024:22:19:58 +0000] "GET /tables HTTP/1.1" 200 2
 
 2024-06-21T22:21:34.449Z info: ::1 - - [21/Jun/2024:22:21:34 +0000] "GET / HTTP/1.1" 200 26
@@ -4583,4 +4584,3015 @@ TypeError: Cannot read properties of undefined (reading 'models')
 2024-06-21T22:53:00.527Z info: ::1 - - [21/Jun/2024:22:53:00 +0000] "GET /orders/table/1 HTTP/1.1" 304 -
 
 2024-06-21T22:53:00.577Z info: ::1 - - [21/Jun/2024:22:53:00 +0000] "GET /orders/table/2 HTTP/1.1" 304 -
+=======
+2024-06-26T12:34:59.043Z info: ::1 - - [26/Jun/2024:12:34:59 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T12:35:05.849Z info: ::1 - - [26/Jun/2024:12:35:05 +0000] "GET / HTTP/1.1" 304 -
+
+2024-06-26T12:36:04.054Z info: ::1 - - [26/Jun/2024:12:36:04 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T12:36:12.246Z info: ::1 - - [26/Jun/2024:12:36:12 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-26T12:36:12.306Z info: ::1 - - [26/Jun/2024:12:36:12 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-26T12:36:12.323Z info: ::1 - - [26/Jun/2024:12:36:12 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-26T12:36:13.437Z info: ::1 - - [26/Jun/2024:12:36:13 +0000] "OPTIONS /tables/1 HTTP/1.1" 204 0
+
+2024-06-26T12:36:13.466Z info: ::1 - - [26/Jun/2024:12:36:13 +0000] "DELETE /tables/1 HTTP/1.1" 204 -
+
+2024-06-26T12:36:13.491Z info: ::1 - - [26/Jun/2024:12:36:13 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T12:36:13.525Z info: ::1 - - [26/Jun/2024:12:36:13 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T12:36:15.609Z info: ::1 - - [26/Jun/2024:12:36:15 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T12:37:48.991Z info: ::1 - - [26/Jun/2024:12:37:48 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T12:38:40.399Z info: ::1 - - [26/Jun/2024:12:38:40 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T12:38:43.381Z info: ::1 - - [26/Jun/2024:12:38:43 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T12:38:44.404Z info: ::1 - - [26/Jun/2024:12:38:44 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T12:38:47.050Z info: ::1 - - [26/Jun/2024:12:38:47 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T12:38:49.912Z info: ::1 - - [26/Jun/2024:12:38:49 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T12:38:52.913Z info: ::1 - - [26/Jun/2024:12:38:52 +0000] "GET /tables/qrcodes HTTP/1.1" 304 -
+
+2024-06-26T12:39:24.857Z info: ::1 - - [26/Jun/2024:12:39:24 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T13:19:17.828Z info: ::1 - - [26/Jun/2024:13:19:17 +0000] "GET /tables/1 HTTP/1.1" 200 4
+
+2024-06-26T13:19:21.243Z info: ::1 - - [26/Jun/2024:13:19:21 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T13:19:26.017Z info: ::1 - - [26/Jun/2024:13:19:26 +0000] "GET / HTTP/1.1" 304 -
+
+2024-06-26T13:27:53.364Z info: ::1 - - [26/Jun/2024:13:27:53 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:27:54.691Z info: ::1 - - [26/Jun/2024:13:27:54 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:27:55.645Z info: ::1 - - [26/Jun/2024:13:27:55 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:28:04.057Z info: ::1 - - [26/Jun/2024:13:28:04 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T13:28:06.363Z info: ::1 - - [26/Jun/2024:13:28:06 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:28:07.006Z info: ::1 - - [26/Jun/2024:13:28:07 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:28:40.534Z info: ::1 - - [26/Jun/2024:13:28:40 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:28:59.210Z info: ::1 - - [26/Jun/2024:13:28:59 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:31:32.620Z info: ::1 - - [26/Jun/2024:13:31:32 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:32:25.480Z info: ::1 - - [26/Jun/2024:13:32:25 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:32:46.790Z info: ::1 - - [26/Jun/2024:13:32:46 +0000] "POST /products HTTP/1.1" 200 249
+
+2024-06-26T13:32:48.279Z info: ::1 - - [26/Jun/2024:13:32:48 +0000] "GET /products HTTP/1.1" 200 370
+
+2024-06-26T13:37:29.026Z info: ::1 - - [26/Jun/2024:13:37:29 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:37:38.279Z info: ::1 - - [26/Jun/2024:13:37:38 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:37:39.453Z info: ::1 - - [26/Jun/2024:13:37:39 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:37:54.217Z info: ::1 - - [26/Jun/2024:13:37:54 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:41:31.138Z info: ::1 - - [26/Jun/2024:13:41:31 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:41:49.246Z info: ::1 - - [26/Jun/2024:13:41:49 +0000] "POST /products HTTP/1.1" 200 244
+
+2024-06-26T13:41:50.510Z info: ::1 - - [26/Jun/2024:13:41:50 +0000] "GET /products HTTP/1.1" 200 535
+
+2024-06-26T13:42:12.783Z info: ::1 - - [26/Jun/2024:13:42:12 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:42:20.612Z info: ::1 - - [26/Jun/2024:13:42:20 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:42:36.794Z info: ::1 - - [26/Jun/2024:13:42:36 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:43:07.677Z info: ::1 - - [26/Jun/2024:13:43:07 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T13:43:10.622Z info: ::1 - - [26/Jun/2024:13:43:10 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:43:17.490Z info: ::1 - - [26/Jun/2024:13:43:17 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:44:38.442Z info: ::1 - - [26/Jun/2024:13:44:38 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:44:51.941Z info: ::1 - - [26/Jun/2024:13:44:51 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:47:17.909Z info: ::1 - - [26/Jun/2024:13:47:17 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:47:20.199Z info: ::1 - - [26/Jun/2024:13:47:20 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:48:13.906Z info: ::1 - - [26/Jun/2024:13:48:13 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:48:15.438Z info: ::1 - - [26/Jun/2024:13:48:15 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:48:16.753Z info: ::1 - - [26/Jun/2024:13:48:16 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:48:17.646Z info: ::1 - - [26/Jun/2024:13:48:17 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:48:18.170Z info: ::1 - - [26/Jun/2024:13:48:18 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:49:08.357Z info: ::1 - - [26/Jun/2024:13:49:08 +0000] "GET /products HTTP/1.1" 200 535
+
+2024-06-26T13:51:24.485Z info: ::1 - - [26/Jun/2024:13:51:24 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:51:26.714Z info: ::1 - - [26/Jun/2024:13:51:26 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:51:27.757Z info: ::1 - - [26/Jun/2024:13:51:27 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:51:28.347Z info: ::1 - - [26/Jun/2024:13:51:28 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:51:32.972Z info: ::1 - - [26/Jun/2024:13:51:32 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T13:51:36.281Z info: ::1 - - [26/Jun/2024:13:51:36 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T13:51:38.384Z info: ::1 - - [26/Jun/2024:13:51:38 +0000] "GET /tables/qrcodes HTTP/1.1" 304 -
+
+2024-06-26T13:52:19.951Z info: ::1 - - [26/Jun/2024:13:52:19 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:57:02.747Z info: ::1 - - [26/Jun/2024:13:57:02 +0000] "GET / HTTP/1.1" 304 -
+
+2024-06-26T13:57:03.399Z info: ::1 - - [26/Jun/2024:13:57:03 +0000] "GET / HTTP/1.1" 304 -
+
+2024-06-26T13:57:03.574Z info: ::1 - - [26/Jun/2024:13:57:03 +0000] "GET / HTTP/1.1" 304 -
+
+2024-06-26T13:57:03.736Z info: ::1 - - [26/Jun/2024:13:57:03 +0000] "GET / HTTP/1.1" 304 -
+
+2024-06-26T13:57:09.709Z info: ::1 - - [26/Jun/2024:13:57:09 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T13:57:12.632Z info: ::1 - - [26/Jun/2024:13:57:12 +0000] "GET /products HTTP/1.1" 200 2
+
+2024-06-26T13:57:16.110Z info: ::1 - - [26/Jun/2024:13:57:16 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T13:57:22.788Z info: ::1 - - [26/Jun/2024:13:57:22 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-26T13:57:22.849Z info: ::1 - - [26/Jun/2024:13:57:22 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-26T13:57:22.860Z info: ::1 - - [26/Jun/2024:13:57:22 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-26T13:57:26.617Z info: ::1 - - [26/Jun/2024:13:57:26 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-26T13:57:26.628Z info: ::1 - - [26/Jun/2024:13:57:26 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-26T13:57:30.780Z info: ::1 - - [26/Jun/2024:13:57:30 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-26T13:57:30.795Z info: ::1 - - [26/Jun/2024:13:57:30 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-26T13:57:30.807Z info: ::1 - - [26/Jun/2024:13:57:30 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-26T13:57:32.663Z info: ::1 - - [26/Jun/2024:13:57:32 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T13:57:32.684Z info: ::1 - - [26/Jun/2024:13:57:32 +0000] "GET /orders/table/1 HTTP/1.1" 200 2
+
+2024-06-26T13:57:32.704Z info: ::1 - - [26/Jun/2024:13:57:32 +0000] "GET /orders/table/2 HTTP/1.1" 200 2
+
+2024-06-26T13:57:32.737Z info: ::1 - - [26/Jun/2024:13:57:32 +0000] "GET /orders/table/3 HTTP/1.1" 200 2
+
+2024-06-26T13:57:36.147Z info: ::1 - - [26/Jun/2024:13:57:36 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T13:58:38.130Z info: ::1 - - [26/Jun/2024:13:58:38 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:00:37.572Z info: ::1 - - [26/Jun/2024:14:00:37 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:01:33.486Z info: ::1 - - [26/Jun/2024:14:01:33 +0000] "POST /products HTTP/1.1" 200 264
+
+2024-06-26T14:01:34.721Z info: ::1 - - [26/Jun/2024:14:01:34 +0000] "GET /products HTTP/1.1" 200 186
+
+2024-06-26T14:01:58.822Z info: ::1 - - [26/Jun/2024:14:01:58 +0000] "POST /products HTTP/1.1" 200 252
+
+2024-06-26T14:02:01.340Z info: ::1 - - [26/Jun/2024:14:02:01 +0000] "GET /products HTTP/1.1" 200 359
+
+2024-06-26T14:02:10.649Z info: ::1 - - [26/Jun/2024:14:02:10 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:02:11.942Z info: ::1 - - [26/Jun/2024:14:02:11 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:02:14.716Z info: ::1 - - [26/Jun/2024:14:02:14 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:02:16.246Z info: ::1 - - [26/Jun/2024:14:02:16 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:02:17.149Z info: ::1 - - [26/Jun/2024:14:02:17 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:02:17.698Z info: ::1 - - [26/Jun/2024:14:02:17 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:02:17.857Z info: ::1 - - [26/Jun/2024:14:02:17 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:02:18.005Z info: ::1 - - [26/Jun/2024:14:02:18 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:02:18.175Z info: ::1 - - [26/Jun/2024:14:02:18 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:02:18.335Z info: ::1 - - [26/Jun/2024:14:02:18 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:02:18.491Z info: ::1 - - [26/Jun/2024:14:02:18 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:03:18.091Z info: ::1 - - [26/Jun/2024:14:03:18 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-26T14:03:31.743Z info: ::1 - - [26/Jun/2024:14:03:31 +0000] "GET /products HTTP/1.1" 200 359
+
+2024-06-26T14:03:33.556Z info: ::1 - - [26/Jun/2024:14:03:33 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:07:14.815Z info: ::1 - - [26/Jun/2024:14:07:14 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-26T14:07:21.172Z info: ::1 - - [26/Jun/2024:14:07:21 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:07:22.817Z info: ::1 - - [26/Jun/2024:14:07:22 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:07:23.765Z info: ::1 - - [26/Jun/2024:14:07:23 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:07:24.708Z info: ::1 - - [26/Jun/2024:14:07:24 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:07:34.917Z info: ::1 - - [26/Jun/2024:14:07:34 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:07:37.007Z info: ::1 - - [26/Jun/2024:14:07:37 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:07:38.342Z info: ::1 - - [26/Jun/2024:14:07:38 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:07:39.728Z info: ::1 - - [26/Jun/2024:14:07:39 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:07:40.214Z info: ::1 - - [26/Jun/2024:14:07:40 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:07:40.395Z info: ::1 - - [26/Jun/2024:14:07:40 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:10:44.603Z info: ::1 - - [26/Jun/2024:14:10:44 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T14:11:00.234Z info: ::1 - - [26/Jun/2024:14:11:00 +0000] "GET /products HTTP/1.1" 200 2
+
+2024-06-26T14:11:02.776Z info: ::1 - - [26/Jun/2024:14:11:02 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:11:20.939Z info: ::1 - - [26/Jun/2024:14:11:20 +0000] "POST /products HTTP/1.1" 200 247
+
+2024-06-26T14:11:22.304Z info: ::1 - - [26/Jun/2024:14:11:22 +0000] "GET /products HTTP/1.1" 200 169
+
+2024-06-26T14:11:24.622Z info: ::1 - - [26/Jun/2024:14:11:24 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:11:27.094Z info: ::1 - - [26/Jun/2024:14:11:27 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:12:35.312Z info: ::1 - - [26/Jun/2024:14:12:35 +0000] "GET /products HTTP/1.1" 200 169
+
+2024-06-26T14:16:41.424Z info: ::1 - - [26/Jun/2024:14:16:41 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:16:43.378Z info: ::1 - - [26/Jun/2024:14:16:43 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:16:46.938Z info: ::1 - - [26/Jun/2024:14:16:46 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:16:48.254Z info: ::1 - - [26/Jun/2024:14:16:48 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:41:43.485Z info: ::1 - - [26/Jun/2024:14:41:43 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T14:41:46.596Z info: ::1 - - [26/Jun/2024:14:41:46 +0000] "GET /products HTTP/1.1" 200 2
+
+2024-06-26T14:41:49.127Z info: ::1 - - [26/Jun/2024:14:41:49 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:42:03.006Z info: ::1 - - [26/Jun/2024:14:42:03 +0000] "POST /products HTTP/1.1" 200 246
+
+2024-06-26T14:42:04.561Z info: ::1 - - [26/Jun/2024:14:42:04 +0000] "GET /products HTTP/1.1" 200 169
+
+2024-06-26T14:42:06.713Z info: ::1 - - [26/Jun/2024:14:42:06 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:42:09.255Z info: ::1 - - [26/Jun/2024:14:42:09 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:44:14.129Z info: ::1 - - [26/Jun/2024:14:44:14 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T14:44:17.108Z info: ::1 - - [26/Jun/2024:14:44:17 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T14:44:18.897Z info: ::1 - - [26/Jun/2024:14:44:18 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T14:44:24.936Z info: ::1 - - [26/Jun/2024:14:44:24 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T14:44:27.723Z info: ::1 - - [26/Jun/2024:14:44:27 +0000] "GET /tables/qrcodes HTTP/1.1" 304 -
+
+2024-06-26T16:02:40.982Z info: ::1 - - [26/Jun/2024:16:02:40 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T16:02:46.800Z info: ::1 - - [26/Jun/2024:16:02:46 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:02:48.537Z info: ::1 - - [26/Jun/2024:16:02:48 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:02:50.049Z info: ::1 - - [26/Jun/2024:16:02:50 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:02:51.570Z info: ::1 - - [26/Jun/2024:16:02:51 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:02:51.797Z info: ::1 - - [26/Jun/2024:16:02:51 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:02:51.992Z info: ::1 - - [26/Jun/2024:16:02:51 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:02:52.191Z info: ::1 - - [26/Jun/2024:16:02:52 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:03:05.327Z info: ::1 - - [26/Jun/2024:16:03:05 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:08:41.071Z info: ::1 - - [26/Jun/2024:16:08:41 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:08:44.862Z info: ::1 - - [26/Jun/2024:16:08:44 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:08:47.440Z info: ::1 - - [26/Jun/2024:16:08:47 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:08:48.177Z info: ::1 - - [26/Jun/2024:16:08:48 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:08:48.744Z info: ::1 - - [26/Jun/2024:16:08:48 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:08:49.189Z info: ::1 - - [26/Jun/2024:16:08:49 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:08:51.190Z info: ::1 - - [26/Jun/2024:16:08:51 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:08:51.893Z info: ::1 - - [26/Jun/2024:16:08:51 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:11:50.422Z info: ::1 - - [26/Jun/2024:16:11:50 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T16:11:59.312Z info: ::1 - - [26/Jun/2024:16:11:59 +0000] "GET /products HTTP/1.1" 200 2
+
+2024-06-26T16:13:57.484Z info: ::1 - - [26/Jun/2024:16:13:57 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T16:14:09.541Z info: ::1 - - [26/Jun/2024:16:14:09 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:14:28.480Z info: ::1 - - [26/Jun/2024:16:14:28 +0000] "POST /products HTTP/1.1" 412 234
+
+2024-06-26T16:17:28.958Z error: uncaughtException: storage is not defined
+ReferenceError: storage is not defined
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/products.js:5:25)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:232:15)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+2024-06-26T16:17:29.032Z error: uncaughtException: storage is not defined
+ReferenceError: storage is not defined
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/products.js:5:25)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:232:15)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+2024-06-26T16:17:29.067Z error: uncaughtException: storage is not defined
+ReferenceError: storage is not defined
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/products.js:5:25)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:232:15)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+2024-06-26T16:17:29.099Z error: uncaughtException: storage is not defined
+ReferenceError: storage is not defined
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/products.js:5:25)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Consign.into (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js:232:15)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api/index.js:14:2)
+2024-06-26T16:18:35.004Z info: ::1 - - [26/Jun/2024:16:18:35 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T16:18:42.332Z info: ::1 - - [26/Jun/2024:16:18:42 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:19:07.026Z info: ::1 - - [26/Jun/2024:16:19:07 +0000] "POST /products HTTP/1.1" 200 264
+
+2024-06-26T16:19:09.420Z info: ::1 - - [26/Jun/2024:16:19:09 +0000] "GET /products HTTP/1.1" 200 186
+
+2024-06-26T16:19:11.502Z info: ::1 - - [26/Jun/2024:16:19:11 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:19:36.585Z info: ::1 - - [26/Jun/2024:16:19:36 +0000] "GET /products HTTP/1.1" 200 186
+
+2024-06-26T16:20:05.550Z info: ::1 - - [26/Jun/2024:16:20:05 +0000] "DELETE /products/1 HTTP/1.1" 204 -
+
+2024-06-26T16:20:16.760Z info: ::1 - - [26/Jun/2024:16:20:16 +0000] "GET /products HTTP/1.1" 200 2
+
+2024-06-26T16:26:29.738Z info: ::1 - - [26/Jun/2024:16:26:29 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T16:26:34.088Z info: ::1 - - [26/Jun/2024:16:26:34 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:26:34.559Z info: ::1 - - [26/Jun/2024:16:26:34 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:26:58.001Z info: ::1 - - [26/Jun/2024:16:26:58 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:28:14.213Z info: ::1 - - [26/Jun/2024:16:28:14 +0000] "POST /products HTTP/1.1" 200 248
+
+2024-06-26T16:28:15.471Z info: ::1 - - [26/Jun/2024:16:28:15 +0000] "GET /products HTTP/1.1" 200 170
+
+2024-06-26T16:28:24.000Z info: ::1 - - [26/Jun/2024:16:28:24 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:29:29.549Z info: ::1 - - [26/Jun/2024:16:29:29 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:29:30.746Z info: ::1 - - [26/Jun/2024:16:29:30 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:29:31.429Z info: ::1 - - [26/Jun/2024:16:29:31 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:29:31.742Z info: ::1 - - [26/Jun/2024:16:29:31 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:29:31.915Z info: ::1 - - [26/Jun/2024:16:29:31 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:29:32.085Z info: ::1 - - [26/Jun/2024:16:29:32 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:29:42.254Z info: ::1 - - [26/Jun/2024:16:29:42 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:29:44.661Z info: ::1 - - [26/Jun/2024:16:29:44 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:29:46.932Z info: ::1 - - [26/Jun/2024:16:29:46 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:29:47.880Z info: ::1 - - [26/Jun/2024:16:29:47 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:29:48.533Z info: ::1 - - [26/Jun/2024:16:29:48 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:29:48.841Z info: ::1 - - [26/Jun/2024:16:29:48 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:29:49.098Z info: ::1 - - [26/Jun/2024:16:29:49 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:29:49.582Z info: ::1 - - [26/Jun/2024:16:29:49 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:29:49.834Z info: ::1 - - [26/Jun/2024:16:29:49 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:29:50.070Z info: ::1 - - [26/Jun/2024:16:29:50 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:29:50.302Z info: ::1 - - [26/Jun/2024:16:29:50 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:29:51.108Z info: ::1 - - [26/Jun/2024:16:29:51 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:33:10.990Z info: ::1 - - [26/Jun/2024:16:33:10 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:33:12.446Z info: ::1 - - [26/Jun/2024:16:33:12 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:33:40.603Z info: ::1 - - [26/Jun/2024:16:33:40 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:33:59.831Z info: ::1 - - [26/Jun/2024:16:33:59 +0000] "GET /products HTTP/1.1" 200 170
+
+2024-06-26T16:37:13.231Z info: ::1 - - [26/Jun/2024:16:37:13 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T16:37:21.260Z info: ::1 - - [26/Jun/2024:16:37:21 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:37:37.960Z info: ::1 - - [26/Jun/2024:16:37:37 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:40:07.909Z info: ::1 - - [26/Jun/2024:16:40:07 +0000] "DELETE /products/2 HTTP/1.1" 204 -
+
+2024-06-26T16:40:13.830Z info: ::1 - - [26/Jun/2024:16:40:13 +0000] "GET /products HTTP/1.1" 200 2
+
+2024-06-26T16:40:27.240Z info: ::1 - - [26/Jun/2024:16:40:27 +0000] "POST /products HTTP/1.1" 200 247
+
+2024-06-26T16:40:28.354Z info: ::1 - - [26/Jun/2024:16:40:28 +0000] "GET /products HTTP/1.1" 200 169
+
+2024-06-26T16:40:31.278Z info: ::1 - - [26/Jun/2024:16:40:31 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:40:32.555Z info: ::1 - - [26/Jun/2024:16:40:32 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:42:38.037Z info: ::1 - - [26/Jun/2024:16:42:38 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:42:39.314Z info: ::1 - - [26/Jun/2024:16:42:39 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:42:46.434Z info: ::1 - - [26/Jun/2024:16:42:46 +0000] "GET /products/ HTTP/1.1" 200 169
+
+2024-06-26T16:42:55.464Z info: ::1 - - [26/Jun/2024:16:42:55 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:43:01.378Z info: ::1 - - [26/Jun/2024:16:43:01 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:43:06.214Z info: ::1 - - [26/Jun/2024:16:43:06 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:43:07.379Z info: ::1 - - [26/Jun/2024:16:43:07 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:45:56.032Z info: ::1 - - [26/Jun/2024:16:45:56 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:45:58.100Z info: ::1 - - [26/Jun/2024:16:45:58 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:45:59.175Z info: ::1 - - [26/Jun/2024:16:45:59 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:46:06.973Z info: ::1 - - [26/Jun/2024:16:46:06 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:46:07.654Z info: ::1 - - [26/Jun/2024:16:46:07 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:46:07.876Z info: ::1 - - [26/Jun/2024:16:46:07 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:46:08.068Z info: ::1 - - [26/Jun/2024:16:46:08 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:46:08.256Z info: ::1 - - [26/Jun/2024:16:46:08 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:46:08.933Z info: ::1 - - [26/Jun/2024:16:46:08 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:46:09.093Z info: ::1 - - [26/Jun/2024:16:46:09 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:46:09.261Z info: ::1 - - [26/Jun/2024:16:46:09 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:46:09.396Z info: ::1 - - [26/Jun/2024:16:46:09 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:46:09.554Z info: ::1 - - [26/Jun/2024:16:46:09 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:46:09.727Z info: ::1 - - [26/Jun/2024:16:46:09 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:46:09.868Z info: ::1 - - [26/Jun/2024:16:46:09 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:46:10.029Z info: ::1 - - [26/Jun/2024:16:46:10 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:50:27.145Z info: ::1 - - [26/Jun/2024:16:50:27 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:50:27.958Z info: ::1 - - [26/Jun/2024:16:50:27 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:50:28.139Z info: ::1 - - [26/Jun/2024:16:50:28 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:50:30.173Z info: ::1 - - [26/Jun/2024:16:50:30 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:55:27.875Z info: ::1 - - [26/Jun/2024:16:55:27 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T16:55:36.880Z info: ::1 - - [26/Jun/2024:16:55:36 +0000] "GET /products HTTP/1.1" 200 2
+
+2024-06-26T16:55:39.979Z info: ::1 - - [26/Jun/2024:16:55:39 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:55:55.141Z info: ::1 - - [26/Jun/2024:16:55:55 +0000] "POST /products HTTP/1.1" 200 247
+
+2024-06-26T16:55:56.295Z info: ::1 - - [26/Jun/2024:16:55:56 +0000] "GET /products HTTP/1.1" 200 169
+
+2024-06-26T16:56:01.038Z info: ::1 - - [26/Jun/2024:16:56:01 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:58:55.143Z info: ::1 - - [26/Jun/2024:16:58:55 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T16:58:58.227Z info: ::1 - - [26/Jun/2024:16:58:58 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:59:00.251Z info: ::1 - - [26/Jun/2024:16:59:00 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:59:47.545Z info: ::1 - - [26/Jun/2024:16:59:47 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T16:59:50.045Z info: ::1 - - [26/Jun/2024:16:59:50 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:59:51.969Z info: ::1 - - [26/Jun/2024:16:59:51 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:59:53.085Z info: ::1 - - [26/Jun/2024:16:59:53 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:59:53.616Z info: ::1 - - [26/Jun/2024:16:59:53 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:59:53.781Z info: ::1 - - [26/Jun/2024:16:59:53 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:59:53.945Z info: ::1 - - [26/Jun/2024:16:59:53 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:59:54.117Z info: ::1 - - [26/Jun/2024:16:59:54 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:59:54.285Z info: ::1 - - [26/Jun/2024:16:59:54 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:59:54.467Z info: ::1 - - [26/Jun/2024:16:59:54 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:59:54.637Z info: ::1 - - [26/Jun/2024:16:59:54 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:59:54.801Z info: ::1 - - [26/Jun/2024:16:59:54 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:59:54.982Z info: ::1 - - [26/Jun/2024:16:59:54 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:59:55.162Z info: ::1 - - [26/Jun/2024:16:59:55 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:59:55.341Z info: ::1 - - [26/Jun/2024:16:59:55 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:59:55.540Z info: ::1 - - [26/Jun/2024:16:59:55 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:59:55.705Z info: ::1 - - [26/Jun/2024:16:59:55 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:59:55.866Z info: ::1 - - [26/Jun/2024:16:59:55 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:59:56.050Z info: ::1 - - [26/Jun/2024:16:59:56 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:59:56.235Z info: ::1 - - [26/Jun/2024:16:59:56 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:59:56.434Z info: ::1 - - [26/Jun/2024:16:59:56 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:59:56.644Z info: ::1 - - [26/Jun/2024:16:59:56 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:59:58.242Z info: ::1 - - [26/Jun/2024:16:59:58 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:59:58.804Z info: ::1 - - [26/Jun/2024:16:59:58 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T16:59:59.412Z info: ::1 - - [26/Jun/2024:16:59:59 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:01:03.772Z info: ::1 - - [26/Jun/2024:17:01:03 +0000] "GET /products HTTP/1.1" 200 169
+
+2024-06-26T17:01:16.971Z info: ::1 - - [26/Jun/2024:17:01:16 +0000] "DELETE /products/1 HTTP/1.1" 500 40
+
+2024-06-26T17:03:26.834Z info: ::1 - - [26/Jun/2024:17:03:26 +0000] "DELETE /products/1 HTTP/1.1" 204 -
+
+2024-06-26T17:04:24.634Z info: ::1 - - [26/Jun/2024:17:04:24 +0000] "GET /products HTTP/1.1" 200 2
+
+2024-06-26T17:04:41.846Z info: ::1 - - [26/Jun/2024:17:04:41 +0000] "POST /products HTTP/1.1" 200 249
+
+2024-06-26T17:04:43.365Z info: ::1 - - [26/Jun/2024:17:04:43 +0000] "GET /products HTTP/1.1" 200 171
+
+2024-06-26T17:04:45.068Z info: ::1 - - [26/Jun/2024:17:04:45 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:09:24.287Z info: ::1 - - [26/Jun/2024:17:09:24 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:09:29.424Z info: ::1 - - [26/Jun/2024:17:09:29 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:09:31.355Z info: ::1 - - [26/Jun/2024:17:09:31 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:11:03.432Z info: ::1 - - [26/Jun/2024:17:11:03 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:11:05.067Z info: ::1 - - [26/Jun/2024:17:11:05 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:11:07.079Z info: ::1 - - [26/Jun/2024:17:11:07 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:11:19.948Z info: ::1 - - [26/Jun/2024:17:11:19 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:11:22.130Z info: ::1 - - [26/Jun/2024:17:11:22 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:15:34.188Z info: ::1 - - [26/Jun/2024:17:15:34 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:15:55.387Z info: ::1 - - [26/Jun/2024:17:15:55 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T17:16:03.667Z info: ::1 - - [26/Jun/2024:17:16:03 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:16:07.081Z info: ::1 - - [26/Jun/2024:17:16:07 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:16:09.149Z info: ::1 - - [26/Jun/2024:17:16:09 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:16:58.912Z info: ::1 - - [26/Jun/2024:17:16:58 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:17:55.095Z info: ::1 - - [26/Jun/2024:17:17:55 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:17:57.573Z info: ::1 - - [26/Jun/2024:17:17:57 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:17:57.803Z info: ::1 - - [26/Jun/2024:17:17:57 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:17:58.001Z info: ::1 - - [26/Jun/2024:17:17:58 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:17:58.287Z info: ::1 - - [26/Jun/2024:17:17:58 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:17:58.549Z info: ::1 - - [26/Jun/2024:17:17:58 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:17:58.828Z info: ::1 - - [26/Jun/2024:17:17:58 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:17:59.064Z info: ::1 - - [26/Jun/2024:17:17:59 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:17:59.357Z info: ::1 - - [26/Jun/2024:17:17:59 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:17:59.508Z info: ::1 - - [26/Jun/2024:17:17:59 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:17:59.759Z info: ::1 - - [26/Jun/2024:17:17:59 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:19:31.499Z info: ::1 - - [26/Jun/2024:17:19:31 +0000] "GET /products HTTP/1.1" 200 171
+
+2024-06-26T17:19:45.414Z info: ::1 - - [26/Jun/2024:17:19:45 +0000] "POST /products HTTP/1.1" 200 243
+
+2024-06-26T17:19:46.565Z info: ::1 - - [26/Jun/2024:17:19:46 +0000] "GET /products HTTP/1.1" 200 335
+
+2024-06-26T17:19:47.936Z info: ::1 - - [26/Jun/2024:17:19:47 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:20:33.788Z info: ::1 - - [26/Jun/2024:17:20:33 +0000] "GET /products/ HTTP/1.1" 200 335
+
+2024-06-26T17:22:42.320Z info: ::1 - - [26/Jun/2024:17:22:42 +0000] "GET /products HTTP/1.1" 200 335
+
+2024-06-26T17:22:44.583Z info: ::1 - - [26/Jun/2024:17:22:44 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:22:45.576Z info: ::1 - - [26/Jun/2024:17:22:45 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:22:46.782Z info: ::1 - - [26/Jun/2024:17:22:46 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:22:46.959Z info: ::1 - - [26/Jun/2024:17:22:46 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:22:47.101Z info: ::1 - - [26/Jun/2024:17:22:47 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:23:14.227Z info: ::1 - - [26/Jun/2024:17:23:14 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:23:15.914Z info: ::1 - - [26/Jun/2024:17:23:15 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:26:54.863Z info: ::1 - - [26/Jun/2024:17:26:54 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T17:27:02.440Z info: ::1 - - [26/Jun/2024:17:27:02 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:27:04.160Z info: ::1 - - [26/Jun/2024:17:27:04 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:32:14.266Z info: ::1 - - [26/Jun/2024:17:32:14 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:32:19.177Z info: ::1 - - [26/Jun/2024:17:32:19 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:32:20.133Z info: ::1 - - [26/Jun/2024:17:32:20 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:34:33.797Z info: ::1 - - [26/Jun/2024:17:34:33 +0000] "GET /products/ HTTP/1.1" 200 335
+
+2024-06-26T17:36:43.446Z info: ::1 - - [26/Jun/2024:17:36:43 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T17:36:46.851Z info: ::1 - - [26/Jun/2024:17:36:46 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:36:47.374Z info: ::1 - - [26/Jun/2024:17:36:47 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:36:48.605Z info: ::1 - - [26/Jun/2024:17:36:48 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:37:33.182Z info: ::1 - - [26/Jun/2024:17:37:33 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:37:36.046Z info: ::1 - - [26/Jun/2024:17:37:36 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:37:36.819Z info: ::1 - - [26/Jun/2024:17:37:36 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:37:37.971Z info: ::1 - - [26/Jun/2024:17:37:37 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:38:36.312Z info: ::1 - - [26/Jun/2024:17:38:36 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:38:38.576Z info: ::1 - - [26/Jun/2024:17:38:38 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:38:39.191Z info: ::1 - - [26/Jun/2024:17:38:39 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:38:39.792Z info: ::1 - - [26/Jun/2024:17:38:39 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:38:40.530Z info: ::1 - - [26/Jun/2024:17:38:40 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:38:41.693Z info: ::1 - - [26/Jun/2024:17:38:41 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:38:42.251Z info: ::1 - - [26/Jun/2024:17:38:42 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:38:42.470Z info: ::1 - - [26/Jun/2024:17:38:42 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:38:42.674Z info: ::1 - - [26/Jun/2024:17:38:42 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:38:42.938Z info: ::1 - - [26/Jun/2024:17:38:42 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:38:43.171Z info: ::1 - - [26/Jun/2024:17:38:43 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:38:43.444Z info: ::1 - - [26/Jun/2024:17:38:43 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:38:43.688Z info: ::1 - - [26/Jun/2024:17:38:43 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:38:43.957Z info: ::1 - - [26/Jun/2024:17:38:43 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:38:44.192Z info: ::1 - - [26/Jun/2024:17:38:44 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:38:44.512Z info: ::1 - - [26/Jun/2024:17:38:44 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:38:44.725Z info: ::1 - - [26/Jun/2024:17:38:44 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:38:45.042Z info: ::1 - - [26/Jun/2024:17:38:45 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:38:45.396Z info: ::1 - - [26/Jun/2024:17:38:45 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:38:45.751Z info: ::1 - - [26/Jun/2024:17:38:45 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:38:46.004Z info: ::1 - - [26/Jun/2024:17:38:46 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:38:46.302Z info: ::1 - - [26/Jun/2024:17:38:46 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:38:46.750Z info: ::1 - - [26/Jun/2024:17:38:46 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:38:47.786Z info: ::1 - - [26/Jun/2024:17:38:47 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:40:16.489Z info: ::1 - - [26/Jun/2024:17:40:16 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T17:40:19.251Z info: ::1 - - [26/Jun/2024:17:40:19 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:40:21.147Z info: ::1 - - [26/Jun/2024:17:40:21 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:40:21.337Z info: ::1 - - [26/Jun/2024:17:40:21 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:40:21.783Z info: ::1 - - [26/Jun/2024:17:40:21 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:42:34.098Z info: ::1 - - [26/Jun/2024:17:42:34 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T17:42:37.597Z info: ::1 - - [26/Jun/2024:17:42:37 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:44:42.036Z info: ::1 - - [26/Jun/2024:17:44:42 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T17:44:46.352Z info: ::1 - - [26/Jun/2024:17:44:46 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:47:21.328Z info: ::1 - - [26/Jun/2024:17:47:21 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:47:24.028Z info: ::1 - - [26/Jun/2024:17:47:24 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:47:43.816Z info: ::1 - - [26/Jun/2024:17:47:43 +0000] "OPTIONS /products/3 HTTP/1.1" 204 0
+
+2024-06-26T17:47:43.839Z info: ::1 - - [26/Jun/2024:17:47:43 +0000] "DELETE /products/3 HTTP/1.1" 204 -
+
+2024-06-26T17:47:43.849Z info: ::1 - - [26/Jun/2024:17:47:43 +0000] "GET /products HTTP/1.1" 200 171
+
+2024-06-26T17:47:46.103Z info: ::1 - - [26/Jun/2024:17:47:46 +0000] "GET /products/2 HTTP/1.1" 404 149
+
+2024-06-26T17:47:52.776Z info: ::1 - - [26/Jun/2024:17:47:52 +0000] "GET /products/2 HTTP/1.1" 404 149
+
+2024-06-26T17:47:53.149Z info: ::1 - - [26/Jun/2024:17:47:53 +0000] "GET /products/2 HTTP/1.1" 404 149
+
+2024-06-26T17:47:53.310Z info: ::1 - - [26/Jun/2024:17:47:53 +0000] "GET /products/2 HTTP/1.1" 404 149
+
+2024-06-26T17:47:53.502Z info: ::1 - - [26/Jun/2024:17:47:53 +0000] "GET /products/2 HTTP/1.1" 404 149
+
+2024-06-26T17:47:54.734Z info: ::1 - - [26/Jun/2024:17:47:54 +0000] "GET /products/2 HTTP/1.1" 404 149
+
+2024-06-26T17:47:54.934Z info: ::1 - - [26/Jun/2024:17:47:54 +0000] "GET /products/2 HTTP/1.1" 404 149
+
+2024-06-26T17:47:55.109Z info: ::1 - - [26/Jun/2024:17:47:55 +0000] "GET /products/2 HTTP/1.1" 404 149
+
+2024-06-26T17:47:55.645Z info: ::1 - - [26/Jun/2024:17:47:55 +0000] "GET /products/2 HTTP/1.1" 404 149
+
+2024-06-26T17:47:55.821Z info: ::1 - - [26/Jun/2024:17:47:55 +0000] "GET /products/2 HTTP/1.1" 404 149
+
+2024-06-26T17:47:55.989Z info: ::1 - - [26/Jun/2024:17:47:55 +0000] "GET /products/2 HTTP/1.1" 404 149
+
+2024-06-26T17:50:53.031Z info: ::1 - - [26/Jun/2024:17:50:53 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:50:53.649Z info: ::1 - - [26/Jun/2024:17:50:53 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:50:53.936Z info: ::1 - - [26/Jun/2024:17:50:53 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:50:57.305Z info: ::1 - - [26/Jun/2024:17:50:57 +0000] "OPTIONS /products/2 HTTP/1.1" 204 0
+
+2024-06-26T17:50:57.320Z info: ::1 - - [26/Jun/2024:17:50:57 +0000] "DELETE /products/2 HTTP/1.1" 204 -
+
+2024-06-26T17:50:57.340Z info: ::1 - - [26/Jun/2024:17:50:57 +0000] "GET /products HTTP/1.1" 200 2
+
+2024-06-26T17:52:43.807Z info: ::1 - - [26/Jun/2024:17:52:43 +0000] "POST /products HTTP/1.1" 200 246
+
+2024-06-26T17:52:45.005Z info: ::1 - - [26/Jun/2024:17:52:45 +0000] "GET /products HTTP/1.1" 200 169
+
+2024-06-26T17:52:46.806Z info: ::1 - - [26/Jun/2024:17:52:46 +0000] "GET /products/4 HTTP/1.1" 404 149
+
+2024-06-26T17:52:47.676Z info: ::1 - - [26/Jun/2024:17:52:47 +0000] "GET /products/4 HTTP/1.1" 404 149
+
+2024-06-26T17:52:48.812Z info: ::1 - - [26/Jun/2024:17:52:48 +0000] "GET /products/4 HTTP/1.1" 404 149
+
+2024-06-26T17:52:52.028Z info: ::1 - - [26/Jun/2024:17:52:52 +0000] "GET /products/4 HTTP/1.1" 404 149
+
+2024-06-26T17:52:52.397Z info: ::1 - - [26/Jun/2024:17:52:52 +0000] "GET /products/4 HTTP/1.1" 404 149
+
+2024-06-26T17:52:52.588Z info: ::1 - - [26/Jun/2024:17:52:52 +0000] "GET /products/4 HTTP/1.1" 404 149
+
+2024-06-26T17:52:52.723Z info: ::1 - - [26/Jun/2024:17:52:52 +0000] "GET /products/4 HTTP/1.1" 404 149
+
+2024-06-26T17:52:52.884Z info: ::1 - - [26/Jun/2024:17:52:52 +0000] "GET /products/4 HTTP/1.1" 404 149
+
+2024-06-26T17:52:53.068Z info: ::1 - - [26/Jun/2024:17:52:53 +0000] "GET /products/4 HTTP/1.1" 404 149
+
+2024-06-26T17:52:53.268Z info: ::1 - - [26/Jun/2024:17:52:53 +0000] "GET /products/4 HTTP/1.1" 404 149
+
+2024-06-26T17:52:53.980Z info: ::1 - - [26/Jun/2024:17:52:53 +0000] "GET /products/4 HTTP/1.1" 404 149
+
+2024-06-26T17:52:54.125Z info: ::1 - - [26/Jun/2024:17:52:54 +0000] "GET /products/4 HTTP/1.1" 404 149
+
+2024-06-26T17:52:55.308Z info: ::1 - - [26/Jun/2024:17:52:55 +0000] "GET /products/4 HTTP/1.1" 404 149
+
+2024-06-26T17:52:55.672Z info: ::1 - - [26/Jun/2024:17:52:55 +0000] "GET /products/4 HTTP/1.1" 404 149
+
+2024-06-26T17:52:56.380Z info: ::1 - - [26/Jun/2024:17:52:56 +0000] "GET /products/4 HTTP/1.1" 404 149
+
+2024-06-26T17:52:56.683Z info: ::1 - - [26/Jun/2024:17:52:56 +0000] "GET /products/4 HTTP/1.1" 404 149
+
+2024-06-26T17:55:43.491Z info: ::1 - - [26/Jun/2024:17:55:43 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:55:43.662Z info: ::1 - - [26/Jun/2024:17:55:43 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:55:43.837Z info: ::1 - - [26/Jun/2024:17:55:43 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:55:57.137Z info: ::1 - - [26/Jun/2024:17:55:57 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:55:57.308Z info: ::1 - - [26/Jun/2024:17:55:57 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:55:58.785Z info: ::1 - - [26/Jun/2024:17:55:58 +0000] "GET /products/4 HTTP/1.1" 404 149
+
+2024-06-26T17:55:59.296Z info: ::1 - - [26/Jun/2024:17:55:59 +0000] "GET /products/4 HTTP/1.1" 404 149
+
+2024-06-26T17:55:59.808Z info: ::1 - - [26/Jun/2024:17:55:59 +0000] "GET /products/4 HTTP/1.1" 404 149
+
+2024-06-26T17:55:59.961Z info: ::1 - - [26/Jun/2024:17:55:59 +0000] "GET /products/4 HTTP/1.1" 404 149
+
+2024-06-26T17:56:00.488Z info: ::1 - - [26/Jun/2024:17:56:00 +0000] "GET /products/4 HTTP/1.1" 404 149
+
+2024-06-26T17:56:00.656Z info: ::1 - - [26/Jun/2024:17:56:00 +0000] "GET /products/4 HTTP/1.1" 404 149
+
+2024-06-26T17:56:00.921Z info: ::1 - - [26/Jun/2024:17:56:00 +0000] "GET /products/4 HTTP/1.1" 404 149
+
+2024-06-26T17:56:08.284Z info: ::1 - - [26/Jun/2024:17:56:08 +0000] "GET /products/4 HTTP/1.1" 404 149
+
+2024-06-26T17:57:01.111Z info: ::1 - - [26/Jun/2024:17:57:01 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:57:01.315Z info: ::1 - - [26/Jun/2024:17:57:01 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:57:05.685Z info: ::1 - - [26/Jun/2024:17:57:05 +0000] "GET /products/4 HTTP/1.1" 404 149
+
+2024-06-26T17:59:05.907Z info: ::1 - - [26/Jun/2024:17:59:05 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T17:59:13.947Z info: ::1 - - [26/Jun/2024:17:59:13 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T17:59:15.146Z info: ::1 - - [26/Jun/2024:17:59:15 +0000] "GET /products/4 HTTP/1.1" 200 263
+
+2024-06-26T17:59:35.501Z info: ::1 - - [26/Jun/2024:17:59:35 +0000] "OPTIONS /products/4 HTTP/1.1" 204 0
+
+2024-06-26T17:59:35.566Z info: ::1 - - [26/Jun/2024:17:59:35 +0000] "PUT /products/4 HTTP/1.1" 200 271
+
+2024-06-26T17:59:35.577Z info: ::1 - - [26/Jun/2024:17:59:35 +0000] "GET /products HTTP/1.1" 200 177
+
+2024-06-26T17:59:37.778Z info: ::1 - - [26/Jun/2024:17:59:37 +0000] "GET /products/4 HTTP/1.1" 200 271
+
+2024-06-26T18:00:02.389Z info: ::1 - - [26/Jun/2024:18:00:02 +0000] "OPTIONS /products/4 HTTP/1.1" 204 0
+
+2024-06-26T18:00:02.415Z info: ::1 - - [26/Jun/2024:18:00:02 +0000] "PUT /products/4 HTTP/1.1" 200 261
+
+2024-06-26T18:00:02.429Z info: ::1 - - [26/Jun/2024:18:00:02 +0000] "GET /products HTTP/1.1" 200 167
+
+2024-06-26T18:00:06.710Z info: ::1 - - [26/Jun/2024:18:00:06 +0000] "DELETE /products/4 HTTP/1.1" 204 -
+
+2024-06-26T18:00:06.730Z info: ::1 - - [26/Jun/2024:18:00:06 +0000] "GET /products HTTP/1.1" 200 2
+
+2024-06-26T18:01:08.759Z info: ::1 - - [26/Jun/2024:18:01:08 +0000] "POST /products HTTP/1.1" 200 244
+
+2024-06-26T18:01:10.043Z info: ::1 - - [26/Jun/2024:18:01:10 +0000] "GET /products HTTP/1.1" 200 167
+
+2024-06-26T18:01:27.318Z info: ::1 - - [26/Jun/2024:18:01:27 +0000] "OPTIONS /products/5 HTTP/1.1" 204 0
+
+2024-06-26T18:01:27.333Z info: ::1 - - [26/Jun/2024:18:01:27 +0000] "DELETE /products/5 HTTP/1.1" 204 -
+
+2024-06-26T18:01:27.347Z info: ::1 - - [26/Jun/2024:18:01:27 +0000] "GET /products HTTP/1.1" 200 2
+
+2024-06-26T18:01:33.030Z info: ::1 - - [26/Jun/2024:18:01:33 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:01:57.829Z info: ::1 - - [26/Jun/2024:18:01:57 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-26T18:01:57.850Z info: ::1 - - [26/Jun/2024:18:01:57 +0000] "POST /tables HTTP/1.1" 200 129
+
+2024-06-26T18:01:57.877Z info: ::1 - - [26/Jun/2024:18:01:57 +0000] "GET /tables HTTP/1.1" 200 157
+
+2024-06-26T18:02:10.053Z info: ::1 - - [26/Jun/2024:18:02:10 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-26T18:02:10.070Z info: ::1 - - [26/Jun/2024:18:02:10 +0000] "POST /tables HTTP/1.1" 200 138
+
+2024-06-26T18:02:10.078Z info: ::1 - - [26/Jun/2024:18:02:10 +0000] "GET /tables HTTP/1.1" 200 321
+
+2024-06-26T18:02:13.672Z info: ::1 - - [26/Jun/2024:18:02:13 +0000] "GET /tables/qrcodes HTTP/1.1" 200 -
+
+2024-06-26T18:02:23.350Z info: ::1 - - [26/Jun/2024:18:02:23 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:02:52.400Z info: ::1 - - [26/Jun/2024:18:02:52 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:02:52.456Z info: ::1 - - [26/Jun/2024:18:02:52 +0000] "GET /orders/table/1 HTTP/1.1" 200 2
+
+2024-06-26T18:02:52.485Z info: ::1 - - [26/Jun/2024:18:02:52 +0000] "GET /orders/table/2 HTTP/1.1" 200 2
+
+2024-06-26T18:03:43.575Z info: ::1 - - [26/Jun/2024:18:03:43 +0000] "GET /tables/qrcodes HTTP/1.1" 304 -
+
+2024-06-26T18:03:49.112Z info: ::1 - - [26/Jun/2024:18:03:49 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:03:49.183Z info: ::1 - - [26/Jun/2024:18:03:49 +0000] "GET /orders/table/1 HTTP/1.1" 304 -
+
+2024-06-26T18:03:49.215Z info: ::1 - - [26/Jun/2024:18:03:49 +0000] "GET /orders/table/2 HTTP/1.1" 304 -
+
+2024-06-26T18:04:28.192Z info: ::1 - - [26/Jun/2024:18:04:28 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:04:33.621Z info: ::1 - - [26/Jun/2024:18:04:33 +0000] "OPTIONS /tables/2 HTTP/1.1" 204 0
+
+2024-06-26T18:04:33.659Z info: ::1 - - [26/Jun/2024:18:04:33 +0000] "DELETE /tables/2 HTTP/1.1" 204 -
+
+2024-06-26T18:04:33.681Z info: ::1 - - [26/Jun/2024:18:04:33 +0000] "GET /tables HTTP/1.1" 200 157
+
+2024-06-26T18:04:33.707Z info: ::1 - - [26/Jun/2024:18:04:33 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:04:34.629Z info: ::1 - - [26/Jun/2024:18:04:34 +0000] "OPTIONS /tables/1 HTTP/1.1" 204 0
+
+2024-06-26T18:04:34.647Z info: ::1 - - [26/Jun/2024:18:04:34 +0000] "DELETE /tables/1 HTTP/1.1" 204 -
+
+2024-06-26T18:04:34.656Z info: ::1 - - [26/Jun/2024:18:04:34 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T18:04:34.696Z info: ::1 - - [26/Jun/2024:18:04:34 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:05:02.905Z info: ::1 - - [26/Jun/2024:18:05:02 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T18:05:24.708Z info: ::1 - - [26/Jun/2024:18:05:24 +0000] "POST /products HTTP/1.1" 200 241
+
+2024-06-26T18:05:25.954Z info: ::1 - - [26/Jun/2024:18:05:25 +0000] "GET /products HTTP/1.1" 200 164
+
+2024-06-26T18:05:29.991Z info: ::1 - - [26/Jun/2024:18:05:29 +0000] "GET /products/6 HTTP/1.1" 200 258
+
+2024-06-26T18:05:43.398Z info: ::1 - - [26/Jun/2024:18:05:43 +0000] "OPTIONS /products/6 HTTP/1.1" 204 0
+
+2024-06-26T18:05:43.420Z info: ::1 - - [26/Jun/2024:18:05:43 +0000] "PUT /products/6 HTTP/1.1" 200 259
+
+2024-06-26T18:05:43.430Z info: ::1 - - [26/Jun/2024:18:05:43 +0000] "GET /products HTTP/1.1" 200 165
+
+2024-06-26T18:05:46.554Z info: ::1 - - [26/Jun/2024:18:05:46 +0000] "DELETE /products/6 HTTP/1.1" 204 -
+
+2024-06-26T18:05:46.565Z info: ::1 - - [26/Jun/2024:18:05:46 +0000] "GET /products HTTP/1.1" 200 2
+
+2024-06-26T18:05:50.281Z info: ::1 - - [26/Jun/2024:18:05:50 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:06:01.144Z info: ::1 - - [26/Jun/2024:18:06:01 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:06:06.243Z info: ::1 - - [26/Jun/2024:18:06:06 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-26T18:06:06.258Z info: ::1 - - [26/Jun/2024:18:06:06 +0000] "POST /tables HTTP/1.1" 200 137
+
+2024-06-26T18:06:06.267Z info: ::1 - - [26/Jun/2024:18:06:06 +0000] "GET /tables HTTP/1.1" 200 165
+
+2024-06-26T18:06:09.567Z info: ::1 - - [26/Jun/2024:18:06:09 +0000] "POST /tables HTTP/1.1" 200 137
+
+2024-06-26T18:06:09.576Z info: ::1 - - [26/Jun/2024:18:06:09 +0000] "GET /tables HTTP/1.1" 200 328
+
+2024-06-26T18:06:12.768Z info: ::1 - - [26/Jun/2024:18:06:12 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:06:12.781Z info: ::1 - - [26/Jun/2024:18:06:12 +0000] "GET /orders/table/1 HTTP/1.1" 304 -
+
+2024-06-26T18:06:12.821Z info: ::1 - - [26/Jun/2024:18:06:12 +0000] "GET /orders/table/2 HTTP/1.1" 304 -
+
+2024-06-26T18:08:32.989Z info: ::1 - - [26/Jun/2024:18:08:32 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:08:36.209Z info: ::1 - - [26/Jun/2024:18:08:36 +0000] "OPTIONS /tables/2 HTTP/1.1" 204 0
+
+2024-06-26T18:08:36.242Z info: ::1 - - [26/Jun/2024:18:08:36 +0000] "DELETE /tables/2 HTTP/1.1" 204 -
+
+2024-06-26T18:08:36.275Z info: ::1 - - [26/Jun/2024:18:08:36 +0000] "GET /tables HTTP/1.1" 200 165
+
+2024-06-26T18:08:36.289Z info: ::1 - - [26/Jun/2024:18:08:36 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:08:56.988Z info: ::1 - - [26/Jun/2024:18:08:56 +0000] "GET /tables HTTP/1.1" 200 165
+
+2024-06-26T18:09:01.615Z info: ::1 - - [26/Jun/2024:18:09:01 +0000] "GET /tables/1 HTTP/1.1" 200 47
+
+2024-06-26T18:12:28.500Z info: ::1 - - [26/Jun/2024:18:12:28 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:12:29.415Z info: ::1 - - [26/Jun/2024:18:12:29 +0000] "OPTIONS /tables/1 HTTP/1.1" 204 0
+
+2024-06-26T18:12:29.430Z info: ::1 - - [26/Jun/2024:18:12:29 +0000] "DELETE /tables/1 HTTP/1.1" 204 -
+
+2024-06-26T18:12:29.445Z info: ::1 - - [26/Jun/2024:18:12:29 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T18:12:29.476Z info: ::1 - - [26/Jun/2024:18:12:29 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:12:31.591Z info: ::1 - - [26/Jun/2024:18:12:31 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-26T18:12:31.604Z info: ::1 - - [26/Jun/2024:18:12:31 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-26T18:12:31.612Z info: ::1 - - [26/Jun/2024:18:12:31 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-26T18:12:36.947Z info: ::1 - - [26/Jun/2024:18:12:36 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-26T18:18:13.422Z info: ::1 - - [26/Jun/2024:18:18:13 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-26T18:18:22.121Z info: ::1 - - [26/Jun/2024:18:18:22 +0000] "GET /tables/qrcodes HTTP/1.1" 200 -
+
+2024-06-26T18:18:24.510Z info: ::1 - - [26/Jun/2024:18:18:24 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:18:24.526Z info: ::1 - - [26/Jun/2024:18:18:24 +0000] "GET /orders/table/1 HTTP/1.1" 304 -
+
+2024-06-26T18:18:26.489Z info: ::1 - - [26/Jun/2024:18:18:26 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T18:18:28.603Z info: ::1 - - [26/Jun/2024:18:18:28 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T18:18:30.483Z info: ::1 - - [26/Jun/2024:18:18:30 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T18:18:57.806Z info: ::1 - - [26/Jun/2024:18:18:57 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-26T18:19:41.522Z info: ::1 - - [26/Jun/2024:18:19:41 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-26T18:21:41.024Z info: ::1 - - [26/Jun/2024:18:21:41 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-26T18:21:47.752Z info: ::1 - - [26/Jun/2024:18:21:47 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-26T18:21:50.203Z info: ::1 - - [26/Jun/2024:18:21:50 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-26T18:21:53.747Z info: ::1 - - [26/Jun/2024:18:21:53 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-26T18:21:56.428Z info: ::1 - - [26/Jun/2024:18:21:56 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-26T18:21:57.387Z info: ::1 - - [26/Jun/2024:18:21:57 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-26T18:22:07.277Z info: ::1 - - [26/Jun/2024:18:22:07 +0000] "GET /tables/1/orders HTTP/1.1" 200 152
+
+2024-06-26T18:22:19.905Z info: ::1 - - [26/Jun/2024:18:22:19 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-26T18:22:53.191Z info: ::1 - - [26/Jun/2024:18:22:53 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:22:53.212Z info: ::1 - - [26/Jun/2024:18:22:53 +0000] "GET /orders/table/1 HTTP/1.1" 304 -
+
+2024-06-26T18:22:56.730Z info: ::1 - - [26/Jun/2024:18:22:56 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:22:56.742Z info: ::1 - - [26/Jun/2024:18:22:56 +0000] "GET /orders/table/1 HTTP/1.1" 304 -
+
+2024-06-26T18:22:58.706Z info: ::1 - - [26/Jun/2024:18:22:58 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:23:02.922Z info: ::1 - - [26/Jun/2024:18:23:02 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T18:23:39.213Z info: ::1 - - [26/Jun/2024:18:23:39 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:23:41.912Z info: ::1 - - [26/Jun/2024:18:23:41 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T18:23:43.808Z info: ::1 - - [26/Jun/2024:18:23:43 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:23:43.820Z info: ::1 - - [26/Jun/2024:18:23:43 +0000] "GET /orders/table/1 HTTP/1.1" 304 -
+
+2024-06-26T18:36:13.856Z info: ::1 - - [26/Jun/2024:18:36:13 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:47:15.901Z info: ::1 - - [26/Jun/2024:18:47:15 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:47:33.409Z info: ::1 - - [26/Jun/2024:18:47:33 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:50:26.007Z info: ::1 - - [26/Jun/2024:18:50:26 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:52:49.664Z info: ::1 - - [26/Jun/2024:18:52:49 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:52:52.136Z info: ::1 - - [26/Jun/2024:18:52:52 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T18:53:49.770Z info: ::1 - - [26/Jun/2024:18:53:49 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:54:12.540Z info: ::1 - - [26/Jun/2024:18:54:12 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:54:27.585Z info: ::1 - - [26/Jun/2024:18:54:27 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-26T18:54:27.650Z info: ::1 - - [26/Jun/2024:18:54:27 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-26T18:54:27.670Z info: ::1 - - [26/Jun/2024:18:54:27 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-26T18:54:30.785Z info: ::1 - - [26/Jun/2024:18:54:30 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-26T18:54:30.800Z info: ::1 - - [26/Jun/2024:18:54:30 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-26T18:54:33.758Z info: ::1 - - [26/Jun/2024:18:54:33 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-26T18:54:33.774Z info: ::1 - - [26/Jun/2024:18:54:33 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-26T18:54:33.789Z info: ::1 - - [26/Jun/2024:18:54:33 +0000] "GET /tables HTTP/1.1" 200 642
+
+2024-06-26T18:54:37.322Z info: ::1 - - [26/Jun/2024:18:54:37 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-26T18:54:37.340Z info: ::1 - - [26/Jun/2024:18:54:37 +0000] "GET /tables HTTP/1.1" 200 802
+
+2024-06-26T18:54:43.280Z info: ::1 - - [26/Jun/2024:18:54:43 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-26T18:54:43.293Z info: ::1 - - [26/Jun/2024:18:54:43 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-26T18:54:43.306Z info: ::1 - - [26/Jun/2024:18:54:43 +0000] "GET /tables HTTP/1.1" 200 962
+
+2024-06-26T18:54:51.879Z info: ::1 - - [26/Jun/2024:18:54:51 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:55:31.387Z info: ::1 - - [26/Jun/2024:18:55:31 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:56:10.787Z info: ::1 - - [26/Jun/2024:18:56:10 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:56:45.122Z info: ::1 - - [26/Jun/2024:18:56:45 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:56:55.891Z info: ::1 - - [26/Jun/2024:18:56:55 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:57:04.718Z info: ::1 - - [26/Jun/2024:18:57:04 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:57:55.371Z info: ::1 - - [26/Jun/2024:18:57:55 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:58:26.966Z info: ::1 - - [26/Jun/2024:18:58:26 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:58:43.728Z info: ::1 - - [26/Jun/2024:18:58:43 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:58:49.952Z info: ::1 - - [26/Jun/2024:18:58:49 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:59:33.377Z info: ::1 - - [26/Jun/2024:18:59:33 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:59:46.191Z info: ::1 - - [26/Jun/2024:18:59:46 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T18:59:46.617Z info: ::1 - - [26/Jun/2024:18:59:46 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T19:00:55.141Z info: ::1 - - [26/Jun/2024:19:00:55 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T19:02:08.967Z info: ::1 - - [26/Jun/2024:19:02:08 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T19:02:09.936Z info: ::1 - - [26/Jun/2024:19:02:09 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T19:02:10.207Z info: ::1 - - [26/Jun/2024:19:02:10 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T19:02:36.068Z info: ::1 - - [26/Jun/2024:19:02:36 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T19:02:46.212Z info: ::1 - - [26/Jun/2024:19:02:46 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T19:02:46.894Z info: ::1 - - [26/Jun/2024:19:02:46 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T19:02:47.118Z info: ::1 - - [26/Jun/2024:19:02:47 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T19:27:10.153Z info: ::1 - - [26/Jun/2024:19:27:10 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T19:27:25.558Z info: ::1 - - [26/Jun/2024:19:27:25 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T19:27:41.620Z info: ::1 - - [26/Jun/2024:19:27:41 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T19:28:37.318Z info: ::1 - - [26/Jun/2024:19:28:37 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T19:28:47.888Z info: ::1 - - [26/Jun/2024:19:28:47 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T19:28:55.423Z info: ::1 - - [26/Jun/2024:19:28:55 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T19:29:44.010Z info: ::1 - - [26/Jun/2024:19:29:44 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T19:38:34.789Z info: ::1 - - [26/Jun/2024:19:38:34 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T19:40:59.181Z info: ::1 - - [26/Jun/2024:19:40:59 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T19:41:26.663Z info: ::1 - - [26/Jun/2024:19:41:26 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T19:42:44.019Z info: ::1 - - [26/Jun/2024:19:42:44 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T19:43:27.068Z info: ::1 - - [26/Jun/2024:19:43:27 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T19:43:43.574Z info: ::1 - - [26/Jun/2024:19:43:43 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T19:43:57.051Z info: ::1 - - [26/Jun/2024:19:43:57 +0000] "OPTIONS /tables/6 HTTP/1.1" 204 0
+
+2024-06-26T19:43:57.134Z info: ::1 - - [26/Jun/2024:19:43:57 +0000] "DELETE /tables/6 HTTP/1.1" 204 -
+
+2024-06-26T19:43:57.183Z info: ::1 - - [26/Jun/2024:19:43:57 +0000] "GET /tables HTTP/1.1" 200 802
+
+2024-06-26T19:43:58.790Z info: ::1 - - [26/Jun/2024:19:43:58 +0000] "OPTIONS /tables/5 HTTP/1.1" 204 0
+
+2024-06-26T19:43:58.818Z info: ::1 - - [26/Jun/2024:19:43:58 +0000] "DELETE /tables/5 HTTP/1.1" 204 -
+
+2024-06-26T19:44:00.285Z info: ::1 - - [26/Jun/2024:19:44:00 +0000] "GET /tables HTTP/1.1" 200 642
+
+2024-06-26T19:44:02.269Z info: ::1 - - [26/Jun/2024:19:44:02 +0000] "OPTIONS /tables/4 HTTP/1.1" 204 0
+
+2024-06-26T19:44:02.301Z info: ::1 - - [26/Jun/2024:19:44:02 +0000] "DELETE /tables/4 HTTP/1.1" 204 -
+
+2024-06-26T19:44:02.321Z info: ::1 - - [26/Jun/2024:19:44:02 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-26T19:44:03.435Z info: ::1 - - [26/Jun/2024:19:44:03 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-26T19:44:04.408Z info: ::1 - - [26/Jun/2024:19:44:04 +0000] "OPTIONS /tables/3 HTTP/1.1" 204 0
+
+2024-06-26T19:44:04.442Z info: ::1 - - [26/Jun/2024:19:44:04 +0000] "DELETE /tables/3 HTTP/1.1" 204 -
+
+2024-06-26T19:44:04.457Z info: ::1 - - [26/Jun/2024:19:44:04 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-26T19:44:05.557Z info: ::1 - - [26/Jun/2024:19:44:05 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-26T19:44:06.744Z info: ::1 - - [26/Jun/2024:19:44:06 +0000] "OPTIONS /tables/2 HTTP/1.1" 204 0
+
+2024-06-26T19:44:06.795Z info: ::1 - - [26/Jun/2024:19:44:06 +0000] "DELETE /tables/2 HTTP/1.1" - -
+
+2024-06-26T19:44:07.704Z info: ::1 - - [26/Jun/2024:19:44:07 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-26T19:44:08.612Z info: ::1 - - [26/Jun/2024:19:44:08 +0000] "OPTIONS /tables/1 HTTP/1.1" 204 0
+
+2024-06-26T19:44:08.640Z info: ::1 - - [26/Jun/2024:19:44:08 +0000] "DELETE /tables/1 HTTP/1.1" 204 -
+
+2024-06-26T19:44:08.650Z info: ::1 - - [26/Jun/2024:19:44:08 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T19:44:10.035Z info: ::1 - - [26/Jun/2024:19:44:10 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T19:45:03.642Z info: ::1 - - [26/Jun/2024:19:45:03 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T19:45:58.363Z info: ::1 - - [26/Jun/2024:19:45:58 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T19:47:10.574Z info: ::1 - - [26/Jun/2024:19:47:10 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T19:47:27.673Z info: ::1 - - [26/Jun/2024:19:47:27 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T20:20:55.611Z info: ::1 - - [26/Jun/2024:20:20:55 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T20:20:58.379Z info: ::1 - - [26/Jun/2024:20:20:58 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T20:21:01.236Z info: ::1 - - [26/Jun/2024:20:21:01 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T20:21:03.958Z info: ::1 - - [26/Jun/2024:20:21:03 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T20:21:05.651Z info: ::1 - - [26/Jun/2024:20:21:05 +0000] "GET /tables/qrcodes HTTP/1.1" 200 2
+
+2024-06-26T20:30:33.463Z info: ::1 - - [26/Jun/2024:20:30:33 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T20:30:36.363Z info: ::1 - - [26/Jun/2024:20:30:36 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T20:30:38.999Z info: ::1 - - [26/Jun/2024:20:30:38 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T20:30:46.717Z info: ::1 - - [26/Jun/2024:20:30:46 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T20:31:31.702Z info: ::1 - - [26/Jun/2024:20:31:31 +0000] "POST /products HTTP/1.1" 200 246
+
+2024-06-26T20:31:32.885Z info: ::1 - - [26/Jun/2024:20:31:32 +0000] "GET /products HTTP/1.1" 200 169
+
+2024-06-26T20:31:36.280Z info: ::1 - - [26/Jun/2024:20:31:36 +0000] "GET /products/7 HTTP/1.1" 200 263
+
+2024-06-26T20:31:44.118Z info: ::1 - - [26/Jun/2024:20:31:44 +0000] "OPTIONS /products/7 HTTP/1.1" 204 0
+
+2024-06-26T20:31:44.154Z info: ::1 - - [26/Jun/2024:20:31:44 +0000] "PUT /products/7 HTTP/1.1" 200 263
+
+2024-06-26T20:31:44.163Z info: ::1 - - [26/Jun/2024:20:31:44 +0000] "GET /products HTTP/1.1" 200 169
+
+2024-06-26T20:32:06.583Z info: ::1 - - [26/Jun/2024:20:32:06 +0000] "GET /products/7 HTTP/1.1" 200 263
+
+2024-06-26T20:32:15.670Z info: ::1 - - [26/Jun/2024:20:32:15 +0000] "OPTIONS /products/7 HTTP/1.1" 204 0
+
+2024-06-26T20:32:15.690Z info: ::1 - - [26/Jun/2024:20:32:15 +0000] "PUT /products/7 HTTP/1.1" 200 262
+
+2024-06-26T20:32:15.698Z info: ::1 - - [26/Jun/2024:20:32:15 +0000] "GET /products HTTP/1.1" 200 168
+
+2024-06-26T20:35:00.647Z info: ::1 - - [26/Jun/2024:20:35:00 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T20:35:03.908Z info: ::1 - - [26/Jun/2024:20:35:03 +0000] "GET /products/7 HTTP/1.1" 200 262
+
+2024-06-26T20:35:18.219Z info: ::1 - - [26/Jun/2024:20:35:18 +0000] "OPTIONS /products/7 HTTP/1.1" 204 0
+
+2024-06-26T20:35:18.229Z info: ::1 - - [26/Jun/2024:20:35:18 +0000] "PUT /products/7 HTTP/1.1" 200 262
+
+2024-06-26T20:35:18.236Z info: ::1 - - [26/Jun/2024:20:35:18 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T20:35:20.681Z info: ::1 - - [26/Jun/2024:20:35:20 +0000] "DELETE /products/7 HTTP/1.1" 204 -
+
+2024-06-26T20:35:20.687Z info: ::1 - - [26/Jun/2024:20:35:20 +0000] "GET /products HTTP/1.1" 200 2
+
+2024-06-26T20:35:23.167Z info: ::1 - - [26/Jun/2024:20:35:23 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T20:35:36.936Z info: ::1 - - [26/Jun/2024:20:35:36 +0000] "POST /products HTTP/1.1" 200 249
+
+2024-06-26T20:35:38.134Z info: ::1 - - [26/Jun/2024:20:35:38 +0000] "GET /products HTTP/1.1" 200 172
+
+2024-06-26T20:36:13.167Z info: ::1 - - [26/Jun/2024:20:36:13 +0000] "GET /products HTTP/1.1" 200 172
+
+2024-06-26T20:44:58.654Z info: ::1 - - [26/Jun/2024:20:44:58 +0000] "GET / HTTP/1.1" 304 -
+
+2024-06-26T20:44:59.561Z info: ::1 - - [26/Jun/2024:20:44:59 +0000] "GET / HTTP/1.1" 304 -
+
+2024-06-26T20:48:14.533Z info: ::1 - - [26/Jun/2024:20:48:14 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T20:48:19.680Z info: ::1 - - [26/Jun/2024:20:48:19 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T20:48:25.428Z info: ::1 - - [26/Jun/2024:20:48:25 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-26T20:48:25.488Z info: ::1 - - [26/Jun/2024:20:48:25 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-26T20:48:25.498Z info: ::1 - - [26/Jun/2024:20:48:25 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-26T20:48:56.986Z info: ::1 - - [26/Jun/2024:20:48:56 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T20:48:57.144Z info: ::1 - - [26/Jun/2024:20:48:57 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T20:48:57.312Z info: ::1 - - [26/Jun/2024:20:48:57 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T20:55:00.800Z info: ::1 - - [26/Jun/2024:20:55:00 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-26T20:55:03.815Z info: ::1 - - [26/Jun/2024:20:55:03 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-26T20:55:06.281Z info: ::1 - - [26/Jun/2024:20:55:06 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T20:55:16.472Z info: ::1 - - [26/Jun/2024:20:55:16 +0000] "OPTIONS /tables/1 HTTP/1.1" 204 0
+
+2024-06-26T20:55:16.499Z info: ::1 - - [26/Jun/2024:20:55:16 +0000] "DELETE /tables/1 HTTP/1.1" 204 -
+
+2024-06-26T20:55:16.510Z info: ::1 - - [26/Jun/2024:20:55:16 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T20:55:16.546Z info: ::1 - - [26/Jun/2024:20:55:16 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T20:55:21.091Z info: ::1 - - [26/Jun/2024:20:55:21 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T20:55:23.244Z info: ::1 - - [26/Jun/2024:20:55:23 +0000] "GET /products HTTP/1.1" 200 2
+
+2024-06-26T20:55:37.685Z info: ::1 - - [26/Jun/2024:20:55:37 +0000] "POST /products HTTP/1.1" 200 241
+
+2024-06-26T20:55:38.829Z info: ::1 - - [26/Jun/2024:20:55:38 +0000] "GET /products HTTP/1.1" 200 164
+
+2024-06-26T20:55:45.553Z info: ::1 - - [26/Jun/2024:20:55:45 +0000] "OPTIONS /products/1 HTTP/1.1" 204 0
+
+2024-06-26T20:55:45.565Z info: ::1 - - [26/Jun/2024:20:55:45 +0000] "DELETE /products/1 HTTP/1.1" 204 -
+
+2024-06-26T20:55:45.577Z info: ::1 - - [26/Jun/2024:20:55:45 +0000] "GET /products HTTP/1.1" 200 2
+
+2024-06-26T20:55:54.824Z info: ::1 - - [26/Jun/2024:20:55:54 +0000] "POST /products HTTP/1.1" 200 244
+
+2024-06-26T20:55:55.911Z info: ::1 - - [26/Jun/2024:20:55:55 +0000] "GET /products HTTP/1.1" 200 167
+
+2024-06-26T20:56:00.651Z info: ::1 - - [26/Jun/2024:20:56:00 +0000] "GET /products HTTP/1.1" 200 167
+
+2024-06-26T20:56:06.334Z info: ::1 - - [26/Jun/2024:20:56:06 +0000] "OPTIONS /products/1 HTTP/1.1" 204 0
+
+2024-06-26T20:56:06.348Z info: ::1 - - [26/Jun/2024:20:56:06 +0000] "DELETE /products/1 HTTP/1.1" 204 -
+
+2024-06-26T20:56:06.358Z info: ::1 - - [26/Jun/2024:20:56:06 +0000] "GET /products HTTP/1.1" 200 2
+
+2024-06-26T20:59:18.613Z info: ::1 - - [26/Jun/2024:20:59:18 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T20:59:41.489Z info: ::1 - - [26/Jun/2024:20:59:41 +0000] "POST /products HTTP/1.1" 200 245
+
+2024-06-26T20:59:43.618Z info: ::1 - - [26/Jun/2024:20:59:43 +0000] "GET /products HTTP/1.1" 200 168
+
+2024-06-26T21:01:07.414Z info: ::1 - - [26/Jun/2024:21:01:07 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T21:01:09.478Z info: ::1 - - [26/Jun/2024:21:01:09 +0000] "OPTIONS /products/1 HTTP/1.1" 204 0
+
+2024-06-26T21:01:09.491Z info: ::1 - - [26/Jun/2024:21:01:09 +0000] "DELETE /products/1 HTTP/1.1" 204 -
+
+2024-06-26T21:01:09.505Z info: ::1 - - [26/Jun/2024:21:01:09 +0000] "GET /products HTTP/1.1" 200 2
+
+2024-06-26T21:01:36.634Z info: ::1 - - [26/Jun/2024:21:01:36 +0000] "POST /products HTTP/1.1" 200 246
+
+2024-06-26T21:01:38.029Z info: ::1 - - [26/Jun/2024:21:01:38 +0000] "GET /products HTTP/1.1" 200 168
+
+2024-06-26T21:01:57.241Z info: ::1 - - [26/Jun/2024:21:01:57 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T21:01:59.798Z info: ::1 - - [26/Jun/2024:21:01:59 +0000] "OPTIONS /products/1 HTTP/1.1" 204 0
+
+2024-06-26T21:01:59.809Z info: ::1 - - [26/Jun/2024:21:01:59 +0000] "DELETE /products/1 HTTP/1.1" 204 -
+
+2024-06-26T21:01:59.822Z info: ::1 - - [26/Jun/2024:21:01:59 +0000] "GET /products HTTP/1.1" 200 2
+
+2024-06-26T21:02:10.380Z info: ::1 - - [26/Jun/2024:21:02:10 +0000] "POST /products HTTP/1.1" 200 245
+
+2024-06-26T21:02:11.499Z info: ::1 - - [26/Jun/2024:21:02:11 +0000] "GET /products HTTP/1.1" 200 167
+
+2024-06-26T21:02:27.266Z info: ::1 - - [26/Jun/2024:21:02:27 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T21:02:28.555Z info: ::1 - - [26/Jun/2024:21:02:28 +0000] "GET /products/1 HTTP/1.1" 200 261
+
+2024-06-26T21:02:34.385Z info: ::1 - - [26/Jun/2024:21:02:34 +0000] "OPTIONS /products/1 HTTP/1.1" 204 0
+
+2024-06-26T21:02:34.395Z info: ::1 - - [26/Jun/2024:21:02:34 +0000] "PUT /products/1 HTTP/1.1" 200 261
+
+2024-06-26T21:02:34.402Z info: ::1 - - [26/Jun/2024:21:02:34 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T21:03:09.287Z info: ::1 - - [26/Jun/2024:21:03:09 +0000] "OPTIONS /products/1 HTTP/1.1" 204 0
+
+2024-06-26T21:03:09.300Z info: ::1 - - [26/Jun/2024:21:03:09 +0000] "DELETE /products/1 HTTP/1.1" 204 -
+
+2024-06-26T21:03:09.307Z info: ::1 - - [26/Jun/2024:21:03:09 +0000] "GET /products HTTP/1.1" 200 2
+
+2024-06-26T21:03:28.703Z info: ::1 - - [26/Jun/2024:21:03:28 +0000] "POST /products HTTP/1.1" 200 245
+
+2024-06-26T21:03:29.694Z info: ::1 - - [26/Jun/2024:21:03:29 +0000] "GET /products HTTP/1.1" 200 168
+
+2024-06-26T21:03:33.934Z info: ::1 - - [26/Jun/2024:21:03:33 +0000] "OPTIONS /products/1 HTTP/1.1" 204 0
+
+2024-06-26T21:03:33.942Z info: ::1 - - [26/Jun/2024:21:03:33 +0000] "DELETE /products/1 HTTP/1.1" 204 -
+
+2024-06-26T21:03:33.954Z info: ::1 - - [26/Jun/2024:21:03:33 +0000] "GET /products HTTP/1.1" 200 2
+
+2024-06-26T21:06:28.249Z info: ::1 - - [26/Jun/2024:21:06:28 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T21:06:59.053Z info: ::1 - - [26/Jun/2024:21:06:59 +0000] "GET / HTTP/1.1" 304 -
+
+2024-06-26T21:07:07.018Z info: ::1 - - [26/Jun/2024:21:07:07 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T21:07:11.460Z info: ::1 - - [26/Jun/2024:21:07:11 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-26T21:07:11.512Z info: ::1 - - [26/Jun/2024:21:07:11 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-26T21:07:11.520Z info: ::1 - - [26/Jun/2024:21:07:11 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-26T21:07:15.256Z info: ::1 - - [26/Jun/2024:21:07:15 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-26T21:07:15.268Z info: ::1 - - [26/Jun/2024:21:07:15 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-26T21:07:21.861Z info: ::1 - - [26/Jun/2024:21:07:21 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-26T21:07:21.875Z info: ::1 - - [26/Jun/2024:21:07:21 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-26T21:07:21.886Z info: ::1 - - [26/Jun/2024:21:07:21 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-26T21:07:22.820Z info: ::1 - - [26/Jun/2024:21:07:22 +0000] "OPTIONS /tables/3 HTTP/1.1" 204 0
+
+2024-06-26T21:07:22.841Z info: ::1 - - [26/Jun/2024:21:07:22 +0000] "DELETE /tables/3 HTTP/1.1" 204 -
+
+2024-06-26T21:07:22.854Z info: ::1 - - [26/Jun/2024:21:07:22 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-26T21:07:22.957Z info: ::1 - - [26/Jun/2024:21:07:22 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T21:07:26.393Z info: ::1 - - [26/Jun/2024:21:07:26 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T21:07:41.793Z info: ::1 - - [26/Jun/2024:21:07:41 +0000] "POST /products HTTP/1.1" 200 254
+
+2024-06-26T21:07:43.097Z info: ::1 - - [26/Jun/2024:21:07:43 +0000] "GET /products HTTP/1.1" 200 177
+
+2024-06-26T21:07:56.637Z info: ::1 - - [26/Jun/2024:21:07:56 +0000] "POST /products HTTP/1.1" 200 254
+
+2024-06-26T21:07:57.658Z info: ::1 - - [26/Jun/2024:21:07:57 +0000] "GET /products HTTP/1.1" 200 351
+
+2024-06-26T21:08:01.234Z info: ::1 - - [26/Jun/2024:21:08:01 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T21:08:01.253Z info: ::1 - - [26/Jun/2024:21:08:01 +0000] "GET /orders/table/1 HTTP/1.1" 304 -
+
+2024-06-26T21:08:01.272Z info: ::1 - - [26/Jun/2024:21:08:01 +0000] "GET /orders/table/2 HTTP/1.1" 304 -
+
+2024-06-26T21:08:07.161Z info: ::1 - - [26/Jun/2024:21:08:07 +0000] "GET /tables/qrcodes HTTP/1.1" 200 -
+
+2024-06-26T21:08:18.612Z info: ::1 - - [26/Jun/2024:21:08:18 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T21:08:20.808Z info: ::1 - - [26/Jun/2024:21:08:20 +0000] "GET /products/2 HTTP/1.1" 200 270
+
+2024-06-26T21:08:37.454Z info: ::1 - - [26/Jun/2024:21:08:37 +0000] "OPTIONS /products/2 HTTP/1.1" 204 0
+
+2024-06-26T21:08:37.483Z info: ::1 - - [26/Jun/2024:21:08:37 +0000] "PUT /products/2 HTTP/1.1" 200 273
+
+2024-06-26T21:08:37.492Z info: ::1 - - [26/Jun/2024:21:08:37 +0000] "GET /products HTTP/1.1" 200 354
+
+2024-06-26T21:08:41.918Z info: ::1 - - [26/Jun/2024:21:08:41 +0000] "DELETE /products/2 HTTP/1.1" 204 -
+
+2024-06-26T21:08:41.933Z info: ::1 - - [26/Jun/2024:21:08:41 +0000] "GET /products HTTP/1.1" 200 177
+
+2024-06-26T21:08:43.411Z info: ::1 - - [26/Jun/2024:21:08:43 +0000] "OPTIONS /products/1 HTTP/1.1" 204 0
+
+2024-06-26T21:08:43.422Z info: ::1 - - [26/Jun/2024:21:08:43 +0000] "DELETE /products/1 HTTP/1.1" 204 -
+
+2024-06-26T21:08:43.440Z info: ::1 - - [26/Jun/2024:21:08:43 +0000] "GET /products HTTP/1.1" 200 2
+
+2024-06-26T21:08:45.228Z info: ::1 - - [26/Jun/2024:21:08:45 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T21:08:46.427Z info: ::1 - - [26/Jun/2024:21:08:46 +0000] "OPTIONS /tables/2 HTTP/1.1" 204 0
+
+2024-06-26T21:08:46.446Z info: ::1 - - [26/Jun/2024:21:08:46 +0000] "DELETE /tables/2 HTTP/1.1" 204 -
+
+2024-06-26T21:08:46.457Z info: ::1 - - [26/Jun/2024:21:08:46 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-26T21:08:46.489Z info: ::1 - - [26/Jun/2024:21:08:46 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T21:08:47.354Z info: ::1 - - [26/Jun/2024:21:08:47 +0000] "OPTIONS /tables/1 HTTP/1.1" 204 0
+
+2024-06-26T21:08:47.372Z info: ::1 - - [26/Jun/2024:21:08:47 +0000] "DELETE /tables/1 HTTP/1.1" 204 -
+
+2024-06-26T21:08:47.380Z info: ::1 - - [26/Jun/2024:21:08:47 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T21:08:47.424Z info: ::1 - - [26/Jun/2024:21:08:47 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T21:35:10.813Z info: ::1 - - [26/Jun/2024:21:35:10 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T21:35:26.061Z info: ::1 - - [26/Jun/2024:21:35:26 +0000] "GET / HTTP/1.1" 304 -
+
+2024-06-26T21:35:40.842Z info: ::1 - - [26/Jun/2024:21:35:40 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T21:35:45.850Z info: ::1 - - [26/Jun/2024:21:35:45 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-26T21:35:45.901Z info: ::1 - - [26/Jun/2024:21:35:45 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-26T21:35:45.910Z info: ::1 - - [26/Jun/2024:21:35:45 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-26T21:35:48.879Z info: ::1 - - [26/Jun/2024:21:35:48 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-26T21:35:48.891Z info: ::1 - - [26/Jun/2024:21:35:48 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-26T21:35:52.016Z info: ::1 - - [26/Jun/2024:21:35:52 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-26T21:35:52.034Z info: ::1 - - [26/Jun/2024:21:35:52 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-26T21:35:52.044Z info: ::1 - - [26/Jun/2024:21:35:52 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-26T21:35:55.818Z info: ::1 - - [26/Jun/2024:21:35:55 +0000] "OPTIONS /tables/3 HTTP/1.1" 204 0
+
+2024-06-26T21:35:55.839Z info: ::1 - - [26/Jun/2024:21:35:55 +0000] "DELETE /tables/3 HTTP/1.1" 204 -
+
+2024-06-26T21:35:55.852Z info: ::1 - - [26/Jun/2024:21:35:55 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-26T21:35:55.892Z info: ::1 - - [26/Jun/2024:21:35:55 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T21:35:59.442Z info: ::1 - - [26/Jun/2024:21:35:59 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T21:36:15.455Z info: ::1 - - [26/Jun/2024:21:36:15 +0000] "POST /products HTTP/1.1" 200 255
+
+2024-06-26T21:36:17.000Z info: ::1 - - [26/Jun/2024:21:36:16 +0000] "GET /products HTTP/1.1" 200 178
+
+2024-06-26T21:36:32.944Z info: ::1 - - [26/Jun/2024:21:36:32 +0000] "POST /products HTTP/1.1" 200 256
+
+2024-06-26T21:36:34.184Z info: ::1 - - [26/Jun/2024:21:36:34 +0000] "GET /products HTTP/1.1" 200 354
+
+2024-06-26T21:36:39.533Z info: ::1 - - [26/Jun/2024:21:36:39 +0000] "GET /products/2 HTTP/1.1" 200 272
+
+2024-06-26T21:36:57.484Z info: ::1 - - [26/Jun/2024:21:36:57 +0000] "OPTIONS /products/2 HTTP/1.1" 204 0
+
+2024-06-26T21:36:57.508Z info: ::1 - - [26/Jun/2024:21:36:57 +0000] "PUT /products/2 HTTP/1.1" 200 277
+
+2024-06-26T21:36:57.518Z info: ::1 - - [26/Jun/2024:21:36:57 +0000] "GET /products HTTP/1.1" 200 359
+
+2024-06-26T21:37:03.072Z info: ::1 - - [26/Jun/2024:21:37:03 +0000] "OPTIONS /products/2 HTTP/1.1" 204 0
+
+2024-06-26T21:37:03.083Z info: ::1 - - [26/Jun/2024:21:37:03 +0000] "DELETE /products/2 HTTP/1.1" 204 -
+
+2024-06-26T21:37:03.097Z info: ::1 - - [26/Jun/2024:21:37:03 +0000] "GET /products HTTP/1.1" 200 178
+
+2024-06-26T21:37:05.309Z info: ::1 - - [26/Jun/2024:21:37:05 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T21:37:05.326Z info: ::1 - - [26/Jun/2024:21:37:05 +0000] "GET /orders/table/1 HTTP/1.1" 304 -
+
+2024-06-26T21:37:05.363Z info: ::1 - - [26/Jun/2024:21:37:05 +0000] "GET /orders/table/2 HTTP/1.1" 304 -
+
+2024-06-26T21:37:12.245Z info: ::1 - - [26/Jun/2024:21:37:12 +0000] "GET /tables/qrcodes HTTP/1.1" 304 -
+
+2024-06-26T21:37:19.599Z info: ::1 - - [26/Jun/2024:21:37:19 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T21:37:23.638Z info: ::1 - - [26/Jun/2024:21:37:23 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-26T21:37:23.653Z info: ::1 - - [26/Jun/2024:21:37:23 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-26T21:37:23.664Z info: ::1 - - [26/Jun/2024:21:37:23 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-26T21:37:26.715Z info: ::1 - - [26/Jun/2024:21:37:26 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-26T21:37:26.726Z info: ::1 - - [26/Jun/2024:21:37:26 +0000] "GET /tables HTTP/1.1" 200 642
+
+2024-06-26T21:37:28.527Z info: ::1 - - [26/Jun/2024:21:37:28 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T21:37:28.565Z info: ::1 - - [26/Jun/2024:21:37:28 +0000] "GET /orders/table/1 HTTP/1.1" 304 -
+
+2024-06-26T21:37:28.591Z info: ::1 - - [26/Jun/2024:21:37:28 +0000] "GET /orders/table/2 HTTP/1.1" 304 -
+
+2024-06-26T21:37:28.603Z info: ::1 - - [26/Jun/2024:21:37:28 +0000] "GET /orders/table/3 HTTP/1.1" 200 2
+
+2024-06-26T21:37:28.616Z info: ::1 - - [26/Jun/2024:21:37:28 +0000] "GET /orders/table/4 HTTP/1.1" 200 2
+
+2024-06-26T21:37:33.605Z info: ::1 - - [26/Jun/2024:21:37:33 +0000] "GET /tables/qrcodes HTTP/1.1" 200 -
+
+2024-06-26T21:37:51.554Z info: ::1 - - [26/Jun/2024:21:37:51 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T21:39:15.200Z info: ::1 - - [26/Jun/2024:21:39:15 +0000] "OPTIONS /tables/4 HTTP/1.1" 204 0
+
+2024-06-26T21:39:15.221Z info: ::1 - - [26/Jun/2024:21:39:15 +0000] "DELETE /tables/4 HTTP/1.1" 204 -
+
+2024-06-26T21:39:15.231Z info: ::1 - - [26/Jun/2024:21:39:15 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-26T21:39:15.260Z info: ::1 - - [26/Jun/2024:21:39:15 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T21:39:20.585Z info: ::1 - - [26/Jun/2024:21:39:20 +0000] "OPTIONS /tables/3 HTTP/1.1" 204 0
+
+2024-06-26T21:39:20.598Z info: ::1 - - [26/Jun/2024:21:39:20 +0000] "DELETE /tables/3 HTTP/1.1" 204 -
+
+2024-06-26T21:39:20.608Z info: ::1 - - [26/Jun/2024:21:39:20 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-26T21:39:20.661Z info: ::1 - - [26/Jun/2024:21:39:20 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T21:43:23.490Z info: ::1 - - [26/Jun/2024:21:43:23 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-26T21:43:26.644Z info: ::1 - - [26/Jun/2024:21:43:26 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-26T21:43:29.491Z info: ::1 - - [26/Jun/2024:21:43:29 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T21:43:30.718Z info: ::1 - - [26/Jun/2024:21:43:30 +0000] "OPTIONS /tables/2 HTTP/1.1" 204 0
+
+2024-06-26T21:43:30.741Z info: ::1 - - [26/Jun/2024:21:43:30 +0000] "DELETE /tables/2 HTTP/1.1" 204 -
+
+2024-06-26T21:43:30.756Z info: ::1 - - [26/Jun/2024:21:43:30 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-26T21:43:30.796Z info: ::1 - - [26/Jun/2024:21:43:30 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T21:43:31.221Z info: ::1 - - [26/Jun/2024:21:43:31 +0000] "OPTIONS /tables/1 HTTP/1.1" 204 0
+
+2024-06-26T21:43:31.231Z info: ::1 - - [26/Jun/2024:21:43:31 +0000] "DELETE /tables/1 HTTP/1.1" 204 -
+
+2024-06-26T21:43:31.243Z info: ::1 - - [26/Jun/2024:21:43:31 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T21:43:31.271Z info: ::1 - - [26/Jun/2024:21:43:31 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T21:43:33.238Z info: ::1 - - [26/Jun/2024:21:43:33 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-26T21:43:35.053Z info: ::1 - - [26/Jun/2024:21:43:35 +0000] "OPTIONS /products/1 HTTP/1.1" 204 0
+
+2024-06-26T21:43:35.061Z info: ::1 - - [26/Jun/2024:21:43:35 +0000] "DELETE /products/1 HTTP/1.1" 204 -
+
+2024-06-26T21:43:35.069Z info: ::1 - - [26/Jun/2024:21:43:35 +0000] "GET /products HTTP/1.1" 200 2
+
+2024-06-26T21:43:45.548Z info: ::1 - - [26/Jun/2024:21:43:45 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T21:43:47.187Z info: ::1 - - [26/Jun/2024:21:43:47 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-26T21:43:48.173Z info: ::1 - - [26/Jun/2024:21:43:48 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-26T21:43:48.373Z info: ::1 - - [26/Jun/2024:21:43:48 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-26T21:43:53.822Z info: ::1 - - [26/Jun/2024:21:43:53 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-26T21:44:08.628Z info: ::1 - - [26/Jun/2024:21:44:08 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-26T21:44:10.230Z info: ::1 - - [26/Jun/2024:21:44:10 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-26T21:44:10.436Z info: ::1 - - [26/Jun/2024:21:44:10 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-26T21:44:10.644Z info: ::1 - - [26/Jun/2024:21:44:10 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-26T21:44:11.147Z info: ::1 - - [26/Jun/2024:21:44:11 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-26T21:44:50.260Z info: ::1 - - [26/Jun/2024:21:44:50 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T21:47:02.323Z info: ::1 - - [26/Jun/2024:21:47:02 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-26T21:47:10.597Z info: ::1 - - [26/Jun/2024:21:47:10 +0000] "GET / HTTP/1.1" 304 -
+
+2024-06-26T21:47:27.304Z info: ::1 - - [26/Jun/2024:21:47:27 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-26T21:47:30.914Z info: ::1 - - [26/Jun/2024:21:47:30 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-26T21:47:30.970Z info: ::1 - - [26/Jun/2024:21:47:30 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-26T21:47:30.978Z info: ::1 - - [26/Jun/2024:21:47:30 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-26T21:47:34.143Z info: ::1 - - [26/Jun/2024:21:47:34 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-26T21:47:34.153Z info: ::1 - - [26/Jun/2024:21:47:34 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-26T21:47:37.993Z info: ::1 - - [26/Jun/2024:21:47:37 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-26T21:47:38.008Z info: ::1 - - [26/Jun/2024:21:47:38 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-26T21:47:38.022Z info: ::1 - - [26/Jun/2024:21:47:38 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-27T12:33:35.395Z info: ::1 - - [27/Jun/2024:12:33:35 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-27T12:33:39.841Z info: ::1 - - [27/Jun/2024:12:33:39 +0000] "GET / HTTP/1.1" 304 -
+
+2024-06-27T12:33:51.414Z info: ::1 - - [27/Jun/2024:12:33:51 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T12:33:52.644Z info: ::1 - - [27/Jun/2024:12:33:52 +0000] "OPTIONS /tables/3 HTTP/1.1" 204 0
+
+2024-06-27T12:33:52.669Z info: ::1 - - [27/Jun/2024:12:33:52 +0000] "DELETE /tables/3 HTTP/1.1" 204 -
+
+2024-06-27T12:33:52.681Z info: ::1 - - [27/Jun/2024:12:33:52 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T12:33:52.767Z info: ::1 - - [27/Jun/2024:12:33:52 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T12:33:53.276Z info: ::1 - - [27/Jun/2024:12:33:53 +0000] "OPTIONS /tables/2 HTTP/1.1" 204 0
+
+2024-06-27T12:33:53.292Z info: ::1 - - [27/Jun/2024:12:33:53 +0000] "DELETE /tables/2 HTTP/1.1" 204 -
+
+2024-06-27T12:33:53.307Z info: ::1 - - [27/Jun/2024:12:33:53 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T12:33:54.494Z info: ::1 - - [27/Jun/2024:12:33:54 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T12:33:55.622Z info: ::1 - - [27/Jun/2024:12:33:55 +0000] "OPTIONS /tables/1 HTTP/1.1" 204 0
+
+2024-06-27T12:33:55.635Z info: ::1 - - [27/Jun/2024:12:33:55 +0000] "DELETE /tables/1 HTTP/1.1" 204 -
+
+2024-06-27T12:33:55.650Z info: ::1 - - [27/Jun/2024:12:33:55 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-27T12:33:58.185Z info: ::1 - - [27/Jun/2024:12:33:58 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-27T12:34:02.106Z info: ::1 - - [27/Jun/2024:12:34:02 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T12:34:10.862Z info: ::1 - - [27/Jun/2024:12:34:10 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T12:34:13.021Z info: ::1 - - [27/Jun/2024:12:34:13 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T12:34:20.755Z info: ::1 - - [27/Jun/2024:12:34:20 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T12:34:21.732Z info: ::1 - - [27/Jun/2024:12:34:21 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T12:34:21.916Z info: ::1 - - [27/Jun/2024:12:34:21 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T12:34:22.088Z info: ::1 - - [27/Jun/2024:12:34:22 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T12:34:22.774Z info: ::1 - - [27/Jun/2024:12:34:22 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T12:34:24.826Z info: ::1 - - [27/Jun/2024:12:34:24 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T12:34:26.464Z info: ::1 - - [27/Jun/2024:12:34:26 +0000] "GET /tables/2/orders HTTP/1.1" 404 37
+
+2024-06-27T12:34:28.178Z info: ::1 - - [27/Jun/2024:12:34:28 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T12:34:29.218Z info: ::1 - - [27/Jun/2024:12:34:29 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T12:34:31.371Z info: ::1 - - [27/Jun/2024:12:34:31 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T12:34:34.030Z info: ::1 - - [27/Jun/2024:12:34:34 +0000] "GET /tables/2/orders HTTP/1.1" 404 37
+
+2024-06-27T12:34:56.538Z info: ::1 - - [27/Jun/2024:12:34:56 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-27T12:35:08.108Z info: ::1 - - [27/Jun/2024:12:35:08 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-27T12:35:08.167Z info: ::1 - - [27/Jun/2024:12:35:08 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-27T12:35:08.174Z info: ::1 - - [27/Jun/2024:12:35:08 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T12:37:36.209Z info: ::1 - - [27/Jun/2024:12:37:36 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T12:37:36.223Z info: ::1 - - [27/Jun/2024:12:37:36 +0000] "GET /orders/table/1 HTTP/1.1" 304 -
+
+2024-06-27T12:37:39.055Z info: ::1 - - [27/Jun/2024:12:37:39 +0000] "OPTIONS /tables/1/pay HTTP/1.1" 204 0
+
+2024-06-27T12:37:39.064Z info: ::1 - - [27/Jun/2024:12:37:39 +0000] "DELETE /tables/1/pay HTTP/1.1" 204 -
+
+2024-06-27T12:37:41.141Z info: ::1 - - [27/Jun/2024:12:37:41 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T12:37:41.151Z info: ::1 - - [27/Jun/2024:12:37:41 +0000] "GET /orders/table/1 HTTP/1.1" 304 -
+
+2024-06-27T12:37:41.210Z info: ::1 - - [27/Jun/2024:12:37:41 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T12:37:41.220Z info: ::1 - - [27/Jun/2024:12:37:41 +0000] "GET /orders/table/1 HTTP/1.1" 304 -
+
+2024-06-27T12:37:45.851Z info: ::1 - - [27/Jun/2024:12:37:45 +0000] "GET /tables/qrcodes HTTP/1.1" 200 -
+
+2024-06-27T12:44:36.290Z info: ::1 - - [27/Jun/2024:12:44:36 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T12:44:37.678Z info: ::1 - - [27/Jun/2024:12:44:37 +0000] "OPTIONS /tables/1 HTTP/1.1" 204 0
+
+2024-06-27T12:44:37.693Z info: ::1 - - [27/Jun/2024:12:44:37 +0000] "DELETE /tables/1 HTTP/1.1" 204 -
+
+2024-06-27T12:44:37.713Z info: ::1 - - [27/Jun/2024:12:44:37 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-27T12:44:37.757Z info: ::1 - - [27/Jun/2024:12:44:37 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T12:44:44.053Z info: ::1 - - [27/Jun/2024:12:44:44 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T12:44:47.324Z info: ::1 - - [27/Jun/2024:12:44:47 +0000] "GET /tables/qrcodes HTTP/1.1" 200 2
+
+2024-06-27T12:44:55.054Z info: ::1 - - [27/Jun/2024:12:44:55 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T12:45:00.270Z info: ::1 - - [27/Jun/2024:12:45:00 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-27T12:45:00.285Z info: ::1 - - [27/Jun/2024:12:45:00 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-27T12:45:00.296Z info: ::1 - - [27/Jun/2024:12:45:00 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T12:45:03.001Z info: ::1 - - [27/Jun/2024:12:45:03 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T12:45:03.015Z info: ::1 - - [27/Jun/2024:12:45:03 +0000] "GET /orders/table/1 HTTP/1.1" 304 -
+
+2024-06-27T12:45:08.316Z info: ::1 - - [27/Jun/2024:12:45:08 +0000] "GET /tables/qrcodes HTTP/1.1" 200 -
+
+2024-06-27T12:48:12.077Z info: ::1 - - [27/Jun/2024:12:48:12 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T12:57:28.361Z info: ::1 - - [27/Jun/2024:12:57:28 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T12:57:30.855Z info: ::1 - - [27/Jun/2024:12:57:30 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T12:57:39.892Z info: ::1 - - [27/Jun/2024:12:57:39 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T12:57:41.213Z info: ::1 - - [27/Jun/2024:12:57:41 +0000] "OPTIONS /tables/1 HTTP/1.1" 204 0
+
+2024-06-27T12:57:41.236Z info: ::1 - - [27/Jun/2024:12:57:41 +0000] "DELETE /tables/1 HTTP/1.1" 204 -
+
+2024-06-27T12:57:41.253Z info: ::1 - - [27/Jun/2024:12:57:41 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-27T12:57:41.301Z info: ::1 - - [27/Jun/2024:12:57:41 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T12:57:42.900Z info: ::1 - - [27/Jun/2024:12:57:42 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T12:57:45.927Z info: ::1 - - [27/Jun/2024:12:57:45 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T12:57:46.114Z info: ::1 - - [27/Jun/2024:12:57:46 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T12:57:46.609Z info: ::1 - - [27/Jun/2024:12:57:46 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T12:57:46.817Z info: ::1 - - [27/Jun/2024:12:57:46 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T12:57:48.849Z info: ::1 - - [27/Jun/2024:12:57:48 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T12:57:49.036Z info: ::1 - - [27/Jun/2024:12:57:49 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T12:57:49.229Z info: ::1 - - [27/Jun/2024:12:57:49 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T12:57:49.407Z info: ::1 - - [27/Jun/2024:12:57:49 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T12:57:55.133Z info: ::1 - - [27/Jun/2024:12:57:55 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-27T12:58:00.803Z info: ::1 - - [27/Jun/2024:12:58:00 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-27T12:58:00.817Z info: ::1 - - [27/Jun/2024:12:58:00 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-27T12:58:00.829Z info: ::1 - - [27/Jun/2024:12:58:00 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T12:58:18.739Z info: ::1 - - [27/Jun/2024:12:58:18 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T12:58:20.621Z info: ::1 - - [27/Jun/2024:12:58:20 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T13:11:05.803Z info: ::1 - - [27/Jun/2024:13:11:05 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-27T13:11:05.828Z info: ::1 - - [27/Jun/2024:13:11:05 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-27T13:11:05.840Z info: ::1 - - [27/Jun/2024:13:11:05 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T13:12:00.687Z info: ::1 - - [27/Jun/2024:13:12:00 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T13:12:13.616Z info: ::1 - - [27/Jun/2024:13:12:13 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T13:12:15.935Z info: ::1 - - [27/Jun/2024:13:12:15 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T13:22:18.609Z info: ::1 - - [27/Jun/2024:13:22:18 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T13:22:27.802Z info: ::1 - - [27/Jun/2024:13:22:27 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T13:22:29.173Z info: ::1 - - [27/Jun/2024:13:22:29 +0000] "OPTIONS /tables/2 HTTP/1.1" 204 0
+
+2024-06-27T13:22:29.190Z info: ::1 - - [27/Jun/2024:13:22:29 +0000] "DELETE /tables/2 HTTP/1.1" 204 -
+
+2024-06-27T13:22:29.205Z info: ::1 - - [27/Jun/2024:13:22:29 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T13:22:29.253Z info: ::1 - - [27/Jun/2024:13:22:29 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T13:22:34.787Z info: ::1 - - [27/Jun/2024:13:22:34 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T13:22:36.358Z info: ::1 - - [27/Jun/2024:13:22:36 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T13:22:36.661Z info: ::1 - - [27/Jun/2024:13:22:36 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T13:22:41.271Z info: ::1 - - [27/Jun/2024:13:22:41 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T13:22:49.234Z info: ::1 - - [27/Jun/2024:13:22:49 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-27T13:22:49.248Z info: ::1 - - [27/Jun/2024:13:22:49 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-27T13:22:49.259Z info: ::1 - - [27/Jun/2024:13:22:49 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T13:31:30.818Z info: ::1 - - [27/Jun/2024:13:31:30 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T13:31:35.335Z info: ::1 - - [27/Jun/2024:13:31:35 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T13:31:37.667Z info: ::1 - - [27/Jun/2024:13:31:37 +0000] "OPTIONS /tables/2 HTTP/1.1" 204 0
+
+2024-06-27T13:31:37.683Z info: ::1 - - [27/Jun/2024:13:31:37 +0000] "DELETE /tables/2 HTTP/1.1" 204 -
+
+2024-06-27T13:31:37.698Z info: ::1 - - [27/Jun/2024:13:31:37 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T13:31:38.767Z info: ::1 - - [27/Jun/2024:13:31:38 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T13:31:41.139Z info: ::1 - - [27/Jun/2024:13:31:41 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T13:31:42.019Z info: ::1 - - [27/Jun/2024:13:31:42 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T13:31:42.188Z info: ::1 - - [27/Jun/2024:13:31:42 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T13:31:42.363Z info: ::1 - - [27/Jun/2024:13:31:42 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T13:31:46.653Z info: ::1 - - [27/Jun/2024:13:31:46 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T13:31:51.301Z info: ::1 - - [27/Jun/2024:13:31:51 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T13:31:52.137Z info: ::1 - - [27/Jun/2024:13:31:52 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T16:02:17.366Z info: ::1 - - [27/Jun/2024:16:02:17 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T16:02:17.384Z info: ::1 - - [27/Jun/2024:16:02:17 +0000] "GET /orders/table/1 HTTP/1.1" 304 -
+
+2024-06-27T16:39:03.720Z info: ::1 - - [27/Jun/2024:16:39:03 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T16:41:15.694Z info: ::1 - - [27/Jun/2024:16:41:15 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T16:41:24.360Z info: ::1 - - [27/Jun/2024:16:41:24 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T16:41:29.791Z info: ::1 - - [27/Jun/2024:16:41:29 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-27T16:41:29.821Z info: ::1 - - [27/Jun/2024:16:41:29 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-27T16:41:29.832Z info: ::1 - - [27/Jun/2024:16:41:29 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T16:45:23.113Z info: ::1 - - [27/Jun/2024:16:45:23 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T16:45:34.408Z info: ::1 - - [27/Jun/2024:16:45:34 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T16:45:38.005Z info: ::1 - - [27/Jun/2024:16:45:38 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T16:45:46.779Z info: ::1 - - [27/Jun/2024:16:45:46 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-27T16:45:46.837Z info: ::1 - - [27/Jun/2024:16:45:46 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-27T16:45:46.847Z info: ::1 - - [27/Jun/2024:16:45:46 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-27T16:48:44.554Z info: ::1 - - [27/Jun/2024:16:48:44 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-27T16:49:08.531Z info: ::1 - - [27/Jun/2024:16:49:08 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T16:49:09.239Z info: ::1 - - [27/Jun/2024:16:49:09 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T16:49:12.538Z info: ::1 - - [27/Jun/2024:16:49:12 +0000] "OPTIONS /tables/3 HTTP/1.1" 204 0
+
+2024-06-27T16:49:12.561Z info: ::1 - - [27/Jun/2024:16:49:12 +0000] "DELETE /tables/3 HTTP/1.1" 204 -
+
+2024-06-27T16:49:12.570Z info: ::1 - - [27/Jun/2024:16:49:12 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T16:49:12.601Z info: ::1 - - [27/Jun/2024:16:49:12 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T16:49:14.102Z info: ::1 - - [27/Jun/2024:16:49:14 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T16:49:15.698Z info: ::1 - - [27/Jun/2024:16:49:15 +0000] "OPTIONS /tables/2 HTTP/1.1" 204 0
+
+2024-06-27T16:49:15.719Z info: ::1 - - [27/Jun/2024:16:49:15 +0000] "DELETE /tables/2 HTTP/1.1" 204 -
+
+2024-06-27T16:49:15.737Z info: ::1 - - [27/Jun/2024:16:49:15 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T16:49:17.247Z info: ::1 - - [27/Jun/2024:16:49:17 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T16:49:19.343Z info: ::1 - - [27/Jun/2024:16:49:19 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T16:49:24.455Z info: ::1 - - [27/Jun/2024:16:49:24 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T16:49:28.152Z info: ::1 - - [27/Jun/2024:16:49:28 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T16:49:28.312Z info: ::1 - - [27/Jun/2024:16:49:28 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T16:49:28.500Z info: ::1 - - [27/Jun/2024:16:49:28 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T16:49:28.653Z info: ::1 - - [27/Jun/2024:16:49:28 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T16:51:15.335Z info: ::1 - - [27/Jun/2024:16:51:15 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T16:52:55.116Z info: ::1 - - [27/Jun/2024:16:52:55 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T16:52:55.793Z info: ::1 - - [27/Jun/2024:16:52:55 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T16:52:55.961Z info: ::1 - - [27/Jun/2024:16:52:55 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T16:53:02.342Z info: ::1 - - [27/Jun/2024:16:53:02 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T16:57:12.304Z info: ::1 - - [27/Jun/2024:16:57:12 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T16:57:16.948Z info: ::1 - - [27/Jun/2024:16:57:16 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T16:57:28.355Z info: ::1 - - [27/Jun/2024:16:57:28 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-27T16:57:28.403Z info: ::1 - - [27/Jun/2024:16:57:28 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-27T16:57:28.414Z info: ::1 - - [27/Jun/2024:16:57:28 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T17:02:39.929Z info: ::1 - - [27/Jun/2024:17:02:39 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T18:05:31.654Z info: ::1 - - [27/Jun/2024:18:05:31 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-27T18:05:34.759Z info: ::1 - - [27/Jun/2024:18:05:34 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T18:05:37.167Z info: ::1 - - [27/Jun/2024:18:05:37 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T18:05:43.620Z info: ::1 - - [27/Jun/2024:18:05:43 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-27T18:05:43.772Z info: ::1 - - [27/Jun/2024:18:05:43 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-27T18:05:43.789Z info: ::1 - - [27/Jun/2024:18:05:43 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-27T18:15:23.151Z info: ::1 - - [27/Jun/2024:18:15:23 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-27T18:15:25.786Z info: ::1 - - [27/Jun/2024:18:15:25 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-27T18:15:27.972Z info: ::1 - - [27/Jun/2024:18:15:27 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T18:15:29.569Z info: ::1 - - [27/Jun/2024:18:15:29 +0000] "OPTIONS /tables/3 HTTP/1.1" 204 0
+
+2024-06-27T18:15:29.594Z info: ::1 - - [27/Jun/2024:18:15:29 +0000] "DELETE /tables/3 HTTP/1.1" 204 -
+
+2024-06-27T18:15:29.606Z info: ::1 - - [27/Jun/2024:18:15:29 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T18:15:29.653Z info: ::1 - - [27/Jun/2024:18:15:29 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T18:15:34.538Z info: ::1 - - [27/Jun/2024:18:15:34 +0000] "OPTIONS /tables/2 HTTP/1.1" 204 0
+
+2024-06-27T18:15:34.630Z info: ::1 - - [27/Jun/2024:18:15:34 +0000] "DELETE /tables/2 HTTP/1.1" 204 -
+
+2024-06-27T18:15:35.558Z info: ::1 - - [27/Jun/2024:18:15:35 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T18:15:36.688Z info: ::1 - - [27/Jun/2024:18:15:36 +0000] "OPTIONS /tables/1 HTTP/1.1" 204 0
+
+2024-06-27T18:15:36.708Z info: ::1 - - [27/Jun/2024:18:15:36 +0000] "DELETE /tables/1 HTTP/1.1" 204 -
+
+2024-06-27T18:15:36.720Z info: ::1 - - [27/Jun/2024:18:15:36 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-27T18:15:36.772Z info: ::1 - - [27/Jun/2024:18:15:36 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T18:15:38.864Z info: ::1 - - [27/Jun/2024:18:15:38 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-27T18:15:40.802Z info: ::1 - - [27/Jun/2024:18:15:40 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T18:15:50.163Z info: ::1 - - [27/Jun/2024:18:15:50 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T18:15:51.851Z info: ::1 - - [27/Jun/2024:18:15:51 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T18:15:52.923Z info: ::1 - - [27/Jun/2024:18:15:52 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T18:15:53.089Z info: ::1 - - [27/Jun/2024:18:15:53 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T18:15:53.322Z info: ::1 - - [27/Jun/2024:18:15:53 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T18:15:53.528Z info: ::1 - - [27/Jun/2024:18:15:53 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T18:15:53.737Z info: ::1 - - [27/Jun/2024:18:15:53 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T18:15:53.920Z info: ::1 - - [27/Jun/2024:18:15:53 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T18:20:28.601Z info: ::1 - - [27/Jun/2024:18:20:28 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T18:20:28.774Z info: ::1 - - [27/Jun/2024:18:20:28 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T18:20:28.943Z info: ::1 - - [27/Jun/2024:18:20:28 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T18:20:29.597Z info: ::1 - - [27/Jun/2024:18:20:29 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T18:20:32.669Z info: ::1 - - [27/Jun/2024:18:20:32 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T18:20:36.360Z info: ::1 - - [27/Jun/2024:18:20:36 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-27T18:20:39.074Z info: ::1 - - [27/Jun/2024:18:20:39 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T18:21:15.382Z info: ::1 - - [27/Jun/2024:18:21:15 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T18:21:15.616Z info: ::1 - - [27/Jun/2024:18:21:15 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T18:21:15.798Z info: ::1 - - [27/Jun/2024:18:21:15 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T18:21:15.995Z info: ::1 - - [27/Jun/2024:18:21:15 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T18:21:16.155Z info: ::1 - - [27/Jun/2024:18:21:16 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T18:21:16.299Z info: ::1 - - [27/Jun/2024:18:21:16 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T18:21:22.576Z info: ::1 - - [27/Jun/2024:18:21:22 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T18:21:22.781Z info: ::1 - - [27/Jun/2024:18:21:22 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T18:21:22.997Z info: ::1 - - [27/Jun/2024:18:21:22 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T18:21:37.455Z info: ::1 - - [27/Jun/2024:18:21:37 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-27T18:38:14.881Z info: ::1 - - [27/Jun/2024:18:38:14 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T18:38:18.921Z info: ::1 - - [27/Jun/2024:18:38:18 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-27T18:38:18.936Z info: ::1 - - [27/Jun/2024:18:38:18 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-27T18:38:18.951Z info: ::1 - - [27/Jun/2024:18:38:18 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T18:38:25.281Z info: ::1 - - [27/Jun/2024:18:38:25 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T18:38:27.751Z info: ::1 - - [27/Jun/2024:18:38:27 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T18:38:43.071Z info: ::1 - - [27/Jun/2024:18:38:43 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T18:40:06.221Z info: ::1 - - [27/Jun/2024:18:40:06 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-27T18:40:23.061Z info: ::1 - - [27/Jun/2024:18:40:23 +0000] "GET /tables/1/orders HTTP/1.1" 200 152
+
+2024-06-27T19:45:01.910Z info: ::1 - - [27/Jun/2024:19:45:01 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T19:51:17.460Z info: ::1 - - [27/Jun/2024:19:51:17 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T19:51:28.601Z info: ::1 - - [27/Jun/2024:19:51:28 +0000] "GET /tables/1/orders HTTP/1.1" 200 152
+
+2024-06-27T19:51:30.699Z info: ::1 - - [27/Jun/2024:19:51:30 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T19:51:32.312Z info: ::1 - - [27/Jun/2024:19:51:32 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T19:51:45.625Z info: ::1 - - [27/Jun/2024:19:51:45 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T19:51:49.358Z info: ::1 - - [27/Jun/2024:19:51:49 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T19:51:55.854Z info: ::1 - - [27/Jun/2024:19:51:55 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-27T19:51:55.914Z info: ::1 - - [27/Jun/2024:19:51:55 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-27T19:51:55.924Z info: ::1 - - [27/Jun/2024:19:51:55 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T19:53:50.814Z info: ::1 - - [27/Jun/2024:19:53:50 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T19:54:07.518Z info: ::1 - - [27/Jun/2024:19:54:07 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T19:54:29.836Z info: ::1 - - [27/Jun/2024:19:54:29 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T19:54:38.918Z info: ::1 - - [27/Jun/2024:19:54:38 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T19:54:44.920Z info: ::1 - - [27/Jun/2024:19:54:44 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T19:54:46.708Z info: ::1 - - [27/Jun/2024:19:54:46 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T19:54:50.176Z info: ::1 - - [27/Jun/2024:19:54:50 +0000] "OPTIONS /tables/2 HTTP/1.1" 204 0
+
+2024-06-27T19:54:50.197Z info: ::1 - - [27/Jun/2024:19:54:50 +0000] "DELETE /tables/2 HTTP/1.1" 204 -
+
+2024-06-27T19:54:50.208Z info: ::1 - - [27/Jun/2024:19:54:50 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T19:54:50.250Z info: ::1 - - [27/Jun/2024:19:54:50 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T19:54:51.750Z info: ::1 - - [27/Jun/2024:19:54:51 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T19:54:53.541Z info: ::1 - - [27/Jun/2024:19:54:53 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T19:54:55.575Z info: ::1 - - [27/Jun/2024:19:54:55 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T19:54:55.753Z info: ::1 - - [27/Jun/2024:19:54:55 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T19:54:56.136Z info: ::1 - - [27/Jun/2024:19:54:56 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T19:54:56.319Z info: ::1 - - [27/Jun/2024:19:54:56 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T19:54:56.471Z info: ::1 - - [27/Jun/2024:19:54:56 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T19:54:56.638Z info: ::1 - - [27/Jun/2024:19:54:56 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T19:55:01.781Z info: ::1 - - [27/Jun/2024:19:55:01 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T19:55:06.362Z info: ::1 - - [27/Jun/2024:19:55:06 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T19:55:20.291Z info: ::1 - - [27/Jun/2024:19:55:20 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T19:55:32.064Z info: ::1 - - [27/Jun/2024:19:55:32 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T19:56:08.242Z info: ::1 - - [27/Jun/2024:19:56:08 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T19:56:22.057Z info: ::1 - - [27/Jun/2024:19:56:22 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T19:57:45.599Z info: ::1 - - [27/Jun/2024:19:57:45 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T19:58:13.761Z info: ::1 - - [27/Jun/2024:19:58:13 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T19:58:56.541Z info: ::1 - - [27/Jun/2024:19:58:56 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-27T19:58:56.589Z info: ::1 - - [27/Jun/2024:19:58:56 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-27T19:58:56.602Z info: ::1 - - [27/Jun/2024:19:58:56 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T19:59:56.777Z info: ::1 - - [27/Jun/2024:19:59:56 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:00:43.147Z info: ::1 - - [27/Jun/2024:20:00:43 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:00:52.563Z info: ::1 - - [27/Jun/2024:20:00:52 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T20:01:04.330Z info: ::1 - - [27/Jun/2024:20:01:04 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-27T20:01:04.346Z info: ::1 - - [27/Jun/2024:20:01:04 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-27T20:01:04.356Z info: ::1 - - [27/Jun/2024:20:01:04 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-27T20:04:19.431Z info: ::1 - - [27/Jun/2024:20:04:19 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-27T20:04:47.182Z info: ::1 - - [27/Jun/2024:20:04:47 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-27T20:11:38.973Z info: ::1 - - [27/Jun/2024:20:11:38 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-27T20:11:38.985Z info: ::1 - - [27/Jun/2024:20:11:38 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-27T20:11:45.722Z info: ::1 - - [27/Jun/2024:20:11:45 +0000] "OPTIONS /tables/3 HTTP/1.1" 204 0
+
+2024-06-27T20:11:45.735Z info: ::1 - - [27/Jun/2024:20:11:45 +0000] "DELETE /tables/3 HTTP/1.1" 204 -
+
+2024-06-27T20:11:45.761Z info: ::1 - - [27/Jun/2024:20:11:45 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:11:45.819Z info: ::1 - - [27/Jun/2024:20:11:45 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T20:11:58.589Z info: ::1 - - [27/Jun/2024:20:11:58 +0000] "OPTIONS /tables/2 HTTP/1.1" 204 0
+
+2024-06-27T20:11:58.637Z info: ::1 - - [27/Jun/2024:20:11:58 +0000] "DELETE /tables/2 HTTP/1.1" 204 -
+
+2024-06-27T20:11:58.652Z info: ::1 - - [27/Jun/2024:20:11:58 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T20:11:59.898Z info: ::1 - - [27/Jun/2024:20:11:59 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T20:12:03.493Z info: ::1 - - [27/Jun/2024:20:12:03 +0000] "OPTIONS /tables/1 HTTP/1.1" 204 0
+
+2024-06-27T20:12:03.543Z info: ::1 - - [27/Jun/2024:20:12:03 +0000] "DELETE /tables/1 HTTP/1.1" 204 -
+
+2024-06-27T20:12:03.560Z info: ::1 - - [27/Jun/2024:20:12:03 +0000] "GET /tables HTTP/1.1" - -
+
+2024-06-27T20:12:04.494Z info: ::1 - - [27/Jun/2024:20:12:04 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-27T20:12:08.808Z info: ::1 - - [27/Jun/2024:20:12:08 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T20:12:15.249Z info: ::1 - - [27/Jun/2024:20:12:15 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T20:12:23.070Z info: ::1 - - [27/Jun/2024:20:12:23 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T20:12:25.411Z info: ::1 - - [27/Jun/2024:20:12:25 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T20:12:25.952Z info: ::1 - - [27/Jun/2024:20:12:25 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T20:12:26.120Z info: ::1 - - [27/Jun/2024:20:12:26 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T20:12:53.717Z info: ::1 - - [27/Jun/2024:20:12:53 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-27T20:12:53.724Z info: ::1 - - [27/Jun/2024:20:12:53 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-27T20:13:10.503Z info: ::1 - - [27/Jun/2024:20:13:10 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-27T20:13:10.518Z info: ::1 - - [27/Jun/2024:20:13:10 +0000] "POST /tables HTTP/1.1" 200 133
+
+2024-06-27T20:13:10.532Z info: ::1 - - [27/Jun/2024:20:13:10 +0000] "GET /tables HTTP/1.1" 200 161
+
+2024-06-27T20:14:18.581Z info: ::1 - - [27/Jun/2024:20:14:18 +0000] "GET /tables HTTP/1.1" 200 161
+
+2024-06-27T20:14:18.584Z info: ::1 - - [27/Jun/2024:20:14:18 +0000] "GET /tables HTTP/1.1" 200 161
+
+2024-06-27T20:19:55.530Z info: ::1 - - [27/Jun/2024:20:19:55 +0000] "GET /tables HTTP/1.1" 200 161
+
+2024-06-27T20:19:55.533Z info: ::1 - - [27/Jun/2024:20:19:55 +0000] "GET /tables HTTP/1.1" 200 161
+
+2024-06-27T20:20:50.910Z info: ::1 - - [27/Jun/2024:20:20:50 +0000] "GET /tables HTTP/1.1" 200 161
+
+2024-06-27T20:20:50.914Z info: ::1 - - [27/Jun/2024:20:20:50 +0000] "GET /tables HTTP/1.1" 200 161
+
+2024-06-27T20:21:04.293Z info: ::1 - - [27/Jun/2024:20:21:04 +0000] "GET /tables HTTP/1.1" 200 161
+
+2024-06-27T20:21:04.295Z info: ::1 - - [27/Jun/2024:20:21:04 +0000] "GET /tables HTTP/1.1" 200 161
+
+2024-06-27T20:21:17.202Z info: ::1 - - [27/Jun/2024:20:21:17 +0000] "GET /tables HTTP/1.1" 200 161
+
+2024-06-27T20:21:17.203Z info: ::1 - - [27/Jun/2024:20:21:17 +0000] "GET /tables HTTP/1.1" 200 161
+
+2024-06-27T20:22:02.917Z info: ::1 - - [27/Jun/2024:20:22:02 +0000] "GET /tables HTTP/1.1" 200 161
+
+2024-06-27T20:22:02.914Z info: ::1 - - [27/Jun/2024:20:22:02 +0000] "GET /tables HTTP/1.1" 200 161
+
+2024-06-27T20:22:07.422Z info: ::1 - - [27/Jun/2024:20:22:07 +0000] "GET /tables HTTP/1.1" 200 161
+
+2024-06-27T20:22:07.427Z info: ::1 - - [27/Jun/2024:20:22:07 +0000] "GET /tables HTTP/1.1" 200 161
+
+2024-06-27T20:22:27.286Z info: ::1 - - [27/Jun/2024:20:22:27 +0000] "GET /tables HTTP/1.1" 200 161
+
+2024-06-27T20:22:27.284Z info: ::1 - - [27/Jun/2024:20:22:27 +0000] "GET /tables HTTP/1.1" 200 161
+
+2024-06-27T20:22:34.732Z info: ::1 - - [27/Jun/2024:20:22:34 +0000] "GET /tables HTTP/1.1" 200 161
+
+2024-06-27T20:22:34.735Z info: ::1 - - [27/Jun/2024:20:22:34 +0000] "GET /tables HTTP/1.1" 200 161
+
+2024-06-27T20:22:42.544Z info: ::1 - - [27/Jun/2024:20:22:42 +0000] "GET /tables HTTP/1.1" 200 161
+
+2024-06-27T20:22:42.547Z info: ::1 - - [27/Jun/2024:20:22:42 +0000] "GET /tables HTTP/1.1" 200 161
+
+2024-06-27T20:22:46.439Z info: ::1 - - [27/Jun/2024:20:22:46 +0000] "GET /tables HTTP/1.1" 200 161
+
+2024-06-27T20:22:46.439Z info: ::1 - - [27/Jun/2024:20:22:46 +0000] "GET /tables HTTP/1.1" 200 161
+
+2024-06-27T20:22:57.164Z info: ::1 - - [27/Jun/2024:20:22:57 +0000] "GET /tables HTTP/1.1" 200 161
+
+2024-06-27T20:22:57.167Z info: ::1 - - [27/Jun/2024:20:22:57 +0000] "GET /tables HTTP/1.1" 200 161
+
+2024-06-27T20:22:58.526Z info: ::1 - - [27/Jun/2024:20:22:58 +0000] "GET /tables HTTP/1.1" 200 161
+
+2024-06-27T20:22:58.528Z info: ::1 - - [27/Jun/2024:20:22:58 +0000] "GET /tables HTTP/1.1" 200 161
+
+2024-06-27T20:23:09.947Z info: ::1 - - [27/Jun/2024:20:23:09 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T20:23:12.532Z info: ::1 - - [27/Jun/2024:20:23:12 +0000] "OPTIONS /tables/1 HTTP/1.1" 204 0
+
+2024-06-27T20:23:12.603Z info: ::1 - - [27/Jun/2024:20:23:12 +0000] "DELETE /tables/1 HTTP/1.1" 204 -
+
+2024-06-27T20:23:12.633Z info: ::1 - - [27/Jun/2024:20:23:12 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-27T20:23:12.707Z info: ::1 - - [27/Jun/2024:20:23:12 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T20:23:25.132Z info: ::1 - - [27/Jun/2024:20:23:25 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-27T20:23:25.149Z info: ::1 - - [27/Jun/2024:20:23:25 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-27T20:23:25.159Z info: ::1 - - [27/Jun/2024:20:23:25 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T20:23:35.067Z info: ::1 - - [27/Jun/2024:20:23:35 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-27T20:23:35.083Z info: ::1 - - [27/Jun/2024:20:23:35 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-27T20:23:35.093Z info: ::1 - - [27/Jun/2024:20:23:35 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:28:44.333Z info: ::1 - - [27/Jun/2024:20:28:44 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:28:44.338Z info: ::1 - - [27/Jun/2024:20:28:44 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:31:06.018Z info: ::1 - - [27/Jun/2024:20:31:06 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:31:06.039Z info: ::1 - - [27/Jun/2024:20:31:06 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:33:20.299Z info: ::1 - - [27/Jun/2024:20:33:20 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:33:20.303Z info: ::1 - - [27/Jun/2024:20:33:20 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:34:01.620Z info: ::1 - - [27/Jun/2024:20:34:01 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:34:01.622Z info: ::1 - - [27/Jun/2024:20:34:01 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:34:20.684Z info: ::1 - - [27/Jun/2024:20:34:20 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T20:34:25.205Z info: ::1 - - [27/Jun/2024:20:34:25 +0000] "OPTIONS /tables/2 HTTP/1.1" 204 0
+
+2024-06-27T20:34:25.237Z info: ::1 - - [27/Jun/2024:20:34:25 +0000] "DELETE /tables/2 HTTP/1.1" 204 -
+
+2024-06-27T20:34:25.254Z info: ::1 - - [27/Jun/2024:20:34:25 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T20:34:27.360Z info: ::1 - - [27/Jun/2024:20:34:27 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T20:34:31.509Z info: ::1 - - [27/Jun/2024:20:34:31 +0000] "OPTIONS /tables/1 HTTP/1.1" 204 0
+
+2024-06-27T20:34:31.541Z info: ::1 - - [27/Jun/2024:20:34:31 +0000] "DELETE /tables/1 HTTP/1.1" 204 -
+
+2024-06-27T20:34:31.559Z info: ::1 - - [27/Jun/2024:20:34:31 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-27T20:34:32.763Z info: ::1 - - [27/Jun/2024:20:34:32 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-27T20:34:42.414Z info: ::1 - - [27/Jun/2024:20:34:42 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-27T20:34:42.431Z info: ::1 - - [27/Jun/2024:20:34:42 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-27T20:34:42.443Z info: ::1 - - [27/Jun/2024:20:34:42 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T20:34:52.443Z info: ::1 - - [27/Jun/2024:20:34:52 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T20:34:52.445Z info: ::1 - - [27/Jun/2024:20:34:52 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T20:34:59.441Z info: ::1 - - [27/Jun/2024:20:34:59 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-27T20:34:59.456Z info: ::1 - - [27/Jun/2024:20:34:59 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-27T20:34:59.467Z info: ::1 - - [27/Jun/2024:20:34:59 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:35:20.876Z info: ::1 - - [27/Jun/2024:20:35:20 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:35:20.884Z info: ::1 - - [27/Jun/2024:20:35:20 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:35:29.793Z info: ::1 - - [27/Jun/2024:20:35:29 +0000] "OPTIONS /tables/2 HTTP/1.1" 204 0
+
+2024-06-27T20:35:29.824Z info: ::1 - - [27/Jun/2024:20:35:29 +0000] "DELETE /tables/2 HTTP/1.1" 204 -
+
+2024-06-27T20:35:29.840Z info: ::1 - - [27/Jun/2024:20:35:29 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T20:35:29.945Z info: ::1 - - [27/Jun/2024:20:35:29 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T20:35:38.250Z info: ::1 - - [27/Jun/2024:20:35:38 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-27T20:35:38.268Z info: ::1 - - [27/Jun/2024:20:35:38 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-27T20:35:38.286Z info: ::1 - - [27/Jun/2024:20:35:38 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:35:39.799Z info: ::1 - - [27/Jun/2024:20:35:39 +0000] "OPTIONS /tables/2 HTTP/1.1" 204 0
+
+2024-06-27T20:35:39.837Z info: ::1 - - [27/Jun/2024:20:35:39 +0000] "DELETE /tables/2 HTTP/1.1" 204 -
+
+2024-06-27T20:35:39.850Z info: ::1 - - [27/Jun/2024:20:35:39 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T20:35:41.134Z info: ::1 - - [27/Jun/2024:20:35:41 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T20:35:42.407Z info: ::1 - - [27/Jun/2024:20:35:42 +0000] "OPTIONS /tables/1 HTTP/1.1" 204 0
+
+2024-06-27T20:35:42.463Z info: ::1 - - [27/Jun/2024:20:35:42 +0000] "DELETE /tables/1 HTTP/1.1" - -
+
+2024-06-27T20:35:43.615Z info: ::1 - - [27/Jun/2024:20:35:43 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-27T20:37:40.032Z info: ::1 - - [27/Jun/2024:20:37:40 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-27T20:37:40.035Z info: ::1 - - [27/Jun/2024:20:37:40 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-27T20:39:17.839Z info: ::1 - - [27/Jun/2024:20:39:17 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-27T20:39:17.845Z info: ::1 - - [27/Jun/2024:20:39:17 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-27T20:39:30.307Z info: ::1 - - [27/Jun/2024:20:39:30 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T20:39:35.877Z info: ::1 - - [27/Jun/2024:20:39:35 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-27T20:39:35.892Z info: ::1 - - [27/Jun/2024:20:39:35 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-27T20:39:35.902Z info: ::1 - - [27/Jun/2024:20:39:35 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T20:41:25.784Z info: ::1 - - [27/Jun/2024:20:41:25 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T20:41:25.786Z info: ::1 - - [27/Jun/2024:20:41:25 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T20:41:27.707Z info: ::1 - - [27/Jun/2024:20:41:27 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T20:41:34.597Z info: ::1 - - [27/Jun/2024:20:41:34 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-27T20:41:34.614Z info: ::1 - - [27/Jun/2024:20:41:34 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-27T20:41:34.625Z info: ::1 - - [27/Jun/2024:20:41:34 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:42:28.430Z info: ::1 - - [27/Jun/2024:20:42:28 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:42:28.433Z info: ::1 - - [27/Jun/2024:20:42:28 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:47:24.422Z error: uncaughtException: Cannot find module 'nodemon'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\tablesDB.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+Error: Cannot find module 'nodemon'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\tablesDB.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/tablesDB.js:1:17)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+2024-06-27T20:47:24.537Z error: uncaughtException: Cannot find module 'nodemon'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\tablesDB.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+Error: Cannot find module 'nodemon'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\tablesDB.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/tablesDB.js:1:17)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+2024-06-27T20:47:24.577Z error: uncaughtException: Cannot find module 'nodemon'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\tablesDB.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+Error: Cannot find module 'nodemon'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\tablesDB.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/tablesDB.js:1:17)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+2024-06-27T20:47:24.559Z error: uncaughtException: Cannot find module 'nodemon'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\tablesDB.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+Error: Cannot find module 'nodemon'
+Require stack:
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes\tablesDB.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\lib\consign.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\consign\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\index.js
+- C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\clusters.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/tablesDB.js:1:17)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at loader (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+2024-06-27T20:49:55.563Z info: ::1 - - [27/Jun/2024:20:49:55 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T20:49:58.773Z info: ::1 - - [27/Jun/2024:20:49:58 +0000] "OPTIONS /tables/2 HTTP/1.1" 204 0
+
+2024-06-27T20:49:58.808Z info: ::1 - - [27/Jun/2024:20:49:58 +0000] "DELETE /tables/2 HTTP/1.1" 204 -
+
+2024-06-27T20:49:58.845Z info: ::1 - - [27/Jun/2024:20:49:58 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T20:49:58.974Z info: ::1 - - [27/Jun/2024:20:49:58 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T20:50:00.635Z info: ::1 - - [27/Jun/2024:20:50:00 +0000] "OPTIONS /tables/1 HTTP/1.1" 204 0
+
+2024-06-27T20:50:00.694Z info: ::1 - - [27/Jun/2024:20:50:00 +0000] "DELETE /tables/1 HTTP/1.1" - -
+
+2024-06-27T20:50:02.552Z info: ::1 - - [27/Jun/2024:20:50:02 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-27T20:50:29.169Z info: ::1 - - [27/Jun/2024:20:50:29 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-27T20:50:29.173Z info: ::1 - - [27/Jun/2024:20:50:29 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-27T20:50:33.034Z info: ::1 - - [27/Jun/2024:20:50:33 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T20:50:41.746Z info: ::1 - - [27/Jun/2024:20:50:41 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-27T20:50:41.801Z info: ::1 - - [27/Jun/2024:20:50:41 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-27T20:50:41.813Z info: ::1 - - [27/Jun/2024:20:50:41 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T20:51:40.754Z info: ::1 - - [27/Jun/2024:20:51:40 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-27T20:51:44.659Z info: ::1 - - [27/Jun/2024:20:51:44 +0000] "POST /products HTTP/1.1" 200 256
+
+2024-06-27T20:51:45.739Z info: ::1 - - [27/Jun/2024:20:51:45 +0000] "GET /products HTTP/1.1" 200 178
+
+2024-06-27T20:51:56.401Z info: ::1 - - [27/Jun/2024:20:51:56 +0000] "POST /products HTTP/1.1" 200 255
+
+2024-06-27T20:51:57.852Z info: ::1 - - [27/Jun/2024:20:51:57 +0000] "GET /products HTTP/1.1" 200 353
+
+2024-06-27T20:52:02.985Z info: ::1 - - [27/Jun/2024:20:52:02 +0000] "OPTIONS /products/2 HTTP/1.1" 204 0
+
+2024-06-27T20:52:02.998Z info: ::1 - - [27/Jun/2024:20:52:02 +0000] "DELETE /products/2 HTTP/1.1" 204 -
+
+2024-06-27T20:52:03.008Z info: ::1 - - [27/Jun/2024:20:52:03 +0000] "GET /products HTTP/1.1" 200 178
+
+2024-06-27T20:52:04.845Z info: ::1 - - [27/Jun/2024:20:52:04 +0000] "OPTIONS /products/1 HTTP/1.1" 204 0
+
+2024-06-27T20:52:04.862Z info: ::1 - - [27/Jun/2024:20:52:04 +0000] "DELETE /products/1 HTTP/1.1" 204 -
+
+2024-06-27T20:52:04.869Z info: ::1 - - [27/Jun/2024:20:52:04 +0000] "GET /products HTTP/1.1" 200 2
+
+2024-06-27T20:52:19.132Z info: ::1 - - [27/Jun/2024:20:52:19 +0000] "GET /tables/qrcodes HTTP/1.1" 304 -
+
+2024-06-27T20:52:57.880Z info: ::1 - - [27/Jun/2024:20:52:57 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T20:52:57.918Z info: ::1 - - [27/Jun/2024:20:52:57 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T20:53:31.817Z info: ::1 - - [27/Jun/2024:20:53:31 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T20:53:31.821Z info: ::1 - - [27/Jun/2024:20:53:31 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T20:54:17.593Z info: ::1 - - [27/Jun/2024:20:54:17 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T20:54:17.597Z info: ::1 - - [27/Jun/2024:20:54:17 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T20:55:28.293Z info: ::1 - - [27/Jun/2024:20:55:28 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T20:55:28.292Z info: ::1 - - [27/Jun/2024:20:55:28 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T20:55:52.199Z info: ::1 - - [27/Jun/2024:20:55:52 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T20:56:00.245Z info: ::1 - - [27/Jun/2024:20:56:00 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-27T20:56:00.289Z info: ::1 - - [27/Jun/2024:20:56:00 +0000] "POST /tables HTTP/1.1" 412 33
+
+2024-06-27T20:56:11.668Z info: ::1 - - [27/Jun/2024:20:56:11 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-27T20:56:11.688Z info: ::1 - - [27/Jun/2024:20:56:11 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-27T20:56:11.700Z info: ::1 - - [27/Jun/2024:20:56:11 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:56:23.972Z info: ::1 - - [27/Jun/2024:20:56:23 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-27T20:56:23.990Z info: ::1 - - [27/Jun/2024:20:56:23 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-27T20:56:23.997Z info: ::1 - - [27/Jun/2024:20:56:23 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-27T20:57:01.013Z info: ::1 - - [27/Jun/2024:20:57:01 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-27T20:57:01.016Z info: ::1 - - [27/Jun/2024:20:57:01 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-27T20:57:06.807Z info: ::1 - - [27/Jun/2024:20:57:06 +0000] "OPTIONS /tables/3 HTTP/1.1" 204 0
+
+2024-06-27T20:57:06.830Z info: ::1 - - [27/Jun/2024:20:57:06 +0000] "DELETE /tables/3 HTTP/1.1" 204 -
+
+2024-06-27T20:57:06.846Z info: ::1 - - [27/Jun/2024:20:57:06 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:57:06.910Z info: ::1 - - [27/Jun/2024:20:57:06 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T20:57:07.269Z info: ::1 - - [27/Jun/2024:20:57:07 +0000] "OPTIONS /tables/2 HTTP/1.1" 204 0
+
+2024-06-27T20:57:07.290Z info: ::1 - - [27/Jun/2024:20:57:07 +0000] "DELETE /tables/2 HTTP/1.1" 204 -
+
+2024-06-27T20:57:07.299Z info: ::1 - - [27/Jun/2024:20:57:07 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T20:57:07.342Z info: ::1 - - [27/Jun/2024:20:57:07 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T20:57:07.716Z info: ::1 - - [27/Jun/2024:20:57:07 +0000] "OPTIONS /tables/1 HTTP/1.1" 204 0
+
+2024-06-27T20:57:07.732Z info: ::1 - - [27/Jun/2024:20:57:07 +0000] "DELETE /tables/1 HTTP/1.1" 204 -
+
+2024-06-27T20:57:07.739Z info: ::1 - - [27/Jun/2024:20:57:07 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-27T20:57:07.784Z info: ::1 - - [27/Jun/2024:20:57:07 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-27T20:57:21.267Z info: ::1 - - [27/Jun/2024:20:57:21 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-27T20:57:21.271Z info: ::1 - - [27/Jun/2024:20:57:21 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-27T20:57:26.356Z info: ::1 - - [27/Jun/2024:20:57:26 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-27T20:57:26.356Z info: ::1 - - [27/Jun/2024:20:57:26 +0000] "GET /tables HTTP/1.1" 200 2
+
+2024-06-27T20:57:31.420Z info: ::1 - - [27/Jun/2024:20:57:31 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-27T20:57:31.433Z info: ::1 - - [27/Jun/2024:20:57:31 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-27T20:57:31.442Z info: ::1 - - [27/Jun/2024:20:57:31 +0000] "GET /tables HTTP/1.1" 200 162
+
+2024-06-27T20:57:36.325Z info: ::1 - - [27/Jun/2024:20:57:36 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-27T20:57:36.334Z info: ::1 - - [27/Jun/2024:20:57:36 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:57:57.845Z info: ::1 - - [27/Jun/2024:20:57:57 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:57:57.846Z info: ::1 - - [27/Jun/2024:20:57:57 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:58:20.206Z info: ::1 - - [27/Jun/2024:20:58:20 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:58:20.207Z info: ::1 - - [27/Jun/2024:20:58:20 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:58:27.050Z info: ::1 - - [27/Jun/2024:20:58:27 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:58:27.053Z info: ::1 - - [27/Jun/2024:20:58:27 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:59:00.436Z info: ::1 - - [27/Jun/2024:20:59:00 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:59:00.437Z info: ::1 - - [27/Jun/2024:20:59:00 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:59:05.587Z info: ::1 - - [27/Jun/2024:20:59:05 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:59:05.600Z info: ::1 - - [27/Jun/2024:20:59:05 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:59:10.751Z info: ::1 - - [27/Jun/2024:20:59:10 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:59:10.751Z info: ::1 - - [27/Jun/2024:20:59:10 +0000] "GET /tables HTTP/1.1" 200 322
+
+2024-06-27T20:59:12.482Z info: ::1 - - [27/Jun/2024:20:59:12 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-27T20:59:18.857Z info: ::1 - - [27/Jun/2024:20:59:18 +0000] "OPTIONS /tables HTTP/1.1" 204 0
+
+2024-06-27T20:59:18.875Z info: ::1 - - [27/Jun/2024:20:59:18 +0000] "POST /tables HTTP/1.1" 200 134
+
+2024-06-27T20:59:18.883Z info: ::1 - - [27/Jun/2024:20:59:18 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-28T16:35:58.234Z error: uncaughtException: bind EADDRINUSE null:3000
+Error: bind EADDRINUSE null:3000
+    at listenOnPrimaryHandle (node:net:1940:18)
+    at shared (node:internal/cluster/child:157:3)
+    at Worker.<anonymous> (node:internal/cluster/child:110:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:530:35)
+    at process.emit (node:domain:488:12)
+    at emit (node:internal/child_process:951:14)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-06-28T16:35:58.262Z error: uncaughtException: bind EADDRINUSE null:3000
+Error: bind EADDRINUSE null:3000
+    at listenOnPrimaryHandle (node:net:1940:18)
+    at shared (node:internal/cluster/child:157:3)
+    at Worker.<anonymous> (node:internal/cluster/child:110:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:530:35)
+    at process.emit (node:domain:488:12)
+    at emit (node:internal/child_process:951:14)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-06-28T16:35:58.295Z error: uncaughtException: bind EADDRINUSE null:3000
+Error: bind EADDRINUSE null:3000
+    at listenOnPrimaryHandle (node:net:1940:18)
+    at shared (node:internal/cluster/child:157:3)
+    at Worker.<anonymous> (node:internal/cluster/child:110:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:530:35)
+    at process.emit (node:domain:488:12)
+    at emit (node:internal/child_process:951:14)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-06-28T16:35:58.301Z error: uncaughtException: bind EADDRINUSE null:3000
+Error: bind EADDRINUSE null:3000
+    at listenOnPrimaryHandle (node:net:1940:18)
+    at shared (node:internal/cluster/child:157:3)
+    at Worker.<anonymous> (node:internal/cluster/child:110:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:530:35)
+    at process.emit (node:domain:488:12)
+    at emit (node:internal/child_process:951:14)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-06-28T16:40:26.086Z info: ::1 - - [28/Jun/2024:16:40:26 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-28T16:40:26.085Z info: ::1 - - [28/Jun/2024:16:40:26 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-28T16:40:32.426Z info: ::1 - - [28/Jun/2024:16:40:32 +0000] "GET / HTTP/1.1" 304 -
+
+2024-06-28T16:40:52.958Z info: ::1 - - [28/Jun/2024:16:40:52 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T16:41:01.680Z info: ::1 - - [28/Jun/2024:16:41:01 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T16:41:53.864Z info: ::1 - - [28/Jun/2024:16:41:53 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T16:42:04.031Z info: ::1 - - [28/Jun/2024:16:42:04 +0000] "GET /tables/1/orders HTTP/1.1" 200 152
+
+2024-06-28T16:42:06.118Z info: ::1 - - [28/Jun/2024:16:42:06 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T16:42:07.913Z info: ::1 - - [28/Jun/2024:16:42:07 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T16:42:20.693Z info: ::1 - - [28/Jun/2024:16:42:20 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-28T16:42:23.982Z info: ::1 - - [28/Jun/2024:16:42:23 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-28T16:42:27.064Z info: ::1 - - [28/Jun/2024:16:42:27 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-28T16:42:38.234Z info: ::1 - - [28/Jun/2024:16:42:38 +0000] "GET /tables HTTP/1.1" 304 -
+
+2024-06-28T16:42:38.264Z info: ::1 - - [28/Jun/2024:16:42:38 +0000] "GET /orders/table/1 HTTP/1.1" 304 -
+
+2024-06-28T16:42:38.305Z info: ::1 - - [28/Jun/2024:16:42:38 +0000] "GET /orders/table/2 HTTP/1.1" 304 -
+
+2024-06-28T16:42:38.320Z info: ::1 - - [28/Jun/2024:16:42:38 +0000] "GET /orders/table/3 HTTP/1.1" 304 -
+
+2024-06-28T16:54:20.091Z info: ::1 - - [28/Jun/2024:16:54:20 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T16:55:21.537Z info: ::1 - - [28/Jun/2024:16:55:21 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T16:55:31.726Z info: ::1 - - [28/Jun/2024:16:55:31 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T16:57:28.283Z info: ::1 - - [28/Jun/2024:16:57:28 +0000] "GET /categories HTTP/1.1" 404 149
+
+2024-06-28T16:57:28.291Z info: ::1 - - [28/Jun/2024:16:57:28 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-28T16:57:28.296Z info: ::1 - - [28/Jun/2024:16:57:28 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-28T17:01:50.776Z info: ::1 - - [28/Jun/2024:17:01:50 +0000] "GET /categories HTTP/1.1" 404 149
+
+2024-06-28T17:01:50.777Z info: ::1 - - [28/Jun/2024:17:01:50 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-28T17:01:50.812Z info: ::1 - - [28/Jun/2024:17:01:50 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-28T17:09:18.220Z info: ::1 - - [28/Jun/2024:17:09:18 +0000] "GET /categories HTTP/1.1" 404 149
+
+2024-06-28T17:09:18.225Z info: ::1 - - [28/Jun/2024:17:09:18 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-28T17:09:18.226Z info: ::1 - - [28/Jun/2024:17:09:18 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-28T17:12:59.428Z info: ::1 - - [28/Jun/2024:17:12:59 +0000] "GET /categories HTTP/1.1" 200 2
+
+2024-06-28T17:12:59.430Z info: ::1 - - [28/Jun/2024:17:12:59 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-28T17:12:59.432Z info: ::1 - - [28/Jun/2024:17:12:59 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-28T17:13:08.055Z info: ::1 - - [28/Jun/2024:17:13:08 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T17:13:16.786Z info: ::1 - - [28/Jun/2024:17:13:16 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-28T17:13:47.332Z info: ::1 - - [28/Jun/2024:17:13:47 +0000] "POST /products HTTP/1.1" 200 247
+
+2024-06-28T17:13:48.804Z info: ::1 - - [28/Jun/2024:17:13:48 +0000] "GET /products HTTP/1.1" 200 170
+
+2024-06-28T17:14:01.567Z info: ::1 - - [28/Jun/2024:17:14:01 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T17:14:14.998Z info: ::1 - - [28/Jun/2024:17:14:14 +0000] "GET /categories HTTP/1.1" 200 15
+
+2024-06-28T17:14:15.002Z info: ::1 - - [28/Jun/2024:17:14:15 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-28T17:14:15.008Z info: ::1 - - [28/Jun/2024:17:14:15 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-28T17:14:18.526Z info: ::1 - - [28/Jun/2024:17:14:18 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T17:14:19.946Z info: ::1 - - [28/Jun/2024:17:14:19 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T17:18:18.514Z info: ::1 - - [28/Jun/2024:17:18:18 +0000] "GET /categories HTTP/1.1" 200 15
+
+2024-06-28T17:18:18.518Z info: ::1 - - [28/Jun/2024:17:18:18 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-28T17:18:18.524Z info: ::1 - - [28/Jun/2024:17:18:18 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-28T17:18:20.973Z info: ::1 - - [28/Jun/2024:17:18:20 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T17:21:07.582Z info: ::1 - - [28/Jun/2024:17:21:07 +0000] "GET /categories HTTP/1.1" 200 15
+
+2024-06-28T17:21:07.587Z info: ::1 - - [28/Jun/2024:17:21:07 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-28T17:21:07.590Z info: ::1 - - [28/Jun/2024:17:21:07 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-28T17:21:11.271Z info: ::1 - - [28/Jun/2024:17:21:11 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T17:21:11.331Z info: ::1 - - [28/Jun/2024:17:21:11 +0000] "GET /categories HTTP/1.1" 200 15
+
+2024-06-28T17:21:18.933Z info: ::1 - - [28/Jun/2024:17:21:18 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T17:21:18.940Z info: ::1 - - [28/Jun/2024:17:21:18 +0000] "GET /products/category/pizza HTTP/1.1" 200 170
+
+2024-06-28T17:21:18.964Z info: ::1 - - [28/Jun/2024:17:21:18 +0000] "GET /categories HTTP/1.1" 304 -
+
+2024-06-28T17:21:37.881Z info: ::1 - - [28/Jun/2024:17:21:37 +0000] "POST /products HTTP/1.1" 200 247
+
+2024-06-28T17:21:39.094Z info: ::1 - - [28/Jun/2024:17:21:39 +0000] "GET /products HTTP/1.1" 200 338
+
+2024-06-28T17:21:41.490Z info: ::1 - - [28/Jun/2024:17:21:41 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T17:21:41.516Z info: ::1 - - [28/Jun/2024:17:21:41 +0000] "GET /categories HTTP/1.1" 200 29
+
+2024-06-28T17:22:39.826Z info: ::1 - - [28/Jun/2024:17:22:39 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T17:22:39.855Z info: ::1 - - [28/Jun/2024:17:22:39 +0000] "GET /categories HTTP/1.1" 304 -
+
+2024-06-28T17:25:50.211Z info: ::1 - - [28/Jun/2024:17:25:50 +0000] "POST /products HTTP/1.1" 200 248
+
+2024-06-28T17:25:51.476Z info: ::1 - - [28/Jun/2024:17:25:51 +0000] "GET /products HTTP/1.1" 200 507
+
+2024-06-28T17:28:36.582Z info: ::1 - - [28/Jun/2024:17:28:36 +0000] "GET /products HTTP/1.1" 304 -
+
+2024-06-28T17:28:39.912Z info: ::1 - - [28/Jun/2024:17:28:39 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T17:28:39.938Z info: ::1 - - [28/Jun/2024:17:28:39 +0000] "GET /categories HTTP/1.1" 200 44
+
+2024-06-28T17:28:43.638Z info: ::1 - - [28/Jun/2024:17:28:43 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T17:28:43.665Z info: ::1 - - [28/Jun/2024:17:28:43 +0000] "GET /categories HTTP/1.1" 304 -
+
+2024-06-28T17:31:33.462Z info: ::1 - - [28/Jun/2024:17:31:33 +0000] "GET /tables/1/orders HTTP/1.1" 200 152
+
+2024-06-28T17:31:47.077Z info: ::1 - - [28/Jun/2024:17:31:47 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T17:31:50.172Z info: ::1 - - [28/Jun/2024:17:31:50 +0000] "GET /tables/1/orders HTTP/1.1" 200 152
+
+2024-06-28T17:32:11.925Z info: ::1 - - [28/Jun/2024:17:32:11 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T17:32:11.954Z info: ::1 - - [28/Jun/2024:17:32:11 +0000] "GET /categories HTTP/1.1" 304 -
+
+2024-06-28T17:35:13.484Z info: ::1 - - [28/Jun/2024:17:35:13 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T17:35:13.554Z info: ::1 - - [28/Jun/2024:17:35:13 +0000] "GET /categories HTTP/1.1" 304 -
+
+2024-06-28T17:35:16.042Z info: ::1 - - [28/Jun/2024:17:35:16 +0000] "GET /products/category/pizza HTTP/1.1" 200 170
+
+2024-06-28T17:35:17.077Z info: ::1 - - [28/Jun/2024:17:35:17 +0000] "GET /products/category/pizza HTTP/1.1" 200 170
+
+2024-06-28T17:38:20.403Z info: ::1 - - [28/Jun/2024:17:38:20 +0000] "GET /categories HTTP/1.1" 200 44
+
+2024-06-28T17:38:20.407Z info: ::1 - - [28/Jun/2024:17:38:20 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-28T17:38:20.410Z info: ::1 - - [28/Jun/2024:17:38:20 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-28T17:38:24.219Z info: ::1 - - [28/Jun/2024:17:38:24 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T17:38:24.263Z info: ::1 - - [28/Jun/2024:17:38:24 +0000] "GET /categories HTTP/1.1" 304 -
+
+2024-06-28T17:38:26.880Z info: ::1 - - [28/Jun/2024:17:38:26 +0000] "GET /categories/pizza HTTP/1.1" 404 155
+
+2024-06-28T17:38:32.403Z info: ::1 - - [28/Jun/2024:17:38:32 +0000] "GET /categories/pizza HTTP/1.1" 404 155
+
+2024-06-28T17:38:37.171Z info: ::1 - - [28/Jun/2024:17:38:37 +0000] "GET /categories/cerveja HTTP/1.1" 404 157
+
+2024-06-28T17:38:38.542Z info: ::1 - - [28/Jun/2024:17:38:38 +0000] "GET /categories/bebida HTTP/1.1" 404 156
+
+2024-06-28T17:39:32.515Z info: ::1 - - [28/Jun/2024:17:39:32 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T17:39:32.539Z info: ::1 - - [28/Jun/2024:17:39:32 +0000] "GET /categories HTTP/1.1" 304 -
+
+2024-06-28T17:39:41.761Z info: ::1 - - [28/Jun/2024:17:39:41 +0000] "GET /categories HTTP/1.1" 200 44
+
+2024-06-28T17:39:41.764Z info: ::1 - - [28/Jun/2024:17:39:41 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-28T17:39:41.766Z info: ::1 - - [28/Jun/2024:17:39:41 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-28T17:39:42.759Z info: ::1 - - [28/Jun/2024:17:39:42 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T17:39:42.811Z info: ::1 - - [28/Jun/2024:17:39:42 +0000] "GET /categories HTTP/1.1" 304 -
+
+2024-06-28T17:39:52.786Z info: ::1 - - [28/Jun/2024:17:39:52 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T17:39:52.815Z info: ::1 - - [28/Jun/2024:17:39:52 +0000] "GET /categories HTTP/1.1" 304 -
+
+2024-06-28T17:39:54.430Z info: ::1 - - [28/Jun/2024:17:39:54 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T17:39:54.456Z info: ::1 - - [28/Jun/2024:17:39:54 +0000] "GET /categories HTTP/1.1" 304 -
+
+2024-06-28T17:41:23.294Z info: ::1 - - [28/Jun/2024:17:41:23 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T17:41:23.320Z info: ::1 - - [28/Jun/2024:17:41:23 +0000] "GET /categories HTTP/1.1" 304 -
+
+2024-06-28T17:41:27.768Z info: ::1 - - [28/Jun/2024:17:41:27 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T17:41:27.800Z info: ::1 - - [28/Jun/2024:17:41:27 +0000] "GET /categories HTTP/1.1" 304 -
+
+2024-06-28T17:41:29.767Z info: ::1 - - [28/Jun/2024:17:41:29 +0000] "GET /products/category/cerveja HTTP/1.1" 200 171
+
+2024-06-28T17:41:29.774Z info: ::1 - - [28/Jun/2024:17:41:29 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T17:41:29.800Z info: ::1 - - [28/Jun/2024:17:41:29 +0000] "GET /categories HTTP/1.1" 304 -
+
+2024-06-28T19:50:02.903Z info: ::1 - - [28/Jun/2024:19:50:02 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-28T19:50:02.907Z info: ::1 - - [28/Jun/2024:19:50:02 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-28T19:50:02.919Z info: ::1 - - [28/Jun/2024:19:50:02 +0000] "GET /categories HTTP/1.1" 500 44
+
+2024-06-28T19:50:02.937Z error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\express\lib\response.js:175:12)
+    at ServerResponse.json (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\express\lib\response.js:279:15)
+    at C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/products.js:139:33
+2024-06-28T19:50:11.749Z info: ::1 - - [28/Jun/2024:19:50:11 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T19:50:13.047Z info: ::1 - - [28/Jun/2024:19:50:13 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T19:50:13.106Z info: ::1 - - [28/Jun/2024:19:50:13 +0000] "GET /categories HTTP/1.1" 500 -
+
+2024-06-28T19:50:13.130Z error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.json (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\express\lib\response.js:276:10)
+    at C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/products.js:139:33
+2024-06-28T19:57:35.898Z info: ::1 - - [28/Jun/2024:19:57:35 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-28T19:57:35.898Z info: ::1 - - [28/Jun/2024:19:57:35 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-28T19:57:35.921Z info: ::1 - - [28/Jun/2024:19:57:35 +0000] "GET /categories HTTP/1.1" 500 44
+
+2024-06-28T19:57:35.933Z error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\express\lib\response.js:175:12)
+    at ServerResponse.json (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\express\lib\response.js:279:15)
+    at C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/products.js:139:33
+2024-06-28T19:57:49.591Z info: ::1 - - [28/Jun/2024:19:57:49 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T19:57:51.593Z info: ::1 - - [28/Jun/2024:19:57:51 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T19:57:51.649Z info: ::1 - - [28/Jun/2024:19:57:51 +0000] "GET /categories HTTP/1.1" 500 -
+
+2024-06-28T19:57:51.667Z error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.json (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\node_modules\express\lib\response.js:276:10)
+    at C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\ordergenius-api\routes/products.js:139:33
+2024-06-28T19:59:17.077Z info: ::1 - - [28/Jun/2024:19:59:17 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-28T20:00:08.641Z info: ::1 - - [28/Jun/2024:20:00:08 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-28T20:06:59.414Z info: ::1 - - [28/Jun/2024:20:06:59 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-28T20:18:53.935Z info: ::1 - - [28/Jun/2024:20:18:53 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-06-28T20:18:57.002Z info: ::1 - - [28/Jun/2024:20:18:57 +0000] "GET / HTTP/1.1" 200 26
+
+2024-06-28T20:19:00.904Z info: ::1 - - [28/Jun/2024:20:19:00 +0000] "GET /products/category/bebida HTTP/1.1" 200 170
+>>>>>>> df02bd8a93c20b532fdea936fc025038b620cef1
 

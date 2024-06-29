@@ -3,7 +3,6 @@ module.exports = (sequelize, DataTypes) => {
     id: {
       type: DataTypes.INTEGER,
       primaryKey: true,
-      autoIncrement: true
     },
     titleProducts: {
       type: DataTypes.STRING,
@@ -33,7 +32,7 @@ module.exports = (sequelize, DataTypes) => {
       validate: {
         notEmpty: true
       },
-      field: 'food_status' 
+      field: 'food_status'
     },
     done: {
       type: DataTypes.BOOLEAN,
@@ -41,12 +40,12 @@ module.exports = (sequelize, DataTypes) => {
       defaultValue: false
     },
     imageUrl: {
-      type: DataTypes.STRING, // Tipo para armazenar a URL da imagem
-      allowNull: true // Pode ser nulo se ainda não houver imagem
+      type: DataTypes.STRING,
+      allowNull: true
     }
   }, {
-    tableName: 'products', 
-    freezeTableName: true 
+    tableName: 'products',
+    freezeTableName: true
   });
 
   Products.associate = (models) => {
