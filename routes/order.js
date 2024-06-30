@@ -1,35 +1,42 @@
+// ordersController.js
+
 module.exports = app => {
   const Order = app.db.models.Order;
+  const Cart = app.db.models.Cart;
   const Products = app.db.models.Products;
 
   // Listar todos os pedidos
-  app.route("/orders")
-    .get((req, res) => {
-      Order.findAll({})
-        .then(result => res.json(result))
-        .catch(error => {
-          res.status(412).json({msg: error.message});
-        });
-    });
+  app.get("/orders", (req, res) => {
+    Order.findAll({})
+      .then(result => res.json(result))
+      .catch(error => {
+        res.status(412).json({ msg: error.message });
+      });
+  });
 
   // Criar um novo pedido a partir dos itens do carrinho para uma mesa específica
   app.post('/orders/from-cart/:idTable', async (req, res) => {
     const { idTable } = req.params;
-  
+
     try {
       // Obtém os itens do carrinho para a mesa específica
-      const cartItems = await app.db.models.Cart.findAll({
+      const cartItems = await Cart.findAll({
         where: { idTable },
-        include: [{ model: app.db.models.Products, as: 'products' }]
+        include: [{ model: Products, as: 'products' }]
       });
-  
+
+      // Verifica se há itens no carrinho
+      if (!cartItems || cartItems.length === 0) {
+        return res.status(404).json({ success: false, message: 'Nenhum item encontrado no carrinho.' });
+      }
+
       // Cria pedidos ou atualiza a quantidade com base nos itens do carrinho
       const orders = await Promise.all(cartItems.map(async item => {
         // Verifica se o pedido já existe
         const existingOrder = await Order.findOne({
           where: {
             idTable: item.idTable,
-            titleProduct: item.products.titleProducts,
+            titleProduct: item.products.titleProducts, // Verifique se 'titleProducts' é o campo correto
             done: false
           }
         });
@@ -42,7 +49,7 @@ module.exports = app => {
         } else {
           // Cria um novo pedido se não existir
           return await Order.create({
-            titleProduct: item.products.titleProducts,
+            titleProduct: item.products.titleProducts, // Verifique o nome do campo correto
             price: item.products.price,
             idTable: item.idTable,
             quantity: item.quantity,
@@ -51,15 +58,16 @@ module.exports = app => {
           });
         }
       }));
-  
+
       // Limpa o carrinho após criar os pedidos
-      await app.db.models.Cart.destroy({
+      await Cart.destroy({
         where: { idTable }
       });
-  
-      res.status(201).json(orders);
+
+      res.status(201).json({ success: true, orders });
     } catch (error) {
-      res.status(412).json({ msg: error.message });
+      console.error(error); // Adicione um log detalhado do erro para facilitar a depuração
+      res.status(500).json({ success: false, message: 'Erro ao finalizar o pedido.' });
     }
   });
 
