@@ -29,14 +29,28 @@ module.exports = app => {
       }
   });
 
-  // Finalizar pedido
+  // Deletar um item do carrinho
+  app.delete('/cart/table/:idTable/item/:itemId', async (req, res) => {
+      const { idTable, itemId } = req.params;
+      try {
+          const item = await Cart.findByPk(itemId);
+          if (!item) {
+              return res.status(404).json({ msg: 'Item não encontrado no carrinho.' });
+          }
+          await item.destroy();
+          res.sendStatus(204); // No Content
+      } catch (error) {
+          res.status(412).json({ msg: error.message });
+      }
+  });
+
+  // Finalizar pedido e limpar carrinho
   app.post('/cart/finalize/:idTable', async (req, res) => {
       const { idTable } = req.params;
       try {
-          const orders = await Cart.findAll({ where: { idTable } });
-          // Limpar o carrinho
+          // Deleta todos os itens do carrinho associados à mesa
           await Cart.destroy({ where: { idTable } });
-          res.json({ success: true, orders });
+          res.json({ success: true });
       } catch (error) {
           res.status(412).json({ msg: error.message });
       }

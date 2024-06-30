@@ -9,7 +9,7 @@ module.exports = app => {
         try {
             const tables = await TablesDB.findAll({});
             const qrcodes = await Promise.all(tables.map(async (table) => {
-                const qrString = await QRCode.toString(`/tables/${table.idTable}`, {
+                const qrString = await QRCode.toString(`http://localhost:3001/tables/${table.idTable}`, {
                     errorCorrectionLevel: 'H',
                     type: 'svg'
                 });
@@ -29,7 +29,7 @@ module.exports = app => {
             const table = await TablesDB.findByPk(req.params.idTable);
 
             if (table) {
-                const qrString = await QRCode.toString(`/tables/${table.idTable}`, {
+                const qrString = await QRCode.toString(`http://localhost:3001/tables/${table.idTable}`, {
                     errorCorrectionLevel: 'H',
                     type: 'svg'
                 });
