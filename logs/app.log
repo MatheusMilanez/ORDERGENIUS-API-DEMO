@@ -11685,3 +11685,198 @@ Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the cli
     at ServerResponse.send (C:\Users\mathe\OneDrive\Área de Trabalho\OrderGenius-API\node_modules\express\lib\response.js:175:12)
     at ServerResponse.json (C:\Users\mathe\OneDrive\Área de Trabalho\OrderGenius-API\node_modules\express\lib\response.js:279:15)
     at C:\Users\mathe\OneDrive\Área de Trabalho\OrderGenius-API\routes/products.js:139:33
+2024-07-01T13:44:59.216Z info: ::1 - - [01/Jul/2024:13:44:59 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-07-01T13:44:59.224Z info: ::1 - - [01/Jul/2024:13:44:59 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-07-01T13:44:59.247Z info: ::1 - - [01/Jul/2024:13:44:59 +0000] "GET /categories HTTP/1.1" 500 53
+
+2024-07-01T13:44:59.261Z error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:175:12)
+    at ServerResponse.json (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:279:15)
+    at C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\routes/products.js:139:33
+2024-07-01T13:44:59.286Z info: ::1 - - [01/Jul/2024:13:44:59 +0000] "GET /categories HTTP/1.1" 500 53
+
+2024-07-01T13:44:59.290Z info: ::1 - - [01/Jul/2024:13:44:59 +0000] "GET /categories HTTP/1.1" 500 53
+
+2024-07-01T13:44:59.307Z error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:175:12)
+    at ServerResponse.json (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:279:15)
+    at C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\routes/products.js:139:33
+2024-07-01T13:44:59.302Z error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:175:12)
+    at ServerResponse.json (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:279:15)
+    at C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\routes/products.js:139:33
+2024-07-01T14:07:53.001Z info: ::1 - - [01/Jul/2024:14:07:53 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-07-01T14:07:53.009Z info: ::1 - - [01/Jul/2024:14:07:53 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-07-01T14:07:53.043Z info: ::1 - - [01/Jul/2024:14:07:53 +0000] "GET /categories HTTP/1.1" 500 53
+
+2024-07-01T14:07:53.055Z info: ::1 - - [01/Jul/2024:14:07:53 +0000] "GET /categories HTTP/1.1" 500 53
+
+2024-07-01T14:07:53.058Z error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:175:12)
+    at ServerResponse.json (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:279:15)
+    at C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\routes/products.js:139:33
+2024-07-01T14:07:53.089Z info: ::1 - - [01/Jul/2024:14:07:53 +0000] "GET /categories HTTP/1.1" 500 53
+
+2024-07-01T14:07:53.068Z error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:175:12)
+    at ServerResponse.json (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:279:15)
+    at C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\routes/products.js:139:33
+2024-07-01T14:07:53.108Z error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:175:12)
+    at ServerResponse.json (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:279:15)
+    at C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\routes/products.js:139:33
+2024-07-01T15:53:47.053Z info: ::1 - - [01/Jul/2024:15:53:47 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-07-01T15:53:47.048Z info: ::1 - - [01/Jul/2024:15:53:47 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-07-01T15:53:47.088Z info: ::1 - - [01/Jul/2024:15:53:47 +0000] "GET /categories HTTP/1.1" 500 53
+
+2024-07-01T15:53:47.104Z info: ::1 - - [01/Jul/2024:15:53:47 +0000] "GET /categories HTTP/1.1" 500 53
+
+2024-07-01T15:53:47.105Z error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:175:12)
+    at ServerResponse.json (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:279:15)
+    at C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\routes/products.js:139:33
+2024-07-01T15:53:47.117Z error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:175:12)
+    at ServerResponse.json (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:279:15)
+    at C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\routes/products.js:139:33
+2024-07-01T15:53:47.132Z info: ::1 - - [01/Jul/2024:15:53:47 +0000] "GET /categories HTTP/1.1" 500 53
+
+2024-07-01T15:53:47.132Z info: ::1 - - [01/Jul/2024:15:53:47 +0000] "GET /categories HTTP/1.1" 500 53
+
+2024-07-01T15:53:47.150Z error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:175:12)
+    at ServerResponse.json (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:279:15)
+    at C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\routes/products.js:139:33
+2024-07-01T15:53:47.150Z error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:175:12)
+    at ServerResponse.json (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:279:15)
+    at C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\routes/products.js:139:33
+2024-07-01T18:12:58.192Z info: ::1 - - [01/Jul/2024:18:12:58 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-07-01T18:12:58.200Z info: ::1 - - [01/Jul/2024:18:12:58 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-07-01T18:12:58.224Z info: ::1 - - [01/Jul/2024:18:12:58 +0000] "GET /categories HTTP/1.1" 500 67
+
+2024-07-01T18:12:58.237Z error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:175:12)
+    at ServerResponse.json (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:279:15)
+    at C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\routes/products.js:139:33
+2024-07-01T18:12:58.255Z info: ::1 - - [01/Jul/2024:18:12:58 +0000] "GET /categories HTTP/1.1" 500 67
+
+2024-07-01T18:12:58.271Z info: ::1 - - [01/Jul/2024:18:12:58 +0000] "GET /categories HTTP/1.1" 500 67
+
+2024-07-01T18:12:58.273Z error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:175:12)
+    at ServerResponse.json (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:279:15)
+    at C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\routes/products.js:139:33
+2024-07-01T18:12:58.289Z error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:175:12)
+    at ServerResponse.json (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:279:15)
+    at C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\routes/products.js:139:33
+2024-07-01T18:46:51.789Z info: ::1 - - [01/Jul/2024:18:46:51 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-07-01T18:46:51.797Z info: ::1 - - [01/Jul/2024:18:46:51 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-07-01T18:46:51.819Z info: ::1 - - [01/Jul/2024:18:46:51 +0000] "GET /categories HTTP/1.1" 500 67
+
+2024-07-01T18:46:51.832Z error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:175:12)
+    at ServerResponse.json (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:279:15)
+    at C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\routes/products.js:139:33
+2024-07-01T18:46:51.868Z info: ::1 - - [01/Jul/2024:18:46:51 +0000] "GET /categories HTTP/1.1" 500 67
+
+2024-07-01T18:46:51.867Z info: ::1 - - [01/Jul/2024:18:46:51 +0000] "GET /categories HTTP/1.1" 500 67
+
+2024-07-01T18:46:51.883Z error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:175:12)
+    at ServerResponse.json (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:279:15)
+    at C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\routes/products.js:139:33
+2024-07-01T18:46:51.886Z error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:175:12)
+    at ServerResponse.json (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:279:15)
+    at C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\routes/products.js:139:33
+2024-07-01T18:52:18.367Z info: ::1 - - [01/Jul/2024:18:52:18 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-07-01T18:52:18.377Z info: ::1 - - [01/Jul/2024:18:52:18 +0000] "GET /tables HTTP/1.1" 200 482
+
+2024-07-01T18:52:18.396Z info: ::1 - - [01/Jul/2024:18:52:18 +0000] "GET /categories HTTP/1.1" 500 67
+
+2024-07-01T18:52:18.411Z error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:175:12)
+    at ServerResponse.json (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:279:15)
+    at C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\routes/products.js:139:33
+2024-07-01T18:52:18.444Z info: ::1 - - [01/Jul/2024:18:52:18 +0000] "GET /categories HTTP/1.1" 500 67
+
+2024-07-01T18:52:18.448Z info: ::1 - - [01/Jul/2024:18:52:18 +0000] "GET /categories HTTP/1.1" 500 67
+
+2024-07-01T18:52:18.464Z error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:175:12)
+    at ServerResponse.json (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:279:15)
+    at C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\routes/products.js:139:33
+2024-07-01T18:52:18.467Z error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:175:12)
+    at ServerResponse.json (C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\node_modules\express\lib\response.js:279:15)
+    at C:\Users\mmilanez\OneDrive - UniSãoJosé\Desktop\OrderGenius-API\routes/products.js:139:33

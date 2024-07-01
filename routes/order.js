@@ -95,14 +95,29 @@ module.exports = app => {
       });
   });
 
-  // Atualizar pedido por ID
-  app.put("/orders/:idOrder", (req, res) => {
-    Order.update(req.body, { where: { id: req.params.idOrder } })
-      .then(result => res.sendStatus(204))
-      .catch(error => {
-        res.status(412).json({ msg: error.message });
-      });
-  });
+// Endpoint para atualizar um pedido por ID
+app.put("/orders/:idOrder", async (req, res) => {
+  const { idOrder } = req.params;
+  const { done } = req.body;
+
+  try {
+      // Verifica se o pedido com o ID especificado existe
+      const order = await Order.findByPk(idOrder);
+      if (!order) {
+          return res.status(404).json({ message: 'Pedido não encontrado.' });
+      }
+
+      // Atualiza o estado do pedido para entregue (done = true)
+      order.done = done;
+      await order.save();
+
+      res.status(200).json({ message: 'Pedido atualizado com sucesso.', order });
+  } catch (error) {
+      console.error('Erro ao atualizar pedido:', error);
+      res.status(500).json({ message: 'Erro interno ao atualizar pedido.' });
+  }
+});
+
 
   // Deletar pedido por ID
   app.delete("/orders/:idOrder", (req, res) => {
