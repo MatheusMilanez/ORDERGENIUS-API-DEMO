@@ -1,92 +1,57 @@
-# Comanda Digital
-## Estrutura de Pastas
+# Comanda Digital - API de Gerenciamento de Pedidos
 
-<p>├── libs</p>
-<p>│   ├── boot.js</p>
-<p>│   ├── config.js</p>
-<p>│   ├── middlewares.js</p>
-<p>├── models</p>
-<p>│   ├── order.js</p>
-<p>│   ├── products.js</p>
-<p>│   ├── tablesDB.js</p>
-<p>│   ├── user.js</p>
-<p>├── node_modules</p>
-<p>├── routes</p>
-<p>│   ├── index.js</p>
-<p>│   ├── order.js</p>
-<p>│   ├── products.js</p>
-<p>│   ├── tablesDB.js</p>
-<p>│   ├── user.js</p>
-<p>├── db.js</p>
-<p>├── index.js</p>
-<p>├── ordergenius.sqlite</p>
-<p>├── package-lock.json</p>
-<p>├── package.json</p>
+Um sistema de API completo para restaurantes e bares, simplificando o gerenciamento de pedidos, produtos, mesas e usuários.
 
+## Descrição
 
-## Descrição do Projeto
-<p>
-    O projeto Comanda Digital é uma API para gerenciamento de pedidos em um sistema de comanda eletrônica. Esta API permite o controle de pedidos, produtos, mesas e usuários, facilitando a operação de restaurantes e bares.
-</p>
+**Comanda Digital** é uma API Node.js construída para otimizar a gestão de pedidos em restaurantes e bares que utilizam sistemas de comanda eletrônica. Através de uma interface simples e intuitiva, a API oferece recursos para:
+
+- **Gerenciar pedidos**: Crie, atualize, delete e visualize pedidos com detalhes sobre itens, mesas e clientes.
+- **Controlar produtos**: Cadastre, edite e exclua produtos do cardápio, incluindo informações como nome, preço e categoria.
+- **Organizar mesas**: Organize as mesas do estabelecimento, atribuindo-as a pedidos e gerenciando sua disponibilidade.
+- **Administrar usuários**: Crie contas de usuários com diferentes níveis de acesso para gerenciar o sistema.
 
 ## Estrutura do Projeto
 
-### libs/: Contém scripts de configuração e middlewares utilizados na aplicação.
-
-<p>boot.js: Configurações de inicialização do servidor.</p>
-<p>config.js: Configurações gerais do sistema.</p>
-<p>middlewares.js: Middlewares personalizados para a aplicação.</p>
-
-### routes/: Contém os arquivos de rotas da aplicação.
-
-<p>index.js: Rota principal.</p>
-<p>order.js: Rotas relacionadas aos pedidos.</p>
-<p>products.js: Rotas relacionadas aos produtos.</p>
-<p>tablesDB.js: Rotas relacionadas às mesas.</p>
-<p>user.js: Rotas relacionadas aos usuários..</p>
-
-### db.js: Configuração do banco de dados SQLite.
-
-### index.js: Arquivo principal que inicia o servidor.
-### ordergenius.sqlite: Banco de dados SQLite utilizado pela aplicação.<
-
-### package-lock.json: Arquivo gerado automaticamente pelo npm contendo informações exatas das versões das dependências instaladas.
-
-### package.json: Arquivo de configuração do npm contendo informações sobre o projeto e suas dependências.
+A API é estruturada de forma modular e organizada para facilitar a manutenção e o desenvolvimento:
 
 
 ## Scripts Disponíveis
-<p>No arquivo package.json, está configurado o seguinte script:</p>
 
-<p>start: Inicia a aplicação utilizando o babel-node.</p>
-
-<p>Para iniciar a aplicação, execute:</p>
-
-<p>npm start</p>
-
+- `npm start`: Inicia a API.
 
 ## Dependências
 
+A API utiliza as seguintes dependências:
 
-# A aplicação utiliza as seguintes dependências:
-
-### babel-cli: Ferramenta para transpilar código ES6/ES7 para ES5.
-### bcrypt: Biblioteca para hashing de senhas.
-### consign: Utilitário para autoload de scripts.
-### express: Framework web para Node.js.
-### jimp: Biblioteca para manipulação de imagens.
-### jwt-simple: Implementação de JSON Web Token.
-### passport: Middleware para autenticação.
-### passport-jwt: Estratégia de autenticação JWT para Passport.
-### qrcode: Biblioteca para geração de QR codes.
-### qrcode-reader: Biblioteca para leitura de QR codes.
-### sequelize: ORM para Node.js.
-### sqlite3: Driver SQLite para Node.js.
-
+- `babel-cli`: Transpilação de código ES6/ES7 para ES5.
+- `bcrypt`: Hashing de senhas.
+- `consign`: Autoload de scripts.
+- `express`: Framework web Node.js.
+- `jimp`: Manipulação de imagens.
+- `jwt-simple`: Implementação de JSON Web Token.
+- `passport`: Middleware para autenticação.
+- `passport-jwt`: Estratégia de autenticação JWT para Passport.
+- `qrcode`: Geração de QR codes.
+- `qrcode-reader`: Leitura de QR codes.
+- `sequelize`: ORM para Node.js.
+- `sqlite3`: Driver SQLite para Node.js.
 
 ## Autor
-<p>Matheus | Olympio</p>
+
+Matheus | Olympio
 
 ## Licença
 
-<p>Este projeto está licenciado sob a licença ISC.</p>
+O projeto Comanda Digital é licenciado sob a licença ISC.
+
+## Contato
+
+Para dúvidas e sugestões, entre em contato através de matheusmarques@outlook.com.
+
+## Descrição do Projeto
+
+A **Comanda Digital** foi desenvolvida como parte do Trabalho de Conclusão de Curso (TCC) na faculdade. O objetivo principal deste projeto é fornecer uma solução eficiente para o gerenciamento de pedidos em restaurantes e bares, utilizando tecnologia de ponta e práticas de desenvolvimento modernas. A API foi projetada para facilitar o uso de comandas eletrônicas, promovendo a agilidade no atendimento e a organização do serviço, além de oferecer uma experiência intuitiva para os usuários. Com essa implementação, esperamos contribuir para a melhoria dos processos de gerenciamento em estabelecimentos do setor alimentício.
+
+
+**Comanda Digital**: Gerenciando pedidos com eficiência e praticidade!
